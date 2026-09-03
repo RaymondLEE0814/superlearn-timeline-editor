@@ -83,10 +83,11 @@ export class MockMetadataAnalyzer implements MetadataAnalyzer {
     // 진행률을 소비하지 않아도 unhandled rejection 이 나지 않도록 막아 둔다.
     result.catch(() => undefined);
 
-    const self = this;
-    async function* run(): AsyncGenerator<AnalysisProgress> {
+    const loader = this.loader;
+    const cache = this.cache;
+    const run = async function* (): AsyncGenerator<AnalysisProgress> {
       try {
-        const loaded = await self.loader.loadMetadata(mediaId);
+        const loaded = await loader.loadMetadata(mediaId);
         for (let i = 0; i < ANALYSIS_STAGES.length; i += 1) {
           const stage = ANALYSIS_STAGES[i];
           if (signal.cancelled) {
@@ -111,13 +112,13 @@ export class MockMetadataAnalyzer implements MetadataAnalyzer {
             pct: Math.round(((i + 1) / ANALYSIS_STAGES.length) * 100),
           };
         }
-        self.cache.set(mediaId, loaded);
+        cache.set(mediaId, loaded);
         resolveResult(loaded);
       } catch (e) {
         rejectResult(e);
         throw e;
       }
-    }
+    };
 
     return {
       progress: run(),

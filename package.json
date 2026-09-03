@@ -5,10 +5,12 @@
   "type": "module",
   "description": "슈퍼런 AI 영상 플레이어 - 타임라인 기반 자동 편집 기능 및 뷰어 (와이어프레임 MVP, 목업 데이터 전용)",
   "license": "UNLICENSED",
-  "engines": { "node": ">=20" },
+  "engines": {
+    "node": ">=20"
+  },
   "scripts": {
     "dev": "vite",
-    "build": "tsc -b && vite build",
+    "build": "tsc --noEmit && vite build",
     "preview": "vite preview",
     "lint": "eslint . --max-warnings 0",
     "format": "prettier --write .",
@@ -43,6 +45,7 @@
     "typescript": "^5.7.2",
     "typescript-eslint": "^8.18.0",
     "vite": "^6.0.5",
-    "vitest": "^2.1.8"
+    "vitest": "^2.1.8",
+    "@eslint/js": "^9.17.0"
   }
 }

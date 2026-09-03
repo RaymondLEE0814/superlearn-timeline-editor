@@ -3,8 +3,15 @@ import { EngineError } from '../../src/engine/errors';
 import { applyCommand, type Command } from '../../src/engine/timeline/commands';
 import { canRedo, canUndo, commit, emptyHistory, redo, undo } from '../../src/engine/timeline/history';
 import { clipDuration, clipEnd, findClip, timelineDuration } from '../../src/engine/timeline/model';
-import { clipAt, nextEdgeFrame, snapCandidates } from '../../src/engine/timeline/query';
-import { validateTimeline } from '../../src/engine/timeline/validate';
+import {
+  clipAt,
+  clipsInRange,
+  nextEdgeFrame,
+  snapCandidates,
+  sourceFrameToTimelineFrame,
+  timelineFrameToSourceFrame,
+} from '../../src/engine/timeline/query';
+import { assertValidTimeline, validateTimeline } from '../../src/engine/timeline/validate';
 import {
   SOURCE_DURATION,
   baseTimeline,
@@ -140,6 +147,26 @@ describe('명령: 리플 삭제', () => {
     const { next, inverse } = applyCommand(tl, { type: 'removeClip', clipId: 'v2', ripple: true });
     const back = applyCommand(next, inverse).next;
     expect(normalize(back)).toEqual(normalize(tl));
+  });
+
+  it('구간 안의 자막 · 오버레이도 함께 지워 겹침을 만들지 않는다', () => {
+    const tl = populated();
+    const { next } = applyCommand(tl, { type: 'removeClip', clipId: 'v1', ripple: true });
+    // s1(0~150), o1(0~200) 은 v1(0~300) 구간 안에 있으므로 함께 사라진다.
+    expect(findClip(next, 's1')).toBeUndefined();
+    expect(findClip(next, 'o1')).toBeUndefined();
+    expect(findClip(next, 'v2')!.clip.startFrame).toBe(0);
+    expect(validateTimeline(next)).toEqual([]);
+  });
+
+  it('구간을 걸친 클립은 잘려 남고 되돌리면 복구된다', () => {
+    const base = run(populated(), [
+      { type: 'addClip', clip: { ...videoClip('s2', 200, 200, 500), trackId: 'S1', subtitle: { text: '걸친 자막', style: { fontSizePx: 42, color: '#fff', background: '#000', align: 'center', position: 'bottom' } } } },
+    ]);
+    const { next, inverse } = applyCommand(base, { type: 'removeClip', clipId: 'v2', ripple: true });
+    expect(validateTimeline(next)).toEqual([]);
+    const back = applyCommand(next, inverse).next;
+    expect(normalize(back)).toEqual(normalize(base));
   });
 
   it('링크된 클립도 함께 삭제된다', () => {
@@ -295,5 +322,118 @@ describe('validateTimeline', () => {
       ),
     };
     expect(validateTimeline(broken).some((i) => i.code === 'LINK_MISMATCH')).toBe(true);
+  });
+});
+
+describe('validateTimeline: 나머지 불변식', () => {
+  it('1프레임 미만 클립을 검출한다', () => {
+    const tl = populated();
+    const broken = {
+      ...tl,
+      tracks: tl.tracks.map((t) =>
+        t.id === 'V1'
+          ? { ...t, clips: t.clips.map((c) => (c.id === 'v3' ? { ...c, sourceOutFrame: c.sourceInFrame } : c)) }
+          : t,
+      ),
+    };
+    expect(validateTimeline(broken).some((i) => i.code === 'EMPTY_CLIP')).toBe(true);
+  });
+
+  it('정수가 아닌 프레임을 검출한다', () => {
+    const tl = populated();
+    const broken = {
+      ...tl,
+      tracks: tl.tracks.map((t) =>
+        t.id === 'V1' ? { ...t, clips: t.clips.map((c) => (c.id === 'v3' ? { ...c, startFrame: 600.5 } : c)) } : t,
+      ),
+    };
+    expect(validateTimeline(broken).some((i) => i.code === 'NON_INTEGER')).toBe(true);
+  });
+
+  it('음수 시작을 검출한다', () => {
+    const tl = populated();
+    const broken = {
+      ...tl,
+      tracks: tl.tracks.map((t) =>
+        t.id === 'V1' ? { ...t, clips: t.clips.map((c) => (c.id === 'v3' ? { ...c, startFrame: -10 } : c)) } : t,
+      ),
+    };
+    expect(validateTimeline(broken).some((i) => i.code === 'NEGATIVE_START')).toBe(true);
+  });
+
+  it('없는 소스 참조를 검출한다', () => {
+    const tl = populated();
+    const broken = {
+      ...tl,
+      tracks: tl.tracks.map((t) =>
+        t.id === 'V1' ? { ...t, clips: t.clips.map((c) => (c.id === 'v3' ? { ...c, sourceId: 'nope' } : c)) } : t,
+      ),
+    };
+    expect(validateTimeline(broken).some((i) => i.code === 'MISSING_SOURCE')).toBe(true);
+  });
+
+  it('자막 · 오버레이 내용이 없으면 트랙 종류 오류', () => {
+    const tl = populated();
+    const broken = {
+      ...tl,
+      tracks: tl.tracks.map((t) => {
+        if (t.id === 'S1') return { ...t, clips: t.clips.map((c) => ({ ...c, subtitle: undefined })) };
+        if (t.id === 'O1') return { ...t, clips: t.clips.map((c) => ({ ...c, overlay: undefined })) };
+        return t;
+      }),
+    };
+    expect(validateTimeline(broken).filter((i) => i.code === 'WRONG_TRACK_KIND')).toHaveLength(2);
+  });
+
+  it('링크 대상이 없으면 검출한다', () => {
+    const tl = populated();
+    const broken = {
+      ...tl,
+      tracks: tl.tracks.map((t) => (t.id === 'A1' ? { ...t, clips: [] } : t)),
+    };
+    expect(validateTimeline(broken).some((i) => i.code === 'LINK_MISMATCH')).toBe(true);
+  });
+
+  it('assertValidTimeline 은 오류가 있으면 INVALID_TIMELINE 을 던진다', () => {
+    const tl = populated();
+    const broken = {
+      ...tl,
+      tracks: tl.tracks.map((t) =>
+        t.id === 'V1' ? { ...t, clips: t.clips.map((c) => (c.id === 'v2' ? { ...c, startFrame: 100 } : c)) } : t,
+      ),
+    };
+    expect(() => assertValidTimeline(broken)).toThrowError(EngineError);
+    expect(() => assertValidTimeline(tl)).not.toThrow();
+  });
+});
+
+describe('query: 좌표 변환과 스냅', () => {
+  it('타임라인 프레임 <-> 소스 프레임을 왕복한다', () => {
+    const tl = populated();
+    const at = timelineFrameToSourceFrame(tl, 50)!;
+    expect(at.sourceFrame).toBe(150);
+    expect(sourceFrameToTimelineFrame(tl, 150)).toBe(50);
+    expect(timelineFrameToSourceFrame(tl, 99999)).toBeNull();
+    expect(sourceFrameToTimelineFrame(tl, 99999)).toBeNull();
+  });
+
+  it('clipsInRange 가 겹치는 클립만 준다', () => {
+    const tl = populated();
+    const v = tl.tracks.find((t) => t.id === 'V1')!;
+    expect(clipsInRange(v, 0, 301).map((c) => c.id)).toEqual(['v1', 'v2']);
+    expect(clipsInRange(v, 1200, 1300)).toEqual([]);
+  });
+
+  it('키프레임 스냅 후보를 포함할 수 있다', () => {
+    const tl = populated();
+    const cand = snapCandidates(tl, 61, 3, { keyframeIntervalFrames: 60 });
+    expect(cand?.kind).toBe('keyframe');
+    expect(cand?.frame).toBe(60);
+  });
+
+  it('플레이헤드도 스냅 후보가 된다', () => {
+    const tl = populated();
+    const cand = snapCandidates(tl, 702, 3, { playhead: 700 });
+    expect(cand?.kind).toBe('playhead');
   });
 });

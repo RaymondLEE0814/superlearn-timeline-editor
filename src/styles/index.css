@@ -1,0 +1,52 @@
+@import 'tailwindcss';
+
+@theme {
+  --color-coral: #ff3b30;
+  --color-coral-50: #fff1f0;
+  --color-coral-100: #ffe0dd;
+  --font-mono: ui-monospace, SFMono-Regular, 'Cascadia Code', Consolas, monospace;
+}
+
+:root {
+  color-scheme: light;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  font-family:
+    system-ui,
+    -apple-system,
+    'Segoe UI',
+    'Malgun Gothic',
+    sans-serif;
+  background: #f5f5f7;
+  color: #1c1c1e;
+  overscroll-behavior: none;
+}
+
+/* 와이어프레임이므로 스크롤바도 회색 톤으로 고정한다. */
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+::-webkit-scrollbar-thumb {
+  background: #c7c7cc;
+  border-radius: 5px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+button:focus-visible,
+[tabindex]:focus-visible,
+input:focus-visible,
+select:focus-visible {
+  outline: 2px solid var(--color-coral);
+  outline-offset: 1px;
+}

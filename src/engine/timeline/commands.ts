@@ -177,26 +177,86 @@ function applyRemoveClip(
   const primary = group[0];
   const dur = clipDuration(primary);
   const exclude = new Set(group.map((c) => c.id));
-  const shiftIds = cmd.ripple ? collectRippleIds(timeline, clipEnd(primary), exclude) : [];
+
+  if (!cmd.ripple) {
+    const next = produce(timeline, (d) => {
+      for (const track of d.tracks) track.clips = track.clips.filter((c) => !exclude.has(c.id));
+    });
+    const restore: Command[] = group.map((c) => ({ type: 'addClip', clip: { ...c } }));
+    return {
+      next,
+      applied: cmd,
+      inverse: restore.length === 1 ? restore[0] : { type: 'batch', commands: restore },
+    };
+  }
+
+  // 리플 삭제는 클립 하나가 아니라 그 시간 구간을 통째로 들어낸다.
+  // 자막 · 오버레이가 남으면 뒤 클립이 당겨질 때 겹쳐 유효성이 깨진다.
+  const rangeStart = primary.startFrame;
+  const rangeEnd = clipEnd(primary);
+  const removed: Clip[] = [...group];
+  const clamped: Array<{ before: Clip; after: Clip }> = [];
+  const shiftIds: Id[] = [];
+
+  for (const track of timeline.tracks) {
+    if (track.locked) continue;
+    for (const clip of track.clips) {
+      if (exclude.has(clip.id)) continue;
+      const start = clip.startFrame;
+      const end = clipEnd(clip);
+      if (end <= rangeStart) continue;
+
+      if (start >= rangeEnd) {
+        shiftIds.push(clip.id);
+      } else if (start >= rangeStart && end <= rangeEnd) {
+        removed.push(clip);
+      } else if (start < rangeStart && end > rangeEnd) {
+        // 구간을 가로지르는 클립은 가운데를 들어내고 길이를 줄인다.
+        clamped.push({
+          before: clip,
+          after: { ...clip, sourceOutFrame: clip.sourceOutFrame - dur },
+        });
+      } else if (start < rangeStart) {
+        clamped.push({
+          before: clip,
+          after: { ...clip, sourceOutFrame: clip.sourceOutFrame - (end - rangeStart) },
+        });
+      } else {
+        const cut = rangeEnd - start;
+        clamped.push({
+          before: clip,
+          after: { ...clip, startFrame: rangeEnd, sourceInFrame: clip.sourceInFrame + cut },
+        });
+        shiftIds.push(clip.id);
+      }
+    }
+  }
+
+  const removeIds = new Set(removed.map((c) => c.id));
+  const clampMap = new Map(clamped.map((c) => [c.after.id, c.after] as const));
+  const shiftSet = new Set(shiftIds);
 
   const next = produce(timeline, (d) => {
-    for (const track of d.tracks) track.clips = track.clips.filter((c) => !exclude.has(c.id));
-    if (shiftIds.length > 0) {
-      const set = new Set(shiftIds);
-      forEachClip(d, (clip) => {
-        if (set.has(clip.id)) clip.startFrame -= dur;
-      });
-      resortAll(d);
-    }
+    for (const track of d.tracks) track.clips = track.clips.filter((c) => !removeIds.has(c.id));
+    forEachClip(d, (clip) => {
+      const after = clampMap.get(clip.id);
+      if (after) Object.assign(clip, after);
+      if (shiftSet.has(clip.id)) clip.startFrame -= dur;
+    });
+    resortAll(d);
   });
 
-  const restore: Command[] = group.map((c) => ({ type: 'addClip', clip: { ...c } }));
-  const inverse: Command =
-    shiftIds.length > 0
-      ? { type: 'batch', commands: [{ type: 'shiftClipIds', clipIds: shiftIds, delta: dur }, ...restore] }
-      : restore.length === 1
-        ? restore[0]
-        : { type: 'batch', commands: restore };
+  const inverse: Command = {
+    type: 'batch',
+    label: '리플 삭제',
+    commands: [
+      ...(shiftIds.length > 0
+        ? [{ type: 'shiftClipIds', clipIds: shiftIds, delta: dur } as Command]
+        : []),
+      ...clamped.map((c): Command => ({ type: 'setClipProps', clipId: c.before.id, props: { ...c.before } })),
+      ...removed.map((c): Command => ({ type: 'addClip', clip: { ...c } })),
+    ],
+  };
 
   return { next, applied: cmd, inverse };
 }
@@ -268,8 +328,6 @@ function applyTrim(
   assertFrame(cmd.delta, 'delta');
   const group = clipGroup(timeline, cmd.clipId);
   for (const c of group) assertUnlocked(requireClip(timeline, c.id).track);
-
-  const primary = group[0];
 
   // 소스 범위 · 최소 1프레임 · 시작 0 이상 · 이웃 클립 침범 금지를 모두 만족하는 delta 로 클램프한다.
   // 그룹(링크 클립) 은 각자 트랙의 이웃이 다르므로 가장 빡빡한 제약을 쓴다.

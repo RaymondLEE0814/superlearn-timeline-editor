@@ -24,6 +24,22 @@ npm run build
 npm run test:e2e       # Playwright 스모크
 ```
 
+## 개발 환경 주의 (Windows, 경로에 한글이 있는 경우)
+
+이 프로젝트를 개발한 PC 에서 **Node 24.13.0 은 경로에 한글이 들어 있으면 파일 · 디렉터리 삭제가
+프로세스째 죽는다**(Windows 예외 코드 `0xC0000409`). `d:	mp\한글only` 로 재현되고
+같은 위치의 ASCII 경로는 정상이다.
+
+영향과 대응
+
+- `vite build` 가 기존 `dist` 를 비우다가 죽고 **낡은 번들이 그대로 남는다**. 셸에서 출력을
+  파이프로 넘기면 종료 코드가 가려져 빌드가 성공한 것처럼 보인다.
+- 그래서 `build` 는 `prebuild` 단계에서 OS 의 `rmdir` 로 `dist` 를 지우고(`scripts/prebuild-clean.mjs`),
+  vite 의 `emptyOutDir` 은 꺼 두었다. 빌드 후 `scripts/verify-build.mjs` 가 산출물이 이번 실행에서
+  새로 만들어졌는지 확인한다.
+- 다른 Node 도구(next, jest 등)도 같은 폴더에서 같은 증상을 낼 수 있다. Node 를 최신 LTS 로
+  올리거나 작업 경로를 ASCII 로 옮기면 근본적으로 해결된다.
+
 ## 구조
 
 ```

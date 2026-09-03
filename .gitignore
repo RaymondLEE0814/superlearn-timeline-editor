@@ -7,4 +7,3 @@ playwright-report
 *.local
 .DS_Store
 
-.github/workflows/

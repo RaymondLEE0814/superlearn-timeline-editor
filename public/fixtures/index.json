@@ -1,0 +1,36 @@
+[
+ {
+  "id": "calc-30-derivatives",
+  "title": "[30] 미적분학 3_2. 도함수의 정의",
+  "breadcrumbs": [
+   "내 강의",
+   "[2028 수학 마스터 커리큘럼]",
+   "(미적분학 I)",
+   "미분법",
+   "[30] 미적분학 3_2. 도함수의 정의"
+  ],
+  "durationFrames": 81960,
+  "fps": {
+   "num": 30,
+   "den": 1
+  },
+  "thumbnailRef": "synthetic://calc-30-derivatives",
+  "analyzed": false
+ },
+ {
+  "id": "short-demo",
+  "title": "[데모] 극한의 뜻 3분 요약",
+  "breadcrumbs": [
+   "내 강의",
+   "(미적분학 I)",
+   "[데모] 극한의 뜻 3분 요약"
+  ],
+  "durationFrames": 4500,
+  "fps": {
+   "num": 25,
+   "den": 1
+  },
+  "thumbnailRef": "synthetic://short-demo",
+  "analyzed": false
+ }
+]

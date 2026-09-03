@@ -1,0 +1,8835 @@
+{
+ "mediaId": "calc-30-derivatives",
+ "title": "[30] 미적분학 3_2. 도함수의 정의",
+ "breadcrumbs": [
+  "내 강의",
+  "[2028 수학 마스터 커리큘럼]",
+  "(미적분학 I)",
+  "미분법",
+  "[30] 미적분학 3_2. 도함수의 정의"
+ ],
+ "stream": {
+  "durationFrames": 81960,
+  "fps": {
+   "num": 30,
+   "den": 1
+  },
+  "width": 1920,
+  "height": 1080,
+  "keyframeIntervalFrames": 60,
+  "codec": "avc1.640028",
+  "container": "mp4",
+  "sourceKind": "synthetic"
+ },
+ "waveform": {
+  "samplesPerSecond": 20,
+  "seed": 20260903
+ },
+ "silences": [
+  {
+   "startFrame": 0,
+   "endFrame": 33,
+   "levelDb": -52.88243966922164
+  },
+  {
+   "startFrame": 226,
+   "endFrame": 243,
+   "levelDb": -58.563874918967485
+  },
+  {
+   "startFrame": 374,
+   "endFrame": 406,
+   "levelDb": -49.859628127887845
+  },
+  {
+   "startFrame": 596,
+   "endFrame": 660,
+   "levelDb": -52.42650773981586
+  },
+  {
+   "startFrame": 805,
+   "endFrame": 820,
+   "levelDb": -57.777910818345845
+  },
+  {
+   "startFrame": 931,
+   "endFrame": 972,
+   "levelDb": -54.06313012074679
+  },
+  {
+   "startFrame": 1112,
+   "endFrame": 1183,
+   "levelDb": -57.00964170182124
+  },
+  {
+   "startFrame": 1280,
+   "endFrame": 1354,
+   "levelDb": -54.735328175127506
+  },
+  {
+   "startFrame": 1558,
+   "endFrame": 1611,
+   "levelDb": -53.845845493488014
+  },
+  {
+   "startFrame": 1785,
+   "endFrame": 1800,
+   "levelDb": -52.04521408677101
+  },
+  {
+   "startFrame": 1800,
+   "endFrame": 1824,
+   "levelDb": -57.95311662554741
+  },
+  {
+   "startFrame": 1947,
+   "endFrame": 2016,
+   "levelDb": -56.69871751638129
+  },
+  {
+   "startFrame": 2107,
+   "endFrame": 2136,
+   "levelDb": -57.3055074182339
+  },
+  {
+   "startFrame": 2211,
+   "endFrame": 2262,
+   "levelDb": -58.29831372899935
+  },
+  {
+   "startFrame": 2453,
+   "endFrame": 2471,
+   "levelDb": -53.607238420285285
+  },
+  {
+   "startFrame": 2657,
+   "endFrame": 2703,
+   "levelDb": -58.216500841546804
+  },
+  {
+   "startFrame": 2795,
+   "endFrame": 2852,
+   "levelDb": -58.12815079744905
+  },
+  {
+   "startFrame": 2962,
+   "endFrame": 3030,
+   "levelDb": -53.9402109417133
+  },
+  {
+   "startFrame": 3228,
+   "endFrame": 3267,
+   "levelDb": -47.785151780582964
+  },
+  {
+   "startFrame": 3368,
+   "endFrame": 3436,
+   "levelDb": -51.273407079745084
+  },
+  {
+   "startFrame": 3529,
+   "endFrame": 3592,
+   "levelDb": -57.114771449007094
+  },
+  {
+   "startFrame": 3725,
+   "endFrame": 3747,
+   "levelDb": -47.36965828575194
+  },
+  {
+   "startFrame": 3918,
+   "endFrame": 3938,
+   "levelDb": -53.697166714817286
+  },
+  {
+   "startFrame": 4055,
+   "endFrame": 4091,
+   "levelDb": -58.47212844900787
+  },
+  {
+   "startFrame": 4167,
+   "endFrame": 4185,
+   "levelDb": -46.705194565001875
+  },
+  {
+   "startFrame": 4320,
+   "endFrame": 4369,
+   "levelDb": -50.60036778030917
+  },
+  {
+   "startFrame": 4458,
+   "endFrame": 4530,
+   "levelDb": -46.54378888430074
+  },
+  {
+   "startFrame": 4638,
+   "endFrame": 4702,
+   "levelDb": -53.59268926177174
+  },
+  {
+   "startFrame": 4779,
+   "endFrame": 4790,
+   "levelDb": -58.4454635232687
+  },
+  {
+   "startFrame": 4916,
+   "endFrame": 4963,
+   "levelDb": -53.893955821637064
+  },
+  {
+   "startFrame": 5096,
+   "endFrame": 5168,
+   "levelDb": -56.50040683103725
+  },
+  {
+   "startFrame": 5276,
+   "endFrame": 5313,
+   "levelDb": -46.89135995414108
+  },
+  {
+   "startFrame": 5514,
+   "endFrame": 5568,
+   "levelDb": -58.795679416973144
+  },
+  {
+   "startFrame": 5759,
+   "endFrame": 5777,
+   "levelDb": -53.65113046579063
+  },
+  {
+   "startFrame": 5858,
+   "endFrame": 5871,
+   "levelDb": -59.210690040141344
+  },
+  {
+   "startFrame": 5952,
+   "endFrame": 5973,
+   "levelDb": -54.6444591647014
+  },
+  {
+   "startFrame": 6096,
+   "endFrame": 6113,
+   "levelDb": -47.2987389806658
+  },
+  {
+   "startFrame": 6244,
+   "endFrame": 6260,
+   "levelDb": -55.81909359898418
+  },
+  {
+   "startFrame": 6435,
+   "endFrame": 6488,
+   "levelDb": -49.26339610898867
+  },
+  {
+   "startFrame": 6650,
+   "endFrame": 6684,
+   "levelDb": -55.14303816156462
+  },
+  {
+   "startFrame": 6857,
+   "endFrame": 6901,
+   "levelDb": -47.65064886119217
+  },
+  {
+   "startFrame": 7023,
+   "endFrame": 7037,
+   "levelDb": -58.90827286802232
+  },
+  {
+   "startFrame": 7204,
+   "endFrame": 7249,
+   "levelDb": -50.7773419120349
+  },
+  {
+   "startFrame": 7353,
+   "endFrame": 7388,
+   "levelDb": -50.63688697852194
+  },
+  {
+   "startFrame": 7593,
+   "endFrame": 7637,
+   "levelDb": -56.472501270938665
+  },
+  {
+   "startFrame": 7739,
+   "endFrame": 7753,
+   "levelDb": -52.54298904072493
+  },
+  {
+   "startFrame": 7834,
+   "endFrame": 7850,
+   "levelDb": -56.90824858471751
+  },
+  {
+   "startFrame": 8027,
+   "endFrame": 8041,
+   "levelDb": -51.618347433395684
+  },
+  {
+   "startFrame": 8240,
+   "endFrame": 8294,
+   "levelDb": -55.368681563064456
+  },
+  {
+   "startFrame": 8380,
+   "endFrame": 8394,
+   "levelDb": -53.05384491849691
+  },
+  {
+   "startFrame": 8505,
+   "endFrame": 8543,
+   "levelDb": -46.81118765100837
+  },
+  {
+   "startFrame": 8654,
+   "endFrame": 8678,
+   "levelDb": -57.999809202738106
+  },
+  {
+   "startFrame": 8768,
+   "endFrame": 8793,
+   "levelDb": -54.547402690630406
+  },
+  {
+   "startFrame": 8918,
+   "endFrame": 8933,
+   "levelDb": -51.57163558714092
+  },
+  {
+   "startFrame": 9074,
+   "endFrame": 9098,
+   "levelDb": -54.15180938411504
+  },
+  {
+   "startFrame": 9234,
+   "endFrame": 9272,
+   "levelDb": -56.52924213837832
+  },
+  {
+   "startFrame": 9410,
+   "endFrame": 9478,
+   "levelDb": -59.15019179834053
+  },
+  {
+   "startFrame": 9567,
+   "endFrame": 9613,
+   "levelDb": -50.8773485426791
+  },
+  {
+   "startFrame": 9773,
+   "endFrame": 9783,
+   "levelDb": -59.68973970320076
+  },
+  {
+   "startFrame": 9916,
+   "endFrame": 9965,
+   "levelDb": -51.94035963155329
+  },
+  {
+   "startFrame": 10139,
+   "endFrame": 10179,
+   "levelDb": -57.11758473375812
+  },
+  {
+   "startFrame": 10258,
+   "endFrame": 10318,
+   "levelDb": -56.16113612940535
+  },
+  {
+   "startFrame": 10502,
+   "endFrame": 10525,
+   "levelDb": -56.59082247270271
+  },
+  {
+   "startFrame": 10652,
+   "endFrame": 10663,
+   "levelDb": -46.69638706371188
+  },
+  {
+   "startFrame": 10806,
+   "endFrame": 10843,
+   "levelDb": -49.082850669045
+  },
+  {
+   "startFrame": 10950,
+   "endFrame": 11007,
+   "levelDb": -48.06025724578649
+  },
+  {
+   "startFrame": 11112,
+   "endFrame": 11170,
+   "levelDb": -53.06927124643698
+  },
+  {
+   "startFrame": 11286,
+   "endFrame": 11305,
+   "levelDb": -58.35622899513692
+  },
+  {
+   "startFrame": 11412,
+   "endFrame": 11474,
+   "levelDb": -49.368857259396464
+  },
+  {
+   "startFrame": 11594,
+   "endFrame": 11636,
+   "levelDb": -59.79325054585934
+  },
+  {
+   "startFrame": 11636,
+   "endFrame": 11662,
+   "levelDb": -56.93405723571777
+  },
+  {
+   "startFrame": 11869,
+   "endFrame": 11917,
+   "levelDb": -55.45416153315455
+  },
+  {
+   "startFrame": 12010,
+   "endFrame": 12021,
+   "levelDb": -49.85173762543127
+  },
+  {
+   "startFrame": 12104,
+   "endFrame": 12161,
+   "levelDb": -52.25725252693519
+  },
+  {
+   "startFrame": 12297,
+   "endFrame": 12327,
+   "levelDb": -47.955413449555635
+  },
+  {
+   "startFrame": 12471,
+   "endFrame": 12516,
+   "levelDb": -53.97735314629972
+  },
+  {
+   "startFrame": 12617,
+   "endFrame": 12632,
+   "levelDb": -55.81169322738424
+  },
+  {
+   "startFrame": 12746,
+   "endFrame": 12792,
+   "levelDb": -59.84740081662312
+  },
+  {
+   "startFrame": 12989,
+   "endFrame": 13027,
+   "levelDb": -55.348048952408135
+  },
+  {
+   "startFrame": 13216,
+   "endFrame": 13271,
+   "levelDb": -55.10238123917952
+  },
+  {
+   "startFrame": 13413,
+   "endFrame": 13433,
+   "levelDb": -46.307199025992304
+  },
+  {
+   "startFrame": 13550,
+   "endFrame": 13575,
+   "levelDb": -54.66406913846731
+  },
+  {
+   "startFrame": 13689,
+   "endFrame": 13727,
+   "levelDb": -54.52299522748217
+  },
+  {
+   "startFrame": 13838,
+   "endFrame": 13892,
+   "levelDb": -51.41702420869842
+  },
+  {
+   "startFrame": 14055,
+   "endFrame": 14073,
+   "levelDb": -54.466106545645744
+  },
+  {
+   "startFrame": 14225,
+   "endFrame": 14287,
+   "levelDb": -47.06353518506512
+  },
+  {
+   "startFrame": 14485,
+   "endFrame": 14504,
+   "levelDb": -55.3319390215911
+  },
+  {
+   "startFrame": 14711,
+   "endFrame": 14765,
+   "levelDb": -52.629658576566726
+  },
+  {
+   "startFrame": 14894,
+   "endFrame": 14951,
+   "levelDb": -50.953897308558226
+  },
+  {
+   "startFrame": 15064,
+   "endFrame": 15087,
+   "levelDb": -47.67359831510112
+  },
+  {
+   "startFrame": 15176,
+   "endFrame": 15247,
+   "levelDb": -56.04678343469277
+  },
+  {
+   "startFrame": 15322,
+   "endFrame": 15356,
+   "levelDb": -55.38508510496467
+  },
+  {
+   "startFrame": 15434,
+   "endFrame": 15451,
+   "levelDb": -47.52192415902391
+  },
+  {
+   "startFrame": 15625,
+   "endFrame": 15662,
+   "levelDb": -51.54633411206305
+  },
+  {
+   "startFrame": 15835,
+   "endFrame": 15905,
+   "levelDb": -47.561276408378035
+  },
+  {
+   "startFrame": 16069,
+   "endFrame": 16125,
+   "levelDb": -59.99355161283165
+  },
+  {
+   "startFrame": 16237,
+   "endFrame": 16293,
+   "levelDb": -55.97713520890102
+  },
+  {
+   "startFrame": 16456,
+   "endFrame": 16524,
+   "levelDb": -54.37495285551995
+  },
+  {
+   "startFrame": 16657,
+   "endFrame": 16676,
+   "levelDb": -47.759090818464756
+  },
+  {
+   "startFrame": 16849,
+   "endFrame": 16917,
+   "levelDb": -56.4330090531148
+  },
+  {
+   "startFrame": 17025,
+   "endFrame": 17056,
+   "levelDb": -54.19464672775939
+  },
+  {
+   "startFrame": 17224,
+   "endFrame": 17236,
+   "levelDb": -47.06089481059462
+  },
+  {
+   "startFrame": 17327,
+   "endFrame": 17340,
+   "levelDb": -50.02001195400953
+  },
+  {
+   "startFrame": 17528,
+   "endFrame": 17541,
+   "levelDb": -57.65289687784389
+  },
+  {
+   "startFrame": 17648,
+   "endFrame": 17687,
+   "levelDb": -47.063377405982465
+  },
+  {
+   "startFrame": 17862,
+   "endFrame": 17934,
+   "levelDb": -56.51986231142655
+  },
+  {
+   "startFrame": 18077,
+   "endFrame": 18139,
+   "levelDb": -59.946939416695386
+  },
+  {
+   "startFrame": 18217,
+   "endFrame": 18238,
+   "levelDb": -56.77503845049068
+  },
+  {
+   "startFrame": 18420,
+   "endFrame": 18431,
+   "levelDb": -53.223218446131796
+  },
+  {
+   "startFrame": 18636,
+   "endFrame": 18687,
+   "levelDb": -46.65108260139823
+  },
+  {
+   "startFrame": 18865,
+   "endFrame": 18883,
+   "levelDb": -57.19538520043716
+  },
+  {
+   "startFrame": 18986,
+   "endFrame": 19060,
+   "levelDb": -54.087867269292474
+  },
+  {
+   "startFrame": 19183,
+   "endFrame": 19200,
+   "levelDb": -58.5093165980652
+  },
+  {
+   "startFrame": 19300,
+   "endFrame": 19344,
+   "levelDb": -56.70569927664474
+  },
+  {
+   "startFrame": 19529,
+   "endFrame": 19551,
+   "levelDb": -53.46611990779638
+  },
+  {
+   "startFrame": 19551,
+   "endFrame": 19576,
+   "levelDb": -57.87513699196279
+  },
+  {
+   "startFrame": 19660,
+   "endFrame": 19671,
+   "levelDb": -55.22970496257767
+  },
+  {
+   "startFrame": 19875,
+   "endFrame": 19930,
+   "levelDb": -50.25264522898942
+  },
+  {
+   "startFrame": 20090,
+   "endFrame": 20162,
+   "levelDb": -58.82528717815876
+  },
+  {
+   "startFrame": 20324,
+   "endFrame": 20385,
+   "levelDb": -56.28861059434712
+  },
+  {
+   "startFrame": 20508,
+   "endFrame": 20523,
+   "levelDb": -48.565345601178706
+  },
+  {
+   "startFrame": 20708,
+   "endFrame": 20769,
+   "levelDb": -52.95238920021802
+  },
+  {
+   "startFrame": 20974,
+   "endFrame": 21029,
+   "levelDb": -54.10134048946202
+  },
+  {
+   "startFrame": 21153,
+   "endFrame": 21210,
+   "levelDb": -56.423284008633345
+  },
+  {
+   "startFrame": 21348,
+   "endFrame": 21404,
+   "levelDb": -50.73547306610271
+  },
+  {
+   "startFrame": 21552,
+   "endFrame": 21576,
+   "levelDb": -47.52777385339141
+  },
+  {
+   "startFrame": 21689,
+   "endFrame": 21762,
+   "levelDb": -52.06421274319291
+  },
+  {
+   "startFrame": 21890,
+   "endFrame": 21911,
+   "levelDb": -49.92831917013973
+  },
+  {
+   "startFrame": 22082,
+   "endFrame": 22128,
+   "levelDb": -49.61788091389462
+  },
+  {
+   "startFrame": 22225,
+   "endFrame": 22242,
+   "levelDb": -56.86756737809628
+  },
+  {
+   "startFrame": 22403,
+   "endFrame": 22440,
+   "levelDb": -51.5328182852827
+  },
+  {
+   "startFrame": 22594,
+   "endFrame": 22627,
+   "levelDb": -57.06712372414768
+  },
+  {
+   "startFrame": 22728,
+   "endFrame": 22783,
+   "levelDb": -53.21444934979081
+  },
+  {
+   "startFrame": 22873,
+   "endFrame": 22885,
+   "levelDb": -57.27324595069513
+  },
+  {
+   "startFrame": 23064,
+   "endFrame": 23101,
+   "levelDb": -46.07987724151462
+  },
+  {
+   "startFrame": 23309,
+   "endFrame": 23333,
+   "levelDb": -52.76207778789103
+  },
+  {
+   "startFrame": 23521,
+   "endFrame": 23566,
+   "levelDb": -47.32423463836312
+  },
+  {
+   "startFrame": 23666,
+   "endFrame": 23696,
+   "levelDb": -46.29096470121294
+  },
+  {
+   "startFrame": 23850,
+   "endFrame": 23911,
+   "levelDb": -49.196387455798686
+  },
+  {
+   "startFrame": 24012,
+   "endFrame": 24051,
+   "levelDb": -59.61983247380704
+  },
+  {
+   "startFrame": 24222,
+   "endFrame": 24265,
+   "levelDb": -54.21798282908276
+  },
+  {
+   "startFrame": 24454,
+   "endFrame": 24487,
+   "levelDb": -46.62509390851483
+  },
+  {
+   "startFrame": 24665,
+   "endFrame": 24726,
+   "levelDb": -53.23930152086541
+  },
+  {
+   "startFrame": 24886,
+   "endFrame": 24903,
+   "levelDb": -52.47181535419077
+  },
+  {
+   "startFrame": 24992,
+   "endFrame": 25032,
+   "levelDb": -51.969471228308976
+  },
+  {
+   "startFrame": 25179,
+   "endFrame": 25246,
+   "levelDb": -50.23917331919074
+  },
+  {
+   "startFrame": 25411,
+   "endFrame": 25429,
+   "levelDb": -55.77770040137693
+  },
+  {
+   "startFrame": 25521,
+   "endFrame": 25548,
+   "levelDb": -46.466581595130265
+  },
+  {
+   "startFrame": 25624,
+   "endFrame": 25652,
+   "levelDb": -57.23892359575257
+  },
+  {
+   "startFrame": 25652,
+   "endFrame": 25654,
+   "levelDb": -59.17792255291715
+  },
+  {
+   "startFrame": 25654,
+   "endFrame": 25672,
+   "levelDb": -54.79930217191577
+  },
+  {
+   "startFrame": 25828,
+   "endFrame": 25852,
+   "levelDb": -56.02314276015386
+  },
+  {
+   "startFrame": 26037,
+   "endFrame": 26096,
+   "levelDb": -53.63631846057251
+  },
+  {
+   "startFrame": 26239,
+   "endFrame": 26277,
+   "levelDb": -58.994611703790724
+  },
+  {
+   "startFrame": 26419,
+   "endFrame": 26439,
+   "levelDb": -53.3977304790169
+  },
+  {
+   "startFrame": 26546,
+   "endFrame": 26575,
+   "levelDb": -47.11542117409408
+  },
+  {
+   "startFrame": 26765,
+   "endFrame": 26789,
+   "levelDb": -50.991145151201636
+  },
+  {
+   "startFrame": 26925,
+   "endFrame": 26993,
+   "levelDb": -55.916576044633985
+  },
+  {
+   "startFrame": 27186,
+   "endFrame": 27257,
+   "levelDb": -50.26221616799012
+  },
+  {
+   "startFrame": 27426,
+   "endFrame": 27452,
+   "levelDb": -59.489276283886284
+  },
+  {
+   "startFrame": 27631,
+   "endFrame": 27683,
+   "levelDb": -46.249534412287176
+  },
+  {
+   "startFrame": 27759,
+   "endFrame": 27805,
+   "levelDb": -58.01627486012876
+  },
+  {
+   "startFrame": 27968,
+   "endFrame": 28010,
+   "levelDb": -47.043830326758325
+  },
+  {
+   "startFrame": 28133,
+   "endFrame": 28189,
+   "levelDb": -59.83962890924886
+  },
+  {
+   "startFrame": 28393,
+   "endFrame": 28455,
+   "levelDb": -48.60902238404378
+  },
+  {
+   "startFrame": 28659,
+   "endFrame": 28705,
+   "levelDb": -50.96409750590101
+  },
+  {
+   "startFrame": 28834,
+   "endFrame": 28846,
+   "levelDb": -46.17703739460558
+  },
+  {
+   "startFrame": 28988,
+   "endFrame": 29042,
+   "levelDb": -51.57905684970319
+  },
+  {
+   "startFrame": 29176,
+   "endFrame": 29206,
+   "levelDb": -52.6890508425422
+  },
+  {
+   "startFrame": 29289,
+   "endFrame": 29350,
+   "levelDb": -46.5731559805572
+  },
+  {
+   "startFrame": 29495,
+   "endFrame": 29505,
+   "levelDb": -58.29841043893248
+  },
+  {
+   "startFrame": 29684,
+   "endFrame": 29738,
+   "levelDb": -52.244699891190976
+  },
+  {
+   "startFrame": 29930,
+   "endFrame": 29994,
+   "levelDb": -58.851784461177886
+  },
+  {
+   "startFrame": 30113,
+   "endFrame": 30150,
+   "levelDb": -50.18363215168938
+  },
+  {
+   "startFrame": 30311,
+   "endFrame": 30386,
+   "levelDb": -59.59618377080187
+  },
+  {
+   "startFrame": 30518,
+   "endFrame": 30547,
+   "levelDb": -57.98613591864705
+  },
+  {
+   "startFrame": 30736,
+   "endFrame": 30801,
+   "levelDb": -46.64900180744007
+  },
+  {
+   "startFrame": 30911,
+   "endFrame": 30949,
+   "levelDb": -53.95222740108147
+  },
+  {
+   "startFrame": 31155,
+   "endFrame": 31190,
+   "levelDb": -52.33283565053716
+  },
+  {
+   "startFrame": 31268,
+   "endFrame": 31331,
+   "levelDb": -57.839824648573995
+  },
+  {
+   "startFrame": 31471,
+   "endFrame": 31498,
+   "levelDb": -55.28537959558889
+  },
+  {
+   "startFrame": 31681,
+   "endFrame": 31712,
+   "levelDb": -47.5513639873825
+  },
+  {
+   "startFrame": 31788,
+   "endFrame": 31859,
+   "levelDb": -48.63283025147393
+  },
+  {
+   "startFrame": 32068,
+   "endFrame": 32123,
+   "levelDb": -52.52945408644155
+  },
+  {
+   "startFrame": 32269,
+   "endFrame": 32309,
+   "levelDb": -49.34490001294762
+  },
+  {
+   "startFrame": 32471,
+   "endFrame": 32520,
+   "levelDb": -56.90369670186192
+  },
+  {
+   "startFrame": 32705,
+   "endFrame": 32758,
+   "levelDb": -48.93885409971699
+  },
+  {
+   "startFrame": 32885,
+   "endFrame": 32951,
+   "levelDb": -49.08409816818312
+  },
+  {
+   "startFrame": 33148,
+   "endFrame": 33159,
+   "levelDb": -46.55759013397619
+  },
+  {
+   "startFrame": 33285,
+   "endFrame": 33349,
+   "levelDb": -54.96520838700235
+  },
+  {
+   "startFrame": 33457,
+   "endFrame": 33501,
+   "levelDb": -55.27078366139904
+  },
+  {
+   "startFrame": 33665,
+   "endFrame": 33706,
+   "levelDb": -52.37405246309936
+  },
+  {
+   "startFrame": 33791,
+   "endFrame": 33834,
+   "levelDb": -50.29252246115357
+  },
+  {
+   "startFrame": 33911,
+   "endFrame": 33965,
+   "levelDb": -50.45999875757843
+  },
+  {
+   "startFrame": 34108,
+   "endFrame": 34124,
+   "levelDb": -58.681805869564414
+  },
+  {
+   "startFrame": 34297,
+   "endFrame": 34327,
+   "levelDb": -53.585928986780345
+  },
+  {
+   "startFrame": 34520,
+   "endFrame": 34559,
+   "levelDb": -53.96712580928579
+  },
+  {
+   "startFrame": 34742,
+   "endFrame": 34803,
+   "levelDb": -53.80295706167817
+  },
+  {
+   "startFrame": 34898,
+   "endFrame": 34949,
+   "levelDb": -58.63623261358589
+  },
+  {
+   "startFrame": 35051,
+   "endFrame": 35121,
+   "levelDb": -52.096728364005685
+  },
+  {
+   "startFrame": 35302,
+   "endFrame": 35315,
+   "levelDb": -50.65084584755823
+  },
+  {
+   "startFrame": 35419,
+   "endFrame": 35451,
+   "levelDb": -54.57070201355964
+  },
+  {
+   "startFrame": 35565,
+   "endFrame": 35618,
+   "levelDb": -58.49890245497227
+  },
+  {
+   "startFrame": 35827,
+   "endFrame": 35844,
+   "levelDb": -50.13330605812371
+  },
+  {
+   "startFrame": 35980,
+   "endFrame": 36019,
+   "levelDb": -46.21894408157095
+  },
+  {
+   "startFrame": 36140,
+   "endFrame": 36203,
+   "levelDb": -59.258583361748606
+  },
+  {
+   "startFrame": 36379,
+   "endFrame": 36416,
+   "levelDb": -59.024056274909526
+  },
+  {
+   "startFrame": 36555,
+   "endFrame": 36578,
+   "levelDb": -48.232908522710204
+  },
+  {
+   "startFrame": 36662,
+   "endFrame": 36731,
+   "levelDb": -49.18206133088097
+  },
+  {
+   "startFrame": 36935,
+   "endFrame": 36958,
+   "levelDb": -58.65847616875544
+  },
+  {
+   "startFrame": 37164,
+   "endFrame": 37234,
+   "levelDb": -49.096576265990734
+  },
+  {
+   "startFrame": 37312,
+   "endFrame": 37335,
+   "levelDb": -48.48124165087938
+  },
+  {
+   "startFrame": 37488,
+   "endFrame": 37507,
+   "levelDb": -48.23743221303448
+  },
+  {
+   "startFrame": 37594,
+   "endFrame": 37621,
+   "levelDb": -58.898362030275166
+  },
+  {
+   "startFrame": 37700,
+   "endFrame": 37733,
+   "levelDb": -50.14598706783727
+  },
+  {
+   "startFrame": 37822,
+   "endFrame": 37884,
+   "levelDb": -55.610922425054014
+  },
+  {
+   "startFrame": 38079,
+   "endFrame": 38118,
+   "levelDb": -55.21789123583585
+  },
+  {
+   "startFrame": 38210,
+   "endFrame": 38245,
+   "levelDb": -55.077196589205414
+  },
+  {
+   "startFrame": 38414,
+   "endFrame": 38458,
+   "levelDb": -53.31668045883998
+  },
+  {
+   "startFrame": 38654,
+   "endFrame": 38720,
+   "levelDb": -52.89207545667887
+  },
+  {
+   "startFrame": 38895,
+   "endFrame": 38946,
+   "levelDb": -48.55001626024023
+  },
+  {
+   "startFrame": 39154,
+   "endFrame": 39229,
+   "levelDb": -55.56588943116367
+  },
+  {
+   "startFrame": 39410,
+   "endFrame": 39470,
+   "levelDb": -57.630912645719945
+  },
+  {
+   "startFrame": 39658,
+   "endFrame": 39709,
+   "levelDb": -59.37915335223079
+  },
+  {
+   "startFrame": 39841,
+   "endFrame": 39868,
+   "levelDb": -51.74370010802522
+  },
+  {
+   "startFrame": 40078,
+   "endFrame": 40120,
+   "levelDb": -51.09402281418443
+  },
+  {
+   "startFrame": 40298,
+   "endFrame": 40318,
+   "levelDb": -48.72292663529515
+  },
+  {
+   "startFrame": 40441,
+   "endFrame": 40492,
+   "levelDb": -51.05406482471153
+  },
+  {
+   "startFrame": 40595,
+   "endFrame": 40608,
+   "levelDb": -55.735985302366316
+  },
+  {
+   "startFrame": 40608,
+   "endFrame": 40623,
+   "levelDb": -56.568147731013596
+  },
+  {
+   "startFrame": 40623,
+   "endFrame": 40635,
+   "levelDb": -55.79915753565729
+  },
+  {
+   "startFrame": 40731,
+   "endFrame": 40772,
+   "levelDb": -55.885240588802844
+  },
+  {
+   "startFrame": 40879,
+   "endFrame": 40921,
+   "levelDb": -48.51429975219071
+  },
+  {
+   "startFrame": 41070,
+   "endFrame": 41083,
+   "levelDb": -54.00528752151877
+  },
+  {
+   "startFrame": 41214,
+   "endFrame": 41239,
+   "levelDb": -48.6551143466495
+  },
+  {
+   "startFrame": 41422,
+   "endFrame": 41439,
+   "levelDb": -46.43123509408906
+  },
+  {
+   "startFrame": 41575,
+   "endFrame": 41597,
+   "levelDb": -53.01143277389929
+  },
+  {
+   "startFrame": 41791,
+   "endFrame": 41844,
+   "levelDb": -52.1640891386196
+  },
+  {
+   "startFrame": 42054,
+   "endFrame": 42079,
+   "levelDb": -53.29388505173847
+  },
+  {
+   "startFrame": 42227,
+   "endFrame": 42289,
+   "levelDb": -55.112887505907565
+  },
+  {
+   "startFrame": 42472,
+   "endFrame": 42487,
+   "levelDb": -47.80082757445052
+  },
+  {
+   "startFrame": 42678,
+   "endFrame": 42712,
+   "levelDb": -50.43801529472694
+  },
+  {
+   "startFrame": 42793,
+   "endFrame": 42817,
+   "levelDb": -55.8240732755512
+  },
+  {
+   "startFrame": 42899,
+   "endFrame": 42960,
+   "levelDb": -46.844303434714675
+  },
+  {
+   "startFrame": 43044,
+   "endFrame": 43095,
+   "levelDb": -52.025931105948985
+  },
+  {
+   "startFrame": 43301,
+   "endFrame": 43365,
+   "levelDb": -53.48697529779747
+  },
+  {
+   "startFrame": 43465,
+   "endFrame": 43475,
+   "levelDb": -59.32235750788823
+  },
+  {
+   "startFrame": 43636,
+   "endFrame": 43658,
+   "levelDb": -55.276949187740684
+  },
+  {
+   "startFrame": 43753,
+   "endFrame": 43785,
+   "levelDb": -56.10228766081855
+  },
+  {
+   "startFrame": 43994,
+   "endFrame": 44067,
+   "levelDb": -57.93905761279166
+  },
+  {
+   "startFrame": 44231,
+   "endFrame": 44261,
+   "levelDb": -55.1880479012616
+  },
+  {
+   "startFrame": 44452,
+   "endFrame": 44511,
+   "levelDb": -59.4726414908655
+  },
+  {
+   "startFrame": 44601,
+   "endFrame": 44615,
+   "levelDb": -52.88141997717321
+  },
+  {
+   "startFrame": 44722,
+   "endFrame": 44736,
+   "levelDb": -49.603201422374696
+  },
+  {
+   "startFrame": 44838,
+   "endFrame": 44874,
+   "levelDb": -52.3377024657093
+  },
+  {
+   "startFrame": 44964,
+   "endFrame": 45033,
+   "levelDb": -54.02821894316003
+  },
+  {
+   "startFrame": 45145,
+   "endFrame": 45195,
+   "levelDb": -47.64460828946903
+  },
+  {
+   "startFrame": 45286,
+   "endFrame": 45357,
+   "levelDb": -51.970600308384746
+  },
+  {
+   "startFrame": 45469,
+   "endFrame": 45487,
+   "levelDb": -46.6058782520704
+  },
+  {
+   "startFrame": 45634,
+   "endFrame": 45691,
+   "levelDb": -48.274940724950284
+  },
+  {
+   "startFrame": 45895,
+   "endFrame": 45943,
+   "levelDb": -51.81037088111043
+  },
+  {
+   "startFrame": 46094,
+   "endFrame": 46128,
+   "levelDb": -57.19594504497945
+  },
+  {
+   "startFrame": 46336,
+   "endFrame": 46353,
+   "levelDb": -55.967715334147215
+  },
+  {
+   "startFrame": 46461,
+   "endFrame": 46527,
+   "levelDb": -53.266101088840514
+  },
+  {
+   "startFrame": 46687,
+   "endFrame": 46729,
+   "levelDb": -51.92926129885018
+  },
+  {
+   "startFrame": 46853,
+   "endFrame": 46926,
+   "levelDb": -47.607114797923714
+  },
+  {
+   "startFrame": 47009,
+   "endFrame": 47070,
+   "levelDb": -46.55576264904812
+  },
+  {
+   "startFrame": 47236,
+   "endFrame": 47255,
+   "levelDb": -58.221406074706465
+  },
+  {
+   "startFrame": 47370,
+   "endFrame": 47442,
+   "levelDb": -47.50368482992053
+  },
+  {
+   "startFrame": 47605,
+   "endFrame": 47620,
+   "levelDb": -53.07901618629694
+  },
+  {
+   "startFrame": 47824,
+   "endFrame": 47899,
+   "levelDb": -52.27585739083588
+  },
+  {
+   "startFrame": 48039,
+   "endFrame": 48052,
+   "levelDb": -54.01379755558446
+  },
+  {
+   "startFrame": 48253,
+   "endFrame": 48294,
+   "levelDb": -52.56306439824402
+  },
+  {
+   "startFrame": 48473,
+   "endFrame": 48541,
+   "levelDb": -57.49671480478719
+  },
+  {
+   "startFrame": 48700,
+   "endFrame": 48756,
+   "levelDb": -56.20416983636096
+  },
+  {
+   "startFrame": 48880,
+   "endFrame": 48898,
+   "levelDb": -49.450386431999505
+  },
+  {
+   "startFrame": 49089,
+   "endFrame": 49107,
+   "levelDb": -53.49148563668132
+  },
+  {
+   "startFrame": 49184,
+   "endFrame": 49239,
+   "levelDb": -52.61456594988704
+  },
+  {
+   "startFrame": 49364,
+   "endFrame": 49436,
+   "levelDb": -46.64996455842629
+  },
+  {
+   "startFrame": 49643,
+   "endFrame": 49663,
+   "levelDb": -46.545753120444715
+  },
+  {
+   "startFrame": 49823,
+   "endFrame": 49834,
+   "levelDb": -57.475312233902514
+  },
+  {
+   "startFrame": 49954,
+   "endFrame": 50006,
+   "levelDb": -50.99710674211383
+  },
+  {
+   "startFrame": 50184,
+   "endFrame": 50224,
+   "levelDb": -51.257407744880766
+  },
+  {
+   "startFrame": 50379,
+   "endFrame": 50413,
+   "levelDb": -52.8679437385872
+  },
+  {
+   "startFrame": 50608,
+   "endFrame": 50634,
+   "levelDb": -50.866096701007336
+  },
+  {
+   "startFrame": 50737,
+   "endFrame": 50805,
+   "levelDb": -54.50441923737526
+  },
+  {
+   "startFrame": 50945,
+   "endFrame": 50959,
+   "levelDb": -52.07310622371733
+  },
+  {
+   "startFrame": 51076,
+   "endFrame": 51103,
+   "levelDb": -46.8377704503946
+  },
+  {
+   "startFrame": 51254,
+   "endFrame": 51306,
+   "levelDb": -50.715034312102944
+  },
+  {
+   "startFrame": 51503,
+   "endFrame": 51570,
+   "levelDb": -49.48358423775062
+  },
+  {
+   "startFrame": 51716,
+   "endFrame": 51758,
+   "levelDb": -48.54880983568728
+  },
+  {
+   "startFrame": 51921,
+   "endFrame": 51993,
+   "levelDb": -48.337284695822746
+  },
+  {
+   "startFrame": 52178,
+   "endFrame": 52217,
+   "levelDb": -51.368686156347394
+  },
+  {
+   "startFrame": 52367,
+   "endFrame": 52419,
+   "levelDb": -58.79613159270957
+  },
+  {
+   "startFrame": 52543,
+   "endFrame": 52608,
+   "levelDb": -58.41998935630545
+  },
+  {
+   "startFrame": 52686,
+   "endFrame": 52755,
+   "levelDb": -47.03235786035657
+  },
+  {
+   "startFrame": 52944,
+   "endFrame": 52999,
+   "levelDb": -53.90815180260688
+  },
+  {
+   "startFrame": 53147,
+   "endFrame": 53187,
+   "levelDb": -57.94817392807454
+  },
+  {
+   "startFrame": 53267,
+   "endFrame": 53311,
+   "levelDb": -47.91438687546179
+  },
+  {
+   "startFrame": 53477,
+   "endFrame": 53512,
+   "levelDb": -57.649407806806266
+  },
+  {
+   "startFrame": 53699,
+   "endFrame": 53713,
+   "levelDb": -59.78802156308666
+  },
+  {
+   "startFrame": 53825,
+   "endFrame": 53836,
+   "levelDb": -52.31579886376858
+  },
+  {
+   "startFrame": 54040,
+   "endFrame": 54075,
+   "levelDb": -53.760943110100925
+  },
+  {
+   "startFrame": 54231,
+   "endFrame": 54266,
+   "levelDb": -51.823120936285704
+  },
+  {
+   "startFrame": 54300,
+   "endFrame": 54316,
+   "levelDb": -58.47629074379802
+  },
+  {
+   "startFrame": 54460,
+   "endFrame": 54494,
+   "levelDb": -57.7911987840198
+  },
+  {
+   "startFrame": 54577,
+   "endFrame": 54607,
+   "levelDb": -54.32530375756323
+  },
+  {
+   "startFrame": 54717,
+   "endFrame": 54766,
+   "levelDb": -46.43841607961804
+  },
+  {
+   "startFrame": 54858,
+   "endFrame": 54889,
+   "levelDb": -52.348564005922526
+  },
+  {
+   "startFrame": 55037,
+   "endFrame": 55062,
+   "levelDb": -50.90169431408867
+  },
+  {
+   "startFrame": 55162,
+   "endFrame": 55197,
+   "levelDb": -49.69693543156609
+  },
+  {
+   "startFrame": 55314,
+   "endFrame": 55336,
+   "levelDb": -54.56488762423396
+  },
+  {
+   "startFrame": 55461,
+   "endFrame": 55488,
+   "levelDb": -59.243575720116496
+  },
+  {
+   "startFrame": 55589,
+   "endFrame": 55626,
+   "levelDb": -55.17492486955598
+  },
+  {
+   "startFrame": 55834,
+   "endFrame": 55859,
+   "levelDb": -50.30805381434038
+  },
+  {
+   "startFrame": 55999,
+   "endFrame": 56061,
+   "levelDb": -52.38966083154082
+  },
+  {
+   "startFrame": 56183,
+   "endFrame": 56220,
+   "levelDb": -50.70600698469207
+  },
+  {
+   "startFrame": 56299,
+   "endFrame": 56370,
+   "levelDb": -51.269637286197394
+  },
+  {
+   "startFrame": 56456,
+   "endFrame": 56491,
+   "levelDb": -56.482687464915216
+  },
+  {
+   "startFrame": 56651,
+   "endFrame": 56723,
+   "levelDb": -52.87061095610261
+  },
+  {
+   "startFrame": 56846,
+   "endFrame": 56895,
+   "levelDb": -49.51452011521906
+  },
+  {
+   "startFrame": 57088,
+   "endFrame": 57125,
+   "levelDb": -46.40663161315024
+  },
+  {
+   "startFrame": 57284,
+   "endFrame": 57311,
+   "levelDb": -47.4114548265934
+  },
+  {
+   "startFrame": 57407,
+   "endFrame": 57457,
+   "levelDb": -53.95213755918667
+  },
+  {
+   "startFrame": 57647,
+   "endFrame": 57715,
+   "levelDb": -55.94075514143333
+  },
+  {
+   "startFrame": 57844,
+   "endFrame": 57876,
+   "levelDb": -57.291653903666884
+  },
+  {
+   "startFrame": 57973,
+   "endFrame": 57985,
+   "levelDb": -51.64485253300518
+  },
+  {
+   "startFrame": 58127,
+   "endFrame": 58198,
+   "levelDb": -50.39402790181339
+  },
+  {
+   "startFrame": 58385,
+   "endFrame": 58451,
+   "levelDb": -57.80809664539993
+  },
+  {
+   "startFrame": 58581,
+   "endFrame": 58602,
+   "levelDb": -59.60112744476646
+  },
+  {
+   "startFrame": 58809,
+   "endFrame": 58823,
+   "levelDb": -59.66413413407281
+  },
+  {
+   "startFrame": 58823,
+   "endFrame": 58836,
+   "levelDb": -53.61114352568984
+  },
+  {
+   "startFrame": 58932,
+   "endFrame": 58984,
+   "levelDb": -57.65759044373408
+  },
+  {
+   "startFrame": 59187,
+   "endFrame": 59222,
+   "levelDb": -50.09417862864211
+  },
+  {
+   "startFrame": 59330,
+   "endFrame": 59371,
+   "levelDb": -53.097774436697364
+  },
+  {
+   "startFrame": 59518,
+   "endFrame": 59580,
+   "levelDb": -50.83693507546559
+  },
+  {
+   "startFrame": 59763,
+   "endFrame": 59824,
+   "levelDb": -46.99403233220801
+  },
+  {
+   "startFrame": 59944,
+   "endFrame": 59961,
+   "levelDb": -48.318076855968684
+  },
+  {
+   "startFrame": 60129,
+   "endFrame": 60166,
+   "levelDb": -55.48543295683339
+  },
+  {
+   "startFrame": 60363,
+   "endFrame": 60389,
+   "levelDb": -49.735871964134276
+  },
+  {
+   "startFrame": 60472,
+   "endFrame": 60515,
+   "levelDb": -53.53445206489414
+  },
+  {
+   "startFrame": 60686,
+   "endFrame": 60759,
+   "levelDb": -56.89591050427407
+  },
+  {
+   "startFrame": 60964,
+   "endFrame": 61023,
+   "levelDb": -58.275180608034134
+  },
+  {
+   "startFrame": 61182,
+   "endFrame": 61250,
+   "levelDb": -50.47662138240412
+  },
+  {
+   "startFrame": 61338,
+   "endFrame": 61350,
+   "levelDb": -46.40810846630484
+  },
+  {
+   "startFrame": 61431,
+   "endFrame": 61464,
+   "levelDb": -55.82821353897452
+  },
+  {
+   "startFrame": 61668,
+   "endFrame": 61738,
+   "levelDb": -48.21950375800952
+  },
+  {
+   "startFrame": 61897,
+   "endFrame": 61942,
+   "levelDb": -52.772273434791714
+  },
+  {
+   "startFrame": 62102,
+   "endFrame": 62149,
+   "levelDb": -50.79650524165481
+  },
+  {
+   "startFrame": 62293,
+   "endFrame": 62324,
+   "levelDb": -51.695696298033
+  },
+  {
+   "startFrame": 62415,
+   "endFrame": 62466,
+   "levelDb": -51.73561583040282
+  },
+  {
+   "startFrame": 62664,
+   "endFrame": 62692,
+   "levelDb": -57.05820892890915
+  },
+  {
+   "startFrame": 62821,
+   "endFrame": 62849,
+   "levelDb": -52.841893777716905
+  },
+  {
+   "startFrame": 62988,
+   "endFrame": 63061,
+   "levelDb": -55.46448934497312
+  },
+  {
+   "startFrame": 63242,
+   "endFrame": 63297,
+   "levelDb": -58.058936793357134
+  },
+  {
+   "startFrame": 63485,
+   "endFrame": 63506,
+   "levelDb": -48.963644676841795
+  },
+  {
+   "startFrame": 63670,
+   "endFrame": 63692,
+   "levelDb": -55.99365411233157
+  },
+  {
+   "startFrame": 63884,
+   "endFrame": 63927,
+   "levelDb": -59.742925599683076
+  },
+  {
+   "startFrame": 64009,
+   "endFrame": 64032,
+   "levelDb": -57.003548982553184
+  },
+  {
+   "startFrame": 64141,
+   "endFrame": 64170,
+   "levelDb": -52.910020522773266
+  },
+  {
+   "startFrame": 64340,
+   "endFrame": 64362,
+   "levelDb": -56.1948905037716
+  },
+  {
+   "startFrame": 64519,
+   "endFrame": 64537,
+   "levelDb": -48.688411235343665
+  },
+  {
+   "startFrame": 64636,
+   "endFrame": 64708,
+   "levelDb": -47.56438661599532
+  },
+  {
+   "startFrame": 64873,
+   "endFrame": 64907,
+   "levelDb": -58.695885620545596
+  },
+  {
+   "startFrame": 64991,
+   "endFrame": 64997,
+   "levelDb": -52.94659521616995
+  },
+  {
+   "startFrame": 64997,
+   "endFrame": 65009,
+   "levelDb": -53.6073735486716
+  },
+  {
+   "startFrame": 65193,
+   "endFrame": 65215,
+   "levelDb": -46.015824899077415
+  },
+  {
+   "startFrame": 65328,
+   "endFrame": 65402,
+   "levelDb": -58.93948885099962
+  },
+  {
+   "startFrame": 65531,
+   "endFrame": 65560,
+   "levelDb": -52.5829918240197
+  },
+  {
+   "startFrame": 65748,
+   "endFrame": 65790,
+   "levelDb": -55.79896665457636
+  },
+  {
+   "startFrame": 65968,
+   "endFrame": 65978,
+   "levelDb": -58.20951607916504
+  },
+  {
+   "startFrame": 66166,
+   "endFrame": 66223,
+   "levelDb": -59.30044568190351
+  },
+  {
+   "startFrame": 66410,
+   "endFrame": 66468,
+   "levelDb": -48.91618438065052
+  },
+  {
+   "startFrame": 66628,
+   "endFrame": 66691,
+   "levelDb": -46.82727781217545
+  },
+  {
+   "startFrame": 66818,
+   "endFrame": 66831,
+   "levelDb": -55.335616424214095
+  },
+  {
+   "startFrame": 66975,
+   "endFrame": 67023,
+   "levelDb": -47.92632651841268
+  },
+  {
+   "startFrame": 67185,
+   "endFrame": 67248,
+   "levelDb": -49.56180079933256
+  },
+  {
+   "startFrame": 67409,
+   "endFrame": 67427,
+   "levelDb": -58.35766382841393
+  },
+  {
+   "startFrame": 67554,
+   "endFrame": 67624,
+   "levelDb": -54.97818106831983
+  },
+  {
+   "startFrame": 67780,
+   "endFrame": 67803,
+   "levelDb": -55.29817584948614
+  },
+  {
+   "startFrame": 67941,
+   "endFrame": 67996,
+   "levelDb": -53.648078644648194
+  },
+  {
+   "startFrame": 68100,
+   "endFrame": 68160,
+   "levelDb": -57.49716160539538
+  },
+  {
+   "startFrame": 68291,
+   "endFrame": 68351,
+   "levelDb": -48.63220453308895
+  },
+  {
+   "startFrame": 68520,
+   "endFrame": 68542,
+   "levelDb": -56.11811905633658
+  },
+  {
+   "startFrame": 68711,
+   "endFrame": 68728,
+   "levelDb": -49.46605998650193
+  },
+  {
+   "startFrame": 68813,
+   "endFrame": 68828,
+   "levelDb": -52.05988437309861
+  },
+  {
+   "startFrame": 68913,
+   "endFrame": 68983,
+   "levelDb": -54.03774475911632
+  },
+  {
+   "startFrame": 69152,
+   "endFrame": 69184,
+   "levelDb": -47.53862663498148
+  },
+  {
+   "startFrame": 69380,
+   "endFrame": 69412,
+   "levelDb": -54.36833942029625
+  },
+  {
+   "startFrame": 69586,
+   "endFrame": 69660,
+   "levelDb": -48.88396134087816
+  },
+  {
+   "startFrame": 69764,
+   "endFrame": 69790,
+   "levelDb": -48.19511147495359
+  },
+  {
+   "startFrame": 69951,
+   "endFrame": 69972,
+   "levelDb": -54.281642094254494
+  },
+  {
+   "startFrame": 70088,
+   "endFrame": 70153,
+   "levelDb": -49.3535426389426
+  },
+  {
+   "startFrame": 70305,
+   "endFrame": 70367,
+   "levelDb": -53.42359780939296
+  },
+  {
+   "startFrame": 70562,
+   "endFrame": 70617,
+   "levelDb": -49.42334283189848
+  },
+  {
+   "startFrame": 70745,
+   "endFrame": 70802,
+   "levelDb": -56.89723886176944
+  },
+  {
+   "startFrame": 70952,
+   "endFrame": 70995,
+   "levelDb": -48.213052466511726
+  },
+  {
+   "startFrame": 71134,
+   "endFrame": 71168,
+   "levelDb": -47.49308085255325
+  },
+  {
+   "startFrame": 71354,
+   "endFrame": 71382,
+   "levelDb": -52.5317487870343
+  },
+  {
+   "startFrame": 71550,
+   "endFrame": 71560,
+   "levelDb": -46.91381372930482
+  },
+  {
+   "startFrame": 71657,
+   "endFrame": 71684,
+   "levelDb": -51.03793160710484
+  },
+  {
+   "startFrame": 71878,
+   "endFrame": 71911,
+   "levelDb": -50.424527207389474
+  },
+  {
+   "startFrame": 72066,
+   "endFrame": 72117,
+   "levelDb": -57.24030288821086
+  },
+  {
+   "startFrame": 72249,
+   "endFrame": 72321,
+   "levelDb": -53.37982853455469
+  },
+  {
+   "startFrame": 72495,
+   "endFrame": 72537,
+   "levelDb": -53.31781195756048
+  },
+  {
+   "startFrame": 72712,
+   "endFrame": 72782,
+   "levelDb": -56.79779213760048
+  },
+  {
+   "startFrame": 72988,
+   "endFrame": 72999,
+   "levelDb": -53.16536233248189
+  },
+  {
+   "startFrame": 73123,
+   "endFrame": 73180,
+   "levelDb": -50.64271449111402
+  },
+  {
+   "startFrame": 73344,
+   "endFrame": 73408,
+   "levelDb": -53.27941005630419
+  },
+  {
+   "startFrame": 73579,
+   "endFrame": 73625,
+   "levelDb": -48.764056702610105
+  },
+  {
+   "startFrame": 73745,
+   "endFrame": 73814,
+   "levelDb": -49.88178719999269
+  },
+  {
+   "startFrame": 73938,
+   "endFrame": 73978,
+   "levelDb": -54.638003489002585
+  },
+  {
+   "startFrame": 74100,
+   "endFrame": 74156,
+   "levelDb": -46.78201630851254
+  },
+  {
+   "startFrame": 74366,
+   "endFrame": 74424,
+   "levelDb": -55.099137869197875
+  },
+  {
+   "startFrame": 74581,
+   "endFrame": 74623,
+   "levelDb": -50.88962776400149
+  },
+  {
+   "startFrame": 74794,
+   "endFrame": 74807,
+   "levelDb": -50.543697017710656
+  },
+  {
+   "startFrame": 74929,
+   "endFrame": 74985,
+   "levelDb": -58.33051056135446
+  },
+  {
+   "startFrame": 75088,
+   "endFrame": 75118,
+   "levelDb": -52.04085484147072
+  },
+  {
+   "startFrame": 75204,
+   "endFrame": 75263,
+   "levelDb": -57.17289643641561
+  },
+  {
+   "startFrame": 75381,
+   "endFrame": 75410,
+   "levelDb": -59.97704147780314
+  },
+  {
+   "startFrame": 75551,
+   "endFrame": 75578,
+   "levelDb": -55.82777136191726
+  },
+  {
+   "startFrame": 75667,
+   "endFrame": 75727,
+   "levelDb": -50.564088073559105
+  },
+  {
+   "startFrame": 75811,
+   "endFrame": 75858,
+   "levelDb": -52.61184235382825
+  },
+  {
+   "startFrame": 76002,
+   "endFrame": 76059,
+   "levelDb": -50.25443053757772
+  },
+  {
+   "startFrame": 76155,
+   "endFrame": 76182,
+   "levelDb": -46.1872380906716
+  },
+  {
+   "startFrame": 76289,
+   "endFrame": 76299,
+   "levelDb": -53.63499634200707
+  },
+  {
+   "startFrame": 76484,
+   "endFrame": 76547,
+   "levelDb": -58.6996058775112
+  },
+  {
+   "startFrame": 76740,
+   "endFrame": 76783,
+   "levelDb": -51.37169926613569
+  },
+  {
+   "startFrame": 76937,
+   "endFrame": 76966,
+   "levelDb": -57.166965450160205
+  },
+  {
+   "startFrame": 77129,
+   "endFrame": 77203,
+   "levelDb": -58.508600757457316
+  },
+  {
+   "startFrame": 77281,
+   "endFrame": 77299,
+   "levelDb": -58.02737858099863
+  },
+  {
+   "startFrame": 77506,
+   "endFrame": 77518,
+   "levelDb": -48.243649896699935
+  },
+  {
+   "startFrame": 77595,
+   "endFrame": 77617,
+   "levelDb": -50.763618720695376
+  },
+  {
+   "startFrame": 77742,
+   "endFrame": 77777,
+   "levelDb": -46.48818374983966
+  },
+  {
+   "startFrame": 77976,
+   "endFrame": 77998,
+   "levelDb": -53.541542367544025
+  },
+  {
+   "startFrame": 78206,
+   "endFrame": 78275,
+   "levelDb": -47.28942287294194
+  },
+  {
+   "startFrame": 78459,
+   "endFrame": 78491,
+   "levelDb": -49.3077339543961
+  },
+  {
+   "startFrame": 78632,
+   "endFrame": 78705,
+   "levelDb": -54.541245349217206
+  },
+  {
+   "startFrame": 78862,
+   "endFrame": 78913,
+   "levelDb": -58.57027198653668
+  },
+  {
+   "startFrame": 79049,
+   "endFrame": 79066,
+   "levelDb": -57.74427723279223
+  },
+  {
+   "startFrame": 79165,
+   "endFrame": 79211,
+   "levelDb": -48.25072003854439
+  },
+  {
+   "startFrame": 79319,
+   "endFrame": 79373,
+   "levelDb": -52.632250829134136
+  },
+  {
+   "startFrame": 79559,
+   "endFrame": 79570,
+   "levelDb": -55.57645237958059
+  },
+  {
+   "startFrame": 79679,
+   "endFrame": 79744,
+   "levelDb": -55.810157123953104
+  },
+  {
+   "startFrame": 79928,
+   "endFrame": 79996,
+   "levelDb": -56.437774741556495
+  },
+  {
+   "startFrame": 80073,
+   "endFrame": 80131,
+   "levelDb": -56.92981475638226
+  },
+  {
+   "startFrame": 80261,
+   "endFrame": 80308,
+   "levelDb": -52.68078782968223
+  },
+  {
+   "startFrame": 80510,
+   "endFrame": 80561,
+   "levelDb": -50.94588529039174
+  },
+  {
+   "startFrame": 80695,
+   "endFrame": 80719,
+   "levelDb": -53.621867403853685
+  },
+  {
+   "startFrame": 80916,
+   "endFrame": 80930,
+   "levelDb": -54.35978418169543
+  },
+  {
+   "startFrame": 81005,
+   "endFrame": 81021,
+   "levelDb": -51.52891004225239
+  },
+  {
+   "startFrame": 81125,
+   "endFrame": 81140,
+   "levelDb": -58.6520219175145
+  },
+  {
+   "startFrame": 81255,
+   "endFrame": 81311,
+   "levelDb": -53.85595875000581
+  },
+  {
+   "startFrame": 81471,
+   "endFrame": 81529,
+   "levelDb": -51.91420552553609
+  },
+  {
+   "startFrame": 81698,
+   "endFrame": 81730,
+   "levelDb": -46.10031868470833
+  },
+  {
+   "startFrame": 81810,
+   "endFrame": 81871,
+   "levelDb": -48.90372880361974
+  }
+ ],
+ "sceneChanges": [
+  {
+   "frame": 0,
+   "score": 0.9036703337565996
+  },
+  {
+   "frame": 1611,
+   "score": 0.5130535813281312
+  },
+  {
+   "frame": 1800,
+   "score": 0.9520335369277745
+  },
+  {
+   "frame": 3918,
+   "score": 0.8967057659872807
+  },
+  {
+   "frame": 4185,
+   "score": 0.6824730831664055
+  },
+  {
+   "frame": 4790,
+   "score": 0.6730329380370677
+  },
+  {
+   "frame": 5973,
+   "score": 0.7056793407769874
+  },
+  {
+   "frame": 7023,
+   "score": 0.9499990875017829
+  },
+  {
+   "frame": 7637,
+   "score": 0.31393440135288986
+  },
+  {
+   "frame": 7753,
+   "score": 0.695521758729592
+  },
+  {
+   "frame": 8041,
+   "score": 0.7429373492952436
+  },
+  {
+   "frame": 10179,
+   "score": 0.7687063427874818
+  },
+  {
+   "frame": 11636,
+   "score": 0.8722551829647273
+  },
+  {
+   "frame": 12632,
+   "score": 0.5468743742676452
+  },
+  {
+   "frame": 14951,
+   "score": 0.29376907683908937
+  },
+  {
+   "frame": 18139,
+   "score": 0.29648138366173954
+  },
+  {
+   "frame": 18238,
+   "score": 0.49442401656415313
+  },
+  {
+   "frame": 19551,
+   "score": 0.8981325476546772
+  },
+  {
+   "frame": 19930,
+   "score": 0.5495292695937678
+  },
+  {
+   "frame": 20769,
+   "score": 0.6094696362270042
+  },
+  {
+   "frame": 21762,
+   "score": 0.7340988175710663
+  },
+  {
+   "frame": 22128,
+   "score": 0.4619350791210308
+  },
+  {
+   "frame": 23566,
+   "score": 0.5145959826884792
+  },
+  {
+   "frame": 23911,
+   "score": 0.7699609311064705
+  },
+  {
+   "frame": 25246,
+   "score": 0.49677906222641466
+  },
+  {
+   "frame": 25654,
+   "score": 0.9402821325347759
+  },
+  {
+   "frame": 25852,
+   "score": 0.39060789861250667
+  },
+  {
+   "frame": 26439,
+   "score": 0.6668333700858057
+  },
+  {
+   "frame": 27805,
+   "score": 0.3170102248899639
+  },
+  {
+   "frame": 28846,
+   "score": 0.5171052510384471
+  },
+  {
+   "frame": 29350,
+   "score": 0.3530449799960479
+  },
+  {
+   "frame": 30518,
+   "score": 0.8773501380695962
+  },
+  {
+   "frame": 30949,
+   "score": 0.25302594373933973
+  },
+  {
+   "frame": 33965,
+   "score": 0.38327648176345974
+  },
+  {
+   "frame": 34108,
+   "score": 0.8893746588844805
+  },
+  {
+   "frame": 34949,
+   "score": 0.8591907647671178
+  },
+  {
+   "frame": 36578,
+   "score": 0.3918531367788091
+  },
+  {
+   "frame": 39470,
+   "score": 0.6316857774043455
+  },
+  {
+   "frame": 40120,
+   "score": 0.8808983439579605
+  },
+  {
+   "frame": 40492,
+   "score": 0.36058595015201717
+  },
+  {
+   "frame": 40623,
+   "score": 0.857317020650953
+  },
+  {
+   "frame": 41844,
+   "score": 0.7352461676811799
+  },
+  {
+   "frame": 42960,
+   "score": 0.5001551906345412
+  },
+  {
+   "frame": 43475,
+   "score": 0.7043916766997427
+  },
+  {
+   "frame": 43785,
+   "score": 0.34296346344053746
+  },
+  {
+   "frame": 44511,
+   "score": 0.4927788138156757
+  },
+  {
+   "frame": 45195,
+   "score": 0.8096603045705706
+  },
+  {
+   "frame": 45357,
+   "score": 0.6377042539184913
+  },
+  {
+   "frame": 46527,
+   "score": 0.32975174449384215
+  },
+  {
+   "frame": 47605,
+   "score": 0.8659966800711117
+  },
+  {
+   "frame": 48052,
+   "score": 0.2880233774194494
+  },
+  {
+   "frame": 50006,
+   "score": 0.889618031331338
+  },
+  {
+   "frame": 50805,
+   "score": 0.34898101368453355
+  },
+  {
+   "frame": 52419,
+   "score": 0.27111193754244595
+  },
+  {
+   "frame": 52608,
+   "score": 0.48135215337388215
+  },
+  {
+   "frame": 53187,
+   "score": 0.6363304142374545
+  },
+  {
+   "frame": 54300,
+   "score": 0.9505774060962722
+  },
+  {
+   "frame": 58823,
+   "score": 0.8510827948222868
+  },
+  {
+   "frame": 60166,
+   "score": 0.2646637091878802
+  },
+  {
+   "frame": 61250,
+   "score": 0.4476504661608487
+  },
+  {
+   "frame": 61464,
+   "score": 0.8726636209990829
+  },
+  {
+   "frame": 62692,
+   "score": 0.6042498293565586
+  },
+  {
+   "frame": 63061,
+   "score": 0.43056356308516114
+  },
+  {
+   "frame": 63927,
+   "score": 0.6480576988309622
+  },
+  {
+   "frame": 64997,
+   "score": 0.27089266597758976
+  },
+  {
+   "frame": 64997,
+   "score": 0.9407690572319553
+  },
+  {
+   "frame": 67248,
+   "score": 0.48278131005354225
+  },
+  {
+   "frame": 67803,
+   "score": 0.685804958618246
+  },
+  {
+   "frame": 69951,
+   "score": 0.9495668620220385
+  },
+  {
+   "frame": 71382,
+   "score": 0.44915113521274175
+  },
+  {
+   "frame": 72782,
+   "score": 0.8015241267392411
+  },
+  {
+   "frame": 73180,
+   "score": 0.37647030318621544
+  },
+  {
+   "frame": 73814,
+   "score": 0.2744346597464755
+  },
+  {
+   "frame": 74623,
+   "score": 0.45132077401503923
+  },
+  {
+   "frame": 74985,
+   "score": 0.7532967203529551
+  },
+  {
+   "frame": 75551,
+   "score": 0.9190532746375538
+  },
+  {
+   "frame": 77998,
+   "score": 0.3915655765915289
+  },
+  {
+   "frame": 81021,
+   "score": 0.25730841187760234
+  }
+ ],
+ "transcript": {
+  "language": "ko",
+  "segments": [
+   {
+    "id": "seg0000",
+    "startFrame": 33,
+    "endFrame": 129,
+    "text": "식을 다시 쓰면 도함수의 성질을,",
+    "isSentenceEnd": false,
+    "chapterId": "ch0"
+   },
+   {
+    "id": "seg0001",
+    "startFrame": 129,
+    "endFrame": 226,
+    "text": "활용할 수 있습니다.",
+    "isSentenceEnd": true,
+    "chapterId": "ch0"
+   },
+   {
+    "id": "seg0002",
+    "startFrame": 243,
+    "endFrame": 374,
+    "text": "학생들이 자주 실수하는 부분이 바로 도함수 소개입니다.",
+    "isSentenceEnd": true,
+    "chapterId": "ch0"
+   },
+   {
+    "id": "seg0003",
+    "startFrame": 406,
+    "endFrame": 501,
+    "text": "질문이 많았던 극한 부분을,",
+    "isSentenceEnd": false,
+    "chapterId": "ch0"
+   },
+   {
+    "id": "seg0004",
+    "startFrame": 501,
+    "endFrame": 596,
+    "text": "한 번 더 설명하겠습니다.",
+    "isSentenceEnd": true,
+    "chapterId": "ch0"
+   },
+   {
+    "id": "seg0005",
+    "startFrame": 660,
+    "endFrame": 805,
+    "text": "분모가 0이 되지 않도록 곱의 미분법의 조건을 확인합니다.",
+    "isSentenceEnd": true,
+    "chapterId": "ch0"
+   },
+   {
+    "id": "seg0006",
+    "startFrame": 820,
+    "endFrame": 931,
+    "text": "이제 최댓값를 이용해 최종 답을 구하겠습니다.",
+    "isSentenceEnd": true,
+    "chapterId": "ch0"
+   },
+   {
+    "id": "seg0007",
+    "startFrame": 972,
+    "endFrame": 1112,
+    "text": "이 식을 정리하면 도함수에 대한 표준형이 나옵니다.",
+    "isSentenceEnd": true,
+    "chapterId": "ch0"
+   },
+   {
+    "id": "seg0008",
+    "startFrame": 1183,
+    "endFrame": 1280,
+    "text": "여기서 변화율의 조건을 만족하는지 반드시 확인해야 합니다.",
+    "isSentenceEnd": true,
+    "chapterId": "ch0"
+   },
+   {
+    "id": "seg0009",
+    "startFrame": 1354,
+    "endFrame": 1558,
+    "text": "곱의 미분법의 기하학적 의미를 그래프로 확인해 봅시다.",
+    "isSentenceEnd": true,
+    "chapterId": "ch0"
+   },
+   {
+    "id": "seg0010",
+    "startFrame": 1611,
+    "endFrame": 1785,
+    "text": "조금 더 일반적인 상황으로 도함수 소개을 확장해 보겠습니다.",
+    "isSentenceEnd": true,
+    "chapterId": "ch0"
+   },
+   {
+    "id": "seg0011",
+    "startFrame": 1824,
+    "endFrame": 1947,
+    "text": "분모가 0이 되지 않도록 거듭제곱의 조건을 확인합니다.",
+    "isSentenceEnd": true,
+    "chapterId": "ch1_0"
+   },
+   {
+    "id": "seg0012",
+    "startFrame": 2016,
+    "endFrame": 2107,
+    "text": "식을 다시 쓰면 미분계수의 성질을 활용할 수 있습니다.",
+    "isSentenceEnd": true,
+    "chapterId": "ch1_0"
+   },
+   {
+    "id": "seg0013",
+    "startFrame": 2136,
+    "endFrame": 2211,
+    "text": "이제 곱의 미분법를 이용해 최종 답을 구하겠습니다.",
+    "isSentenceEnd": true,
+    "chapterId": "ch1_0"
+   },
+   {
+    "id": "seg0014",
+    "startFrame": 2262,
+    "endFrame": 2453,
+    "text": "칠판에 정리한 것처럼 도함수는 두 단계로 계산합니다.",
+    "isSentenceEnd": true,
+    "chapterId": "ch1_0"
+   },
+   {
+    "id": "seg0015",
+    "startFrame": 2471,
+    "endFrame": 2564,
+    "text": "그림에서 보듯이 증가와 감소는,",
+    "isSentenceEnd": false,
+    "chapterId": "ch1_0"
+   },
+   {
+    "id": "seg0016",
+    "startFrame": 2564,
+    "endFrame": 2657,
+    "text": "접선의 기울기와 같습니다.",
+    "isSentenceEnd": true,
+    "chapterId": "ch1_0"
+   },
+   {
+    "id": "seg0017",
+    "startFrame": 2703,
+    "endFrame": 2795,
+    "text": "칠판에 정리한 것처럼 도함수는 두 단계로 계산합니다.",
+    "isSentenceEnd": true,
+    "chapterId": "ch1_0"
+   },
+   {
+    "id": "seg0018",
+    "startFrame": 2852,
+    "endFrame": 2962,
+    "text": "그림에서 보듯이 미분계수는 접선의 기울기와 같습니다.",
+    "isSentenceEnd": true,
+    "chapterId": "ch1_0"
+   },
+   {
+    "id": "seg0019",
+    "startFrame": 3030,
+    "endFrame": 3129,
+    "text": "다음 예제에서 연쇄법칙를,",
+    "isSentenceEnd": false,
+    "chapterId": "ch1_0"
+   },
+   {
+    "id": "seg0020",
+    "startFrame": 3129,
+    "endFrame": 3228,
+    "text": "직접 계산해 보겠습니다.",
+    "isSentenceEnd": true,
+    "chapterId": "ch1_0"
+   },
+   {
+    "id": "seg0021",
+    "startFrame": 3267,
+    "endFrame": 3368,
+    "text": "앞의 결과와 비교하면 도함수의 정의의 구조가 보입니다.",
+    "isSentenceEnd": true,
+    "chapterId": "ch1_0"
+   },
+   {
+    "id": "seg0022",
+    "startFrame": 3436,
+    "endFrame": 3529,
+    "text": "연쇄법칙를 적용하기 전에 정의역을 먼저 확인합니다.",
+    "isSentenceEnd": true,
+    "chapterId": "ch1_0"
+   },
+   {
+    "id": "seg0023",
+    "startFrame": 3592,
+    "endFrame": 3725,
+    "text": "극한는 함수의 변화율을 나타내는 값으로 이해할 수 있습니다.",
+    "isSentenceEnd": true,
+    "chapterId": "ch1_0"
+   },
+   {
+    "id": "seg0024",
+    "startFrame": 3747,
+    "endFrame": 3832,
+    "text": "표를 그려서 접선의 증감을,",
+    "isSentenceEnd": false,
+    "chapterId": "ch1_0"
+   },
+   {
+    "id": "seg0025",
+    "startFrame": 3832,
+    "endFrame": 3918,
+    "text": "정리해 보겠습니다.",
+    "isSentenceEnd": true,
+    "chapterId": "ch1_0"
+   },
+   {
+    "id": "seg0026",
+    "startFrame": 3938,
+    "endFrame": 4055,
+    "text": "그림에서 보듯이 도함수는 접선의 기울기와 같습니다.",
+    "isSentenceEnd": true,
+    "chapterId": "ch1_1"
+   },
+   {
+    "id": "seg0027",
+    "startFrame": 4091,
+    "endFrame": 4167,
+    "text": "도함수의 기하학적 의미은 시험에서 매우 자주 출제되는 내용입니다.",
+    "isSentenceEnd": true,
+    "chapterId": "ch1_1"
+   },
+   {
+    "id": "seg0028",
+    "startFrame": 4185,
+    "endFrame": 4320,
+    "text": "학생들이 자주 실수하는 부분이 바로 도함수의 기하학적 의미입니다.",
+    "isSentenceEnd": true,
+    "chapterId": "ch1_1"
+   },
+   {
+    "id": "seg0029",
+    "startFrame": 4369,
+    "endFrame": 4458,
+    "text": "이제 도함수의 기하학적 의미을 실제 문제에 적용해 보겠습니다.",
+    "isSentenceEnd": true,
+    "chapterId": "ch1_1"
+   },
+   {
+    "id": "seg0030",
+    "startFrame": 4530,
+    "endFrame": 4638,
+    "text": "식을 다시 쓰면 연쇄법칙의 성질을 활용할 수 있습니다.",
+    "isSentenceEnd": true,
+    "chapterId": "ch1_1"
+   },
+   {
+    "id": "seg0031",
+    "startFrame": 4702,
+    "endFrame": 4779,
+    "text": "다음 예제에서 몫의 미분법를 직접 계산해 보겠습니다.",
+    "isSentenceEnd": true,
+    "chapterId": "ch1_1"
+   },
+   {
+    "id": "seg0032",
+    "startFrame": 4790,
+    "endFrame": 4916,
+    "text": "다음 예제에서 거듭제곱를 직접 계산해 보겠습니다.",
+    "isSentenceEnd": true,
+    "chapterId": "ch1_1"
+   },
+   {
+    "id": "seg0033",
+    "startFrame": 4963,
+    "endFrame": 5096,
+    "text": "분모가 0이 되지 않도록 거듭제곱의 조건을 확인합니다.",
+    "isSentenceEnd": true,
+    "chapterId": "ch1_1"
+   },
+   {
+    "id": "seg0034",
+    "startFrame": 5168,
+    "endFrame": 5276,
+    "text": "식을 다시 쓰면 거듭제곱의 성질을 활용할 수 있습니다.",
+    "isSentenceEnd": true,
+    "chapterId": "ch1_1"
+   },
+   {
+    "id": "seg0035",
+    "startFrame": 5313,
+    "endFrame": 5514,
+    "text": "이 결과는 몫의 미분법의 정의로부터 바로 따라옵니다.",
+    "isSentenceEnd": true,
+    "chapterId": "ch1_1"
+   },
+   {
+    "id": "seg0036",
+    "startFrame": 5568,
+    "endFrame": 5759,
+    "text": "양변을 미분하면 최적화의 형태가 그대로 드러납니다.",
+    "isSentenceEnd": true,
+    "chapterId": "ch1_1"
+   },
+   {
+    "id": "seg0037",
+    "startFrame": 5777,
+    "endFrame": 5858,
+    "text": "도함수의 기하학적 의미에서 가장 먼저 확인할 것은 연쇄법칙의 정의입니다.",
+    "isSentenceEnd": true,
+    "chapterId": "ch1_1"
+   },
+   {
+    "id": "seg0038",
+    "startFrame": 5871,
+    "endFrame": 5952,
+    "text": "도함수의 기하학적 의미을 이해하면 이후 단원이 훨씬 쉬워집니다.",
+    "isSentenceEnd": true,
+    "chapterId": "ch1_1"
+   },
+   {
+    "id": "seg0039",
+    "startFrame": 5973,
+    "endFrame": 6096,
+    "text": "조금 더 일반적인 상황으로 도함수의 기하학적 의미을 확장해 보겠습니다.",
+    "isSentenceEnd": true,
+    "chapterId": "ch1_1"
+   },
+   {
+    "id": "seg0040",
+    "startFrame": 6113,
+    "endFrame": 6244,
+    "text": "여기서 접선의 조건을 만족하는지 반드시 확인해야 합니다.",
+    "isSentenceEnd": true,
+    "chapterId": "ch1_1"
+   },
+   {
+    "id": "seg0041",
+    "startFrame": 6260,
+    "endFrame": 6435,
+    "text": "도함수의 기하학적 의미은 시험에서 매우 자주 출제되는 내용입니다.",
+    "isSentenceEnd": true,
+    "chapterId": "ch1_1"
+   },
+   {
+    "id": "seg0042",
+    "startFrame": 6488,
+    "endFrame": 6650,
+    "text": "조금 더 일반적인 상황으로 도함수의 기하학적 의미을 확장해 보겠습니다.",
+    "isSentenceEnd": true,
+    "chapterId": "ch1_1"
+   },
+   {
+    "id": "seg0043",
+    "startFrame": 6684,
+    "endFrame": 6857,
+    "text": "칠판에 정리한 것처럼 최댓값는 두 단계로 계산합니다.",
+    "isSentenceEnd": true,
+    "chapterId": "ch1_1"
+   },
+   {
+    "id": "seg0044",
+    "startFrame": 6901,
+    "endFrame": 7023,
+    "text": "여기까지가 도함수의 기하학적 의미의 기본 내용입니다.",
+    "isSentenceEnd": true,
+    "chapterId": "ch1_1"
+   },
+   {
+    "id": "seg0045",
+    "startFrame": 7037,
+    "endFrame": 7120,
+    "text": "이 식을 정리하면 극한에,",
+    "isSentenceEnd": false,
+    "chapterId": "ch1_2"
+   },
+   {
+    "id": "seg0046",
+    "startFrame": 7120,
+    "endFrame": 7204,
+    "text": "대한 표준형이 나옵니다.",
+    "isSentenceEnd": true,
+    "chapterId": "ch1_2"
+   },
+   {
+    "id": "seg0047",
+    "startFrame": 7249,
+    "endFrame": 7353,
+    "text": "이 식을 정리하면 미분계수에 대한 표준형이 나옵니다.",
+    "isSentenceEnd": true,
+    "chapterId": "ch1_2"
+   },
+   {
+    "id": "seg0048",
+    "startFrame": 7388,
+    "endFrame": 7593,
+    "text": "양변을 미분하면 최적화의 형태가 그대로 드러납니다.",
+    "isSentenceEnd": true,
+    "chapterId": "ch1_2"
+   },
+   {
+    "id": "seg0049",
+    "startFrame": 7637,
+    "endFrame": 7739,
+    "text": "앞에서 배운 도함수를 그대로 사용하면 계산이 간단해집니다.",
+    "isSentenceEnd": true,
+    "chapterId": "ch1_2"
+   },
+   {
+    "id": "seg0050",
+    "startFrame": 7753,
+    "endFrame": 7834,
+    "text": "이 결과는 변화율의 정의로부터 바로 따라옵니다.",
+    "isSentenceEnd": true,
+    "chapterId": "ch1_2"
+   },
+   {
+    "id": "seg0051",
+    "startFrame": 7850,
+    "endFrame": 8027,
+    "text": "기본 미분법에서 가장 먼저 확인할 것은 증가와 감소의 정의입니다.",
+    "isSentenceEnd": true,
+    "chapterId": "ch1_2"
+   },
+   {
+    "id": "seg0052",
+    "startFrame": 8041,
+    "endFrame": 8140,
+    "text": "그림에서 보듯이 극한는 접선의,",
+    "isSentenceEnd": false,
+    "chapterId": "ch1_2"
+   },
+   {
+    "id": "seg0053",
+    "startFrame": 8140,
+    "endFrame": 8240,
+    "text": "기울기와 같습니다.",
+    "isSentenceEnd": true,
+    "chapterId": "ch1_2"
+   },
+   {
+    "id": "seg0054",
+    "startFrame": 8294,
+    "endFrame": 8380,
+    "text": "질문이 많았던 극한 부분을 한 번 더 설명하겠습니다.",
+    "isSentenceEnd": true,
+    "chapterId": "ch1_2"
+   },
+   {
+    "id": "seg0055",
+    "startFrame": 8394,
+    "endFrame": 8505,
+    "text": "조금 더 일반적인 상황으로 기본 미분법을 확장해 보겠습니다.",
+    "isSentenceEnd": true,
+    "chapterId": "ch1_2"
+   },
+   {
+    "id": "seg0056",
+    "startFrame": 8543,
+    "endFrame": 8654,
+    "text": "조금 더 일반적인 상황으로 기본 미분법을 확장해 보겠습니다.",
+    "isSentenceEnd": true,
+    "chapterId": "ch1_2"
+   },
+   {
+    "id": "seg0057",
+    "startFrame": 8678,
+    "endFrame": 8768,
+    "text": "기본 미분법을 정리하면서 이번 시간을 마치겠습니다.",
+    "isSentenceEnd": true,
+    "chapterId": "ch1_2"
+   },
+   {
+    "id": "seg0058",
+    "startFrame": 8793,
+    "endFrame": 8918,
+    "text": "칠판에 정리한 것처럼 도함수는 두 단계로 계산합니다.",
+    "isSentenceEnd": true,
+    "chapterId": "ch1_2"
+   },
+   {
+    "id": "seg0059",
+    "startFrame": 8933,
+    "endFrame": 9074,
+    "text": "양변을 미분하면 도함수의 형태가 그대로 드러납니다.",
+    "isSentenceEnd": true,
+    "chapterId": "ch1_2"
+   },
+   {
+    "id": "seg0060",
+    "startFrame": 9098,
+    "endFrame": 9234,
+    "text": "학생들이 자주 실수하는 부분이 바로 기본 미분법입니다.",
+    "isSentenceEnd": true,
+    "chapterId": "ch1_2"
+   },
+   {
+    "id": "seg0061",
+    "startFrame": 9272,
+    "endFrame": 9410,
+    "text": "조금 더 일반적인 상황으로 기본 미분법을 확장해 보겠습니다.",
+    "isSentenceEnd": true,
+    "chapterId": "ch1_2"
+   },
+   {
+    "id": "seg0062",
+    "startFrame": 9478,
+    "endFrame": 9567,
+    "text": "기본 미분법에서 가장 먼저 확인할 것은 최댓값의 정의입니다.",
+    "isSentenceEnd": true,
+    "chapterId": "ch1_2"
+   },
+   {
+    "id": "seg0063",
+    "startFrame": 9613,
+    "endFrame": 9773,
+    "text": "이 결과는 변화율의 정의로부터 바로 따라옵니다.",
+    "isSentenceEnd": true,
+    "chapterId": "ch1_2"
+   },
+   {
+    "id": "seg0064",
+    "startFrame": 9783,
+    "endFrame": 9916,
+    "text": "이제 증가와 감소를 이용해 최종 답을 구하겠습니다.",
+    "isSentenceEnd": true,
+    "chapterId": "ch1_2"
+   },
+   {
+    "id": "seg0065",
+    "startFrame": 9965,
+    "endFrame": 10139,
+    "text": "이제 기본 미분법을 실제 문제에 적용해 보겠습니다.",
+    "isSentenceEnd": true,
+    "chapterId": "ch1_2"
+   },
+   {
+    "id": "seg0066",
+    "startFrame": 10179,
+    "endFrame": 10258,
+    "text": "기본 미분법의 핵심은 극한이 존재하는지 판단하는 데 있습니다.",
+    "isSentenceEnd": true,
+    "chapterId": "ch1_2"
+   },
+   {
+    "id": "seg0067",
+    "startFrame": 10318,
+    "endFrame": 10410,
+    "text": "그림에서 보듯이 도함수는 접선의,",
+    "isSentenceEnd": false,
+    "chapterId": "ch1_2"
+   },
+   {
+    "id": "seg0068",
+    "startFrame": 10410,
+    "endFrame": 10502,
+    "text": "기울기와 같습니다.",
+    "isSentenceEnd": true,
+    "chapterId": "ch1_2"
+   },
+   {
+    "id": "seg0069",
+    "startFrame": 10525,
+    "endFrame": 10652,
+    "text": "조금 더 일반적인 상황으로 기본 미분법을 확장해 보겠습니다.",
+    "isSentenceEnd": true,
+    "chapterId": "ch1_2"
+   },
+   {
+    "id": "seg0070",
+    "startFrame": 10663,
+    "endFrame": 10806,
+    "text": "칠판에 정리한 것처럼 연쇄법칙는 두 단계로 계산합니다.",
+    "isSentenceEnd": true,
+    "chapterId": "ch1_2"
+   },
+   {
+    "id": "seg0071",
+    "startFrame": 10843,
+    "endFrame": 10950,
+    "text": "이 결과는 미분계수의 정의로부터 바로 따라옵니다.",
+    "isSentenceEnd": true,
+    "chapterId": "ch1_2"
+   },
+   {
+    "id": "seg0072",
+    "startFrame": 11007,
+    "endFrame": 11112,
+    "text": "앞의 결과와 비교하면 기본 미분법의 구조가 보입니다.",
+    "isSentenceEnd": true,
+    "chapterId": "ch1_2"
+   },
+   {
+    "id": "seg0073",
+    "startFrame": 11170,
+    "endFrame": 11286,
+    "text": "여기까지가 기본 미분법의 기본 내용입니다.",
+    "isSentenceEnd": true,
+    "chapterId": "ch1_2"
+   },
+   {
+    "id": "seg0074",
+    "startFrame": 11305,
+    "endFrame": 11412,
+    "text": "조금 더 일반적인 상황으로 기본 미분법을 확장해 보겠습니다.",
+    "isSentenceEnd": true,
+    "chapterId": "ch1_2"
+   },
+   {
+    "id": "seg0075",
+    "startFrame": 11474,
+    "endFrame": 11594,
+    "text": "식을 다시 쓰면 거듭제곱의 성질을 활용할 수 있습니다.",
+    "isSentenceEnd": true,
+    "chapterId": "ch1_2"
+   },
+   {
+    "id": "seg0076",
+    "startFrame": 11662,
+    "endFrame": 11869,
+    "text": "다음 예제에서 최댓값를 직접 계산해 보겠습니다.",
+    "isSentenceEnd": true,
+    "chapterId": "ch2_0"
+   },
+   {
+    "id": "seg0077",
+    "startFrame": 11917,
+    "endFrame": 12010,
+    "text": "학생들이 자주 실수하는 부분이 바로 거듭제곱 미분법입니다.",
+    "isSentenceEnd": true,
+    "chapterId": "ch2_0"
+   },
+   {
+    "id": "seg0078",
+    "startFrame": 12021,
+    "endFrame": 12104,
+    "text": "앞의 결과와 비교하면 거듭제곱 미분법의 구조가 보입니다.",
+    "isSentenceEnd": true,
+    "chapterId": "ch2_0"
+   },
+   {
+    "id": "seg0079",
+    "startFrame": 12161,
+    "endFrame": 12297,
+    "text": "거듭제곱 미분법에서 가장 먼저 확인할 것은 접선의 정의입니다.",
+    "isSentenceEnd": true,
+    "chapterId": "ch2_0"
+   },
+   {
+    "id": "seg0080",
+    "startFrame": 12327,
+    "endFrame": 12471,
+    "text": "이 결과는 접선의 정의로부터 바로 따라옵니다.",
+    "isSentenceEnd": true,
+    "chapterId": "ch2_0"
+   },
+   {
+    "id": "seg0081",
+    "startFrame": 12516,
+    "endFrame": 12617,
+    "text": "양변을 미분하면 변화율의 형태가 그대로 드러납니다.",
+    "isSentenceEnd": true,
+    "chapterId": "ch2_0"
+   },
+   {
+    "id": "seg0082",
+    "startFrame": 12632,
+    "endFrame": 12746,
+    "text": "조금 더 일반적인 상황으로 거듭제곱 미분법을 확장해 보겠습니다.",
+    "isSentenceEnd": true,
+    "chapterId": "ch2_0"
+   },
+   {
+    "id": "seg0083",
+    "startFrame": 12792,
+    "endFrame": 12989,
+    "text": "표를 그려서 미분계수의 증감을 정리해 보겠습니다.",
+    "isSentenceEnd": true,
+    "chapterId": "ch2_0"
+   },
+   {
+    "id": "seg0084",
+    "startFrame": 13027,
+    "endFrame": 13121,
+    "text": "거듭제곱 미분법은 시험에서 매우,",
+    "isSentenceEnd": false,
+    "chapterId": "ch2_0"
+   },
+   {
+    "id": "seg0085",
+    "startFrame": 13121,
+    "endFrame": 13216,
+    "text": "자주 출제되는 내용입니다.",
+    "isSentenceEnd": true,
+    "chapterId": "ch2_0"
+   },
+   {
+    "id": "seg0086",
+    "startFrame": 13271,
+    "endFrame": 13413,
+    "text": "양변을 미분하면 변화율의 형태가 그대로 드러납니다.",
+    "isSentenceEnd": true,
+    "chapterId": "ch2_0"
+   },
+   {
+    "id": "seg0087",
+    "startFrame": 13433,
+    "endFrame": 13550,
+    "text": "이제 연쇄법칙를 이용해 최종 답을 구하겠습니다.",
+    "isSentenceEnd": true,
+    "chapterId": "ch2_0"
+   },
+   {
+    "id": "seg0088",
+    "startFrame": 13575,
+    "endFrame": 13689,
+    "text": "그림에서 보듯이 접선는 접선의 기울기와 같습니다.",
+    "isSentenceEnd": true,
+    "chapterId": "ch2_0"
+   },
+   {
+    "id": "seg0089",
+    "startFrame": 13727,
+    "endFrame": 13838,
+    "text": "이 문제는 거듭제곱 미분법의 전형적인 유형입니다.",
+    "isSentenceEnd": true,
+    "chapterId": "ch2_0"
+   },
+   {
+    "id": "seg0090",
+    "startFrame": 13892,
+    "endFrame": 14055,
+    "text": "거듭제곱 미분법의 핵심은 극한이 존재하는지 판단하는 데 있습니다.",
+    "isSentenceEnd": true,
+    "chapterId": "ch2_0"
+   },
+   {
+    "id": "seg0091",
+    "startFrame": 14073,
+    "endFrame": 14225,
+    "text": "여기서 곱의 미분법의 조건을 만족하는지 반드시 확인해야 합니다.",
+    "isSentenceEnd": true,
+    "chapterId": "ch2_0"
+   },
+   {
+    "id": "seg0092",
+    "startFrame": 14287,
+    "endFrame": 14485,
+    "text": "거듭제곱 미분법에서 가장 먼저 확인할 것은 도함수의 정의입니다.",
+    "isSentenceEnd": true,
+    "chapterId": "ch2_0"
+   },
+   {
+    "id": "seg0093",
+    "startFrame": 14504,
+    "endFrame": 14711,
+    "text": "거듭제곱 미분법은 시험에서 매우 자주 출제되는 내용입니다.",
+    "isSentenceEnd": true,
+    "chapterId": "ch2_0"
+   },
+   {
+    "id": "seg0094",
+    "startFrame": 14765,
+    "endFrame": 14894,
+    "text": "거듭제곱 미분법은 시험에서 매우 자주 출제되는 내용입니다.",
+    "isSentenceEnd": true,
+    "chapterId": "ch2_0"
+   },
+   {
+    "id": "seg0095",
+    "startFrame": 14951,
+    "endFrame": 15064,
+    "text": "이제 변화율를 이용해 최종 답을 구하겠습니다.",
+    "isSentenceEnd": true,
+    "chapterId": "ch2_0"
+   },
+   {
+    "id": "seg0096",
+    "startFrame": 15087,
+    "endFrame": 15176,
+    "text": "증가와 감소를 적용하기 전에 정의역을 먼저 확인합니다.",
+    "isSentenceEnd": true,
+    "chapterId": "ch2_0"
+   },
+   {
+    "id": "seg0097",
+    "startFrame": 15247,
+    "endFrame": 15322,
+    "text": "거듭제곱 미분법을 이해하면 이후 단원이 훨씬 쉬워집니다.",
+    "isSentenceEnd": true,
+    "chapterId": "ch2_0"
+   },
+   {
+    "id": "seg0098",
+    "startFrame": 15356,
+    "endFrame": 15434,
+    "text": "칠판에 정리한 것처럼 접선는 두 단계로 계산합니다.",
+    "isSentenceEnd": true,
+    "chapterId": "ch2_0"
+   },
+   {
+    "id": "seg0099",
+    "startFrame": 15451,
+    "endFrame": 15538,
+    "text": "거듭제곱 미분법을 정리하면서,",
+    "isSentenceEnd": false,
+    "chapterId": "ch2_0"
+   },
+   {
+    "id": "seg0100",
+    "startFrame": 15538,
+    "endFrame": 15625,
+    "text": "이번 시간을 마치겠습니다.",
+    "isSentenceEnd": true,
+    "chapterId": "ch2_0"
+   },
+   {
+    "id": "seg0101",
+    "startFrame": 15662,
+    "endFrame": 15748,
+    "text": "접선가 연속인지 먼저,",
+    "isSentenceEnd": false,
+    "chapterId": "ch2_0"
+   },
+   {
+    "id": "seg0102",
+    "startFrame": 15748,
+    "endFrame": 15835,
+    "text": "살펴보아야 합니다.",
+    "isSentenceEnd": true,
+    "chapterId": "ch2_0"
+   },
+   {
+    "id": "seg0103",
+    "startFrame": 15905,
+    "endFrame": 16069,
+    "text": "조금 더 일반적인 상황으로 거듭제곱 미분법을 확장해 보겠습니다.",
+    "isSentenceEnd": true,
+    "chapterId": "ch2_0"
+   },
+   {
+    "id": "seg0104",
+    "startFrame": 16125,
+    "endFrame": 16237,
+    "text": "이 식을 정리하면 몫의 미분법에 대한 표준형이 나옵니다.",
+    "isSentenceEnd": true,
+    "chapterId": "ch2_0"
+   },
+   {
+    "id": "seg0105",
+    "startFrame": 16293,
+    "endFrame": 16456,
+    "text": "질문이 많았던 거듭제곱 부분을 한 번 더 설명하겠습니다.",
+    "isSentenceEnd": true,
+    "chapterId": "ch2_0"
+   },
+   {
+    "id": "seg0106",
+    "startFrame": 16524,
+    "endFrame": 16657,
+    "text": "다음 예제에서 연쇄법칙를 직접 계산해 보겠습니다.",
+    "isSentenceEnd": true,
+    "chapterId": "ch2_0"
+   },
+   {
+    "id": "seg0107",
+    "startFrame": 16676,
+    "endFrame": 16762,
+    "text": "양변을 미분하면 최적화의 형태가,",
+    "isSentenceEnd": false,
+    "chapterId": "ch2_0"
+   },
+   {
+    "id": "seg0108",
+    "startFrame": 16762,
+    "endFrame": 16849,
+    "text": "그대로 드러납니다.",
+    "isSentenceEnd": true,
+    "chapterId": "ch2_0"
+   },
+   {
+    "id": "seg0109",
+    "startFrame": 16917,
+    "endFrame": 17025,
+    "text": "여기서 최적화의 조건을 만족하는지 반드시 확인해야 합니다.",
+    "isSentenceEnd": true,
+    "chapterId": "ch2_0"
+   },
+   {
+    "id": "seg0110",
+    "startFrame": 17056,
+    "endFrame": 17140,
+    "text": "이 문제는 거듭제곱 미분법의,",
+    "isSentenceEnd": false,
+    "chapterId": "ch2_0"
+   },
+   {
+    "id": "seg0111",
+    "startFrame": 17140,
+    "endFrame": 17224,
+    "text": "전형적인 유형입니다.",
+    "isSentenceEnd": true,
+    "chapterId": "ch2_0"
+   },
+   {
+    "id": "seg0112",
+    "startFrame": 17236,
+    "endFrame": 17327,
+    "text": "거듭제곱 미분법의 핵심은 극한이 존재하는지 판단하는 데 있습니다.",
+    "isSentenceEnd": true,
+    "chapterId": "ch2_0"
+   },
+   {
+    "id": "seg0113",
+    "startFrame": 17340,
+    "endFrame": 17528,
+    "text": "거듭제곱 미분법을 정리하면서 이번 시간을 마치겠습니다.",
+    "isSentenceEnd": true,
+    "chapterId": "ch2_0"
+   },
+   {
+    "id": "seg0114",
+    "startFrame": 17541,
+    "endFrame": 17648,
+    "text": "학생들이 자주 실수하는 부분이 바로 거듭제곱 미분법입니다.",
+    "isSentenceEnd": true,
+    "chapterId": "ch2_0"
+   },
+   {
+    "id": "seg0115",
+    "startFrame": 17687,
+    "endFrame": 17862,
+    "text": "앞에서 배운 극한를 그대로 사용하면 계산이 간단해집니다.",
+    "isSentenceEnd": true,
+    "chapterId": "ch2_0"
+   },
+   {
+    "id": "seg0116",
+    "startFrame": 17934,
+    "endFrame": 18077,
+    "text": "이제 거듭제곱 미분법을 실제 문제에 적용해 보겠습니다.",
+    "isSentenceEnd": true,
+    "chapterId": "ch2_0"
+   },
+   {
+    "id": "seg0117",
+    "startFrame": 18139,
+    "endFrame": 18217,
+    "text": "거듭제곱 미분법에서 가장 먼저 확인할 것은 최적화의 정의입니다.",
+    "isSentenceEnd": true,
+    "chapterId": "ch2_0"
+   },
+   {
+    "id": "seg0118",
+    "startFrame": 18238,
+    "endFrame": 18420,
+    "text": "이제 극한를 이용해 최종 답을 구하겠습니다.",
+    "isSentenceEnd": true,
+    "chapterId": "ch2_0"
+   },
+   {
+    "id": "seg0119",
+    "startFrame": 18431,
+    "endFrame": 18636,
+    "text": "학생들이 자주 실수하는 부분이 바로 거듭제곱 미분법입니다.",
+    "isSentenceEnd": true,
+    "chapterId": "ch2_0"
+   },
+   {
+    "id": "seg0120",
+    "startFrame": 18687,
+    "endFrame": 18865,
+    "text": "이제 거듭제곱 미분법을 실제 문제에 적용해 보겠습니다.",
+    "isSentenceEnd": true,
+    "chapterId": "ch2_0"
+   },
+   {
+    "id": "seg0121",
+    "startFrame": 18883,
+    "endFrame": 18986,
+    "text": "앞에서 배운 몫의 미분법를 그대로 사용하면 계산이 간단해집니다.",
+    "isSentenceEnd": true,
+    "chapterId": "ch2_0"
+   },
+   {
+    "id": "seg0122",
+    "startFrame": 19060,
+    "endFrame": 19183,
+    "text": "여기까지가 거듭제곱 미분법의 기본 내용입니다.",
+    "isSentenceEnd": true,
+    "chapterId": "ch2_0"
+   },
+   {
+    "id": "seg0123",
+    "startFrame": 19200,
+    "endFrame": 19300,
+    "text": "이 식을 정리하면 극한에 대한 표준형이 나옵니다.",
+    "isSentenceEnd": true,
+    "chapterId": "ch2_0"
+   },
+   {
+    "id": "seg0124",
+    "startFrame": 19344,
+    "endFrame": 19436,
+    "text": "양변을 미분하면 연쇄법칙의,",
+    "isSentenceEnd": false,
+    "chapterId": "ch2_0"
+   },
+   {
+    "id": "seg0125",
+    "startFrame": 19436,
+    "endFrame": 19529,
+    "text": "형태가 그대로 드러납니다.",
+    "isSentenceEnd": true,
+    "chapterId": "ch2_0"
+   },
+   {
+    "id": "seg0126",
+    "startFrame": 19576,
+    "endFrame": 19660,
+    "text": "다음 예제에서 극한를 직접 계산해 보겠습니다.",
+    "isSentenceEnd": true,
+    "chapterId": "ch2_1"
+   },
+   {
+    "id": "seg0127",
+    "startFrame": 19671,
+    "endFrame": 19875,
+    "text": "앞에서 배운 거듭제곱를 그대로 사용하면 계산이 간단해집니다.",
+    "isSentenceEnd": true,
+    "chapterId": "ch2_1"
+   },
+   {
+    "id": "seg0128",
+    "startFrame": 19930,
+    "endFrame": 20090,
+    "text": "이 경우 미분계수의 부호가 바뀌는 지점을 찾아야 합니다.",
+    "isSentenceEnd": true,
+    "chapterId": "ch2_1"
+   },
+   {
+    "id": "seg0129",
+    "startFrame": 20162,
+    "endFrame": 20324,
+    "text": "극한의 기하학적 의미를 그래프로 확인해 봅시다.",
+    "isSentenceEnd": true,
+    "chapterId": "ch2_1"
+   },
+   {
+    "id": "seg0130",
+    "startFrame": 20385,
+    "endFrame": 20508,
+    "text": "앞에서 배운 변화율를 그대로 사용하면 계산이 간단해집니다.",
+    "isSentenceEnd": true,
+    "chapterId": "ch2_1"
+   },
+   {
+    "id": "seg0131",
+    "startFrame": 20523,
+    "endFrame": 20708,
+    "text": "곱의 미분법을 정리하면서 이번 시간을 마치겠습니다.",
+    "isSentenceEnd": true,
+    "chapterId": "ch2_1"
+   },
+   {
+    "id": "seg0132",
+    "startFrame": 20769,
+    "endFrame": 20974,
+    "text": "여기서 접선의 조건을 만족하는지 반드시 확인해야 합니다.",
+    "isSentenceEnd": true,
+    "chapterId": "ch2_1"
+   },
+   {
+    "id": "seg0133",
+    "startFrame": 21029,
+    "endFrame": 21153,
+    "text": "여기까지가 곱의 미분법의 기본 내용입니다.",
+    "isSentenceEnd": true,
+    "chapterId": "ch2_1"
+   },
+   {
+    "id": "seg0134",
+    "startFrame": 21210,
+    "endFrame": 21348,
+    "text": "곱의 미분법을 이해하면 이후 단원이 훨씬 쉬워집니다.",
+    "isSentenceEnd": true,
+    "chapterId": "ch2_1"
+   },
+   {
+    "id": "seg0135",
+    "startFrame": 21404,
+    "endFrame": 21552,
+    "text": "학생들이 자주 실수하는 부분이 바로 곱의 미분법입니다.",
+    "isSentenceEnd": true,
+    "chapterId": "ch2_1"
+   },
+   {
+    "id": "seg0136",
+    "startFrame": 21576,
+    "endFrame": 21689,
+    "text": "최댓값는 함수의 변화율을 나타내는 값으로 이해할 수 있습니다.",
+    "isSentenceEnd": true,
+    "chapterId": "ch2_1"
+   },
+   {
+    "id": "seg0137",
+    "startFrame": 21762,
+    "endFrame": 21890,
+    "text": "식을 다시 쓰면 도함수의 성질을 활용할 수 있습니다.",
+    "isSentenceEnd": true,
+    "chapterId": "ch2_1"
+   },
+   {
+    "id": "seg0138",
+    "startFrame": 21911,
+    "endFrame": 21996,
+    "text": "질문이 많았던 접선 부분을,",
+    "isSentenceEnd": false,
+    "chapterId": "ch2_1"
+   },
+   {
+    "id": "seg0139",
+    "startFrame": 21996,
+    "endFrame": 22082,
+    "text": "한 번 더 설명하겠습니다.",
+    "isSentenceEnd": true,
+    "chapterId": "ch2_1"
+   },
+   {
+    "id": "seg0140",
+    "startFrame": 22128,
+    "endFrame": 22225,
+    "text": "이제 곱의 미분법을 실제 문제에 적용해 보겠습니다.",
+    "isSentenceEnd": true,
+    "chapterId": "ch2_1"
+   },
+   {
+    "id": "seg0141",
+    "startFrame": 22242,
+    "endFrame": 22403,
+    "text": "이 식을 정리하면 도함수에 대한 표준형이 나옵니다.",
+    "isSentenceEnd": true,
+    "chapterId": "ch2_1"
+   },
+   {
+    "id": "seg0142",
+    "startFrame": 22440,
+    "endFrame": 22594,
+    "text": "그림에서 보듯이 최적화는 접선의 기울기와 같습니다.",
+    "isSentenceEnd": true,
+    "chapterId": "ch2_1"
+   },
+   {
+    "id": "seg0143",
+    "startFrame": 22627,
+    "endFrame": 22728,
+    "text": "이제 도함수를 이용해 최종 답을 구하겠습니다.",
+    "isSentenceEnd": true,
+    "chapterId": "ch2_1"
+   },
+   {
+    "id": "seg0144",
+    "startFrame": 22783,
+    "endFrame": 22873,
+    "text": "변화율를 적용하기 전에 정의역을 먼저 확인합니다.",
+    "isSentenceEnd": true,
+    "chapterId": "ch2_1"
+   },
+   {
+    "id": "seg0145",
+    "startFrame": 22885,
+    "endFrame": 23064,
+    "text": "앞의 결과와 비교하면 곱의 미분법의 구조가 보입니다.",
+    "isSentenceEnd": true,
+    "chapterId": "ch2_1"
+   },
+   {
+    "id": "seg0146",
+    "startFrame": 23101,
+    "endFrame": 23205,
+    "text": "이 식을 정리하면 곱의 미분법에,",
+    "isSentenceEnd": false,
+    "chapterId": "ch2_1"
+   },
+   {
+    "id": "seg0147",
+    "startFrame": 23205,
+    "endFrame": 23309,
+    "text": "대한 표준형이 나옵니다.",
+    "isSentenceEnd": true,
+    "chapterId": "ch2_1"
+   },
+   {
+    "id": "seg0148",
+    "startFrame": 23333,
+    "endFrame": 23427,
+    "text": "표를 그려서 미분계수의 증감을,",
+    "isSentenceEnd": false,
+    "chapterId": "ch2_1"
+   },
+   {
+    "id": "seg0149",
+    "startFrame": 23427,
+    "endFrame": 23521,
+    "text": "정리해 보겠습니다.",
+    "isSentenceEnd": true,
+    "chapterId": "ch2_1"
+   },
+   {
+    "id": "seg0150",
+    "startFrame": 23566,
+    "endFrame": 23666,
+    "text": "학생들이 자주 실수하는 부분이 바로 곱의 미분법입니다.",
+    "isSentenceEnd": true,
+    "chapterId": "ch2_1"
+   },
+   {
+    "id": "seg0151",
+    "startFrame": 23696,
+    "endFrame": 23850,
+    "text": "이 문제는 곱의 미분법의 전형적인 유형입니다.",
+    "isSentenceEnd": true,
+    "chapterId": "ch2_1"
+   },
+   {
+    "id": "seg0152",
+    "startFrame": 23911,
+    "endFrame": 24012,
+    "text": "곱의 미분법에서 가장 먼저 확인할 것은 연쇄법칙의 정의입니다.",
+    "isSentenceEnd": true,
+    "chapterId": "ch2_1"
+   },
+   {
+    "id": "seg0153",
+    "startFrame": 24051,
+    "endFrame": 24222,
+    "text": "질문이 많았던 최댓값 부분을 한 번 더 설명하겠습니다.",
+    "isSentenceEnd": true,
+    "chapterId": "ch2_1"
+   },
+   {
+    "id": "seg0154",
+    "startFrame": 24265,
+    "endFrame": 24454,
+    "text": "이제 곱의 미분법을 실제 문제에 적용해 보겠습니다.",
+    "isSentenceEnd": true,
+    "chapterId": "ch2_1"
+   },
+   {
+    "id": "seg0155",
+    "startFrame": 24487,
+    "endFrame": 24576,
+    "text": "여기까지가 곱의 미분법의,",
+    "isSentenceEnd": false,
+    "chapterId": "ch2_1"
+   },
+   {
+    "id": "seg0156",
+    "startFrame": 24576,
+    "endFrame": 24665,
+    "text": "기본 내용입니다.",
+    "isSentenceEnd": true,
+    "chapterId": "ch2_1"
+   },
+   {
+    "id": "seg0157",
+    "startFrame": 24726,
+    "endFrame": 24886,
+    "text": "이 식을 정리하면 변화율에 대한 표준형이 나옵니다.",
+    "isSentenceEnd": true,
+    "chapterId": "ch2_1"
+   },
+   {
+    "id": "seg0158",
+    "startFrame": 24903,
+    "endFrame": 24992,
+    "text": "학생들이 자주 실수하는 부분이 바로 곱의 미분법입니다.",
+    "isSentenceEnd": true,
+    "chapterId": "ch2_1"
+   },
+   {
+    "id": "seg0159",
+    "startFrame": 25032,
+    "endFrame": 25179,
+    "text": "이 문제는 곱의 미분법의 전형적인 유형입니다.",
+    "isSentenceEnd": true,
+    "chapterId": "ch2_1"
+   },
+   {
+    "id": "seg0160",
+    "startFrame": 25246,
+    "endFrame": 25411,
+    "text": "이 경우 극한의 부호가 바뀌는 지점을 찾아야 합니다.",
+    "isSentenceEnd": true,
+    "chapterId": "ch2_1"
+   },
+   {
+    "id": "seg0161",
+    "startFrame": 25429,
+    "endFrame": 25521,
+    "text": "이 경우 변화율의 부호가 바뀌는 지점을 찾아야 합니다.",
+    "isSentenceEnd": true,
+    "chapterId": "ch2_1"
+   },
+   {
+    "id": "seg0162",
+    "startFrame": 25548,
+    "endFrame": 25624,
+    "text": "곱의 미분법은 시험에서 매우 자주 출제되는 내용입니다.",
+    "isSentenceEnd": true,
+    "chapterId": "ch2_1"
+   },
+   {
+    "id": "seg0163",
+    "startFrame": 25672,
+    "endFrame": 25828,
+    "text": "질문이 많았던 최적화 부분을 한 번 더 설명하겠습니다.",
+    "isSentenceEnd": true,
+    "chapterId": "ch2_2"
+   },
+   {
+    "id": "seg0164",
+    "startFrame": 25852,
+    "endFrame": 26037,
+    "text": "다음 예제에서 미분계수를 직접 계산해 보겠습니다.",
+    "isSentenceEnd": true,
+    "chapterId": "ch2_2"
+   },
+   {
+    "id": "seg0165",
+    "startFrame": 26096,
+    "endFrame": 26239,
+    "text": "앞에서 배운 곱의 미분법를 그대로 사용하면 계산이 간단해집니다.",
+    "isSentenceEnd": true,
+    "chapterId": "ch2_2"
+   },
+   {
+    "id": "seg0166",
+    "startFrame": 26277,
+    "endFrame": 26419,
+    "text": "몫의 미분법을 이해하면 이후 단원이 훨씬 쉬워집니다.",
+    "isSentenceEnd": true,
+    "chapterId": "ch2_2"
+   },
+   {
+    "id": "seg0167",
+    "startFrame": 26439,
+    "endFrame": 26546,
+    "text": "이 식을 정리하면 몫의 미분법에 대한 표준형이 나옵니다.",
+    "isSentenceEnd": true,
+    "chapterId": "ch2_2"
+   },
+   {
+    "id": "seg0168",
+    "startFrame": 26575,
+    "endFrame": 26765,
+    "text": "이제 몫의 미분법을 실제 문제에 적용해 보겠습니다.",
+    "isSentenceEnd": true,
+    "chapterId": "ch2_2"
+   },
+   {
+    "id": "seg0169",
+    "startFrame": 26789,
+    "endFrame": 26925,
+    "text": "다음 예제에서 접선를 직접 계산해 보겠습니다.",
+    "isSentenceEnd": true,
+    "chapterId": "ch2_2"
+   },
+   {
+    "id": "seg0170",
+    "startFrame": 26993,
+    "endFrame": 27089,
+    "text": "양변을 미분하면 변화율의 형태가,",
+    "isSentenceEnd": false,
+    "chapterId": "ch2_2"
+   },
+   {
+    "id": "seg0171",
+    "startFrame": 27089,
+    "endFrame": 27186,
+    "text": "그대로 드러납니다.",
+    "isSentenceEnd": true,
+    "chapterId": "ch2_2"
+   },
+   {
+    "id": "seg0172",
+    "startFrame": 27257,
+    "endFrame": 27426,
+    "text": "몫의 미분법을 이해하면 이후 단원이 훨씬 쉬워집니다.",
+    "isSentenceEnd": true,
+    "chapterId": "ch2_2"
+   },
+   {
+    "id": "seg0173",
+    "startFrame": 27452,
+    "endFrame": 27541,
+    "text": "질문이 많았던 거듭제곱 부분을,",
+    "isSentenceEnd": false,
+    "chapterId": "ch2_2"
+   },
+   {
+    "id": "seg0174",
+    "startFrame": 27541,
+    "endFrame": 27631,
+    "text": "한 번 더 설명하겠습니다.",
+    "isSentenceEnd": true,
+    "chapterId": "ch2_2"
+   },
+   {
+    "id": "seg0175",
+    "startFrame": 27683,
+    "endFrame": 27759,
+    "text": "그림에서 보듯이 극한는 접선의 기울기와 같습니다.",
+    "isSentenceEnd": true,
+    "chapterId": "ch2_2"
+   },
+   {
+    "id": "seg0176",
+    "startFrame": 27805,
+    "endFrame": 27968,
+    "text": "몫의 미분법을 정리하면서 이번 시간을 마치겠습니다.",
+    "isSentenceEnd": true,
+    "chapterId": "ch2_2"
+   },
+   {
+    "id": "seg0177",
+    "startFrame": 28010,
+    "endFrame": 28133,
+    "text": "그림에서 보듯이 증가와 감소는 접선의 기울기와 같습니다.",
+    "isSentenceEnd": true,
+    "chapterId": "ch2_2"
+   },
+   {
+    "id": "seg0178",
+    "startFrame": 28189,
+    "endFrame": 28291,
+    "text": "몫의 미분법을 정리하면서 이번,",
+    "isSentenceEnd": false,
+    "chapterId": "ch2_2"
+   },
+   {
+    "id": "seg0179",
+    "startFrame": 28291,
+    "endFrame": 28393,
+    "text": "시간을 마치겠습니다.",
+    "isSentenceEnd": true,
+    "chapterId": "ch2_2"
+   },
+   {
+    "id": "seg0180",
+    "startFrame": 28455,
+    "endFrame": 28659,
+    "text": "다음 예제에서 거듭제곱를 직접 계산해 보겠습니다.",
+    "isSentenceEnd": true,
+    "chapterId": "ch2_2"
+   },
+   {
+    "id": "seg0181",
+    "startFrame": 28705,
+    "endFrame": 28834,
+    "text": "최댓값는 함수의 변화율을 나타내는 값으로 이해할 수 있습니다.",
+    "isSentenceEnd": true,
+    "chapterId": "ch2_2"
+   },
+   {
+    "id": "seg0182",
+    "startFrame": 28846,
+    "endFrame": 28988,
+    "text": "이제 최적화를 이용해 최종 답을 구하겠습니다.",
+    "isSentenceEnd": true,
+    "chapterId": "ch2_2"
+   },
+   {
+    "id": "seg0183",
+    "startFrame": 29042,
+    "endFrame": 29176,
+    "text": "연쇄법칙를 적용하기 전에 정의역을 먼저 확인합니다.",
+    "isSentenceEnd": true,
+    "chapterId": "ch2_2"
+   },
+   {
+    "id": "seg0184",
+    "startFrame": 29206,
+    "endFrame": 29289,
+    "text": "몫의 미분법에서 가장 먼저 확인할 것은 거듭제곱의 정의입니다.",
+    "isSentenceEnd": true,
+    "chapterId": "ch2_2"
+   },
+   {
+    "id": "seg0185",
+    "startFrame": 29350,
+    "endFrame": 29495,
+    "text": "몫의 미분법을 이해하면 이후 단원이 훨씬 쉬워집니다.",
+    "isSentenceEnd": true,
+    "chapterId": "ch2_2"
+   },
+   {
+    "id": "seg0186",
+    "startFrame": 29505,
+    "endFrame": 29684,
+    "text": "이 문제는 몫의 미분법의 전형적인 유형입니다.",
+    "isSentenceEnd": true,
+    "chapterId": "ch2_2"
+   },
+   {
+    "id": "seg0187",
+    "startFrame": 29738,
+    "endFrame": 29930,
+    "text": "양변을 미분하면 접선의 형태가 그대로 드러납니다.",
+    "isSentenceEnd": true,
+    "chapterId": "ch2_2"
+   },
+   {
+    "id": "seg0188",
+    "startFrame": 29994,
+    "endFrame": 30113,
+    "text": "여기서 극한의 조건을 만족하는지 반드시 확인해야 합니다.",
+    "isSentenceEnd": true,
+    "chapterId": "ch2_2"
+   },
+   {
+    "id": "seg0189",
+    "startFrame": 30150,
+    "endFrame": 30311,
+    "text": "분모가 0이 되지 않도록 접선의 조건을 확인합니다.",
+    "isSentenceEnd": true,
+    "chapterId": "ch2_2"
+   },
+   {
+    "id": "seg0190",
+    "startFrame": 30386,
+    "endFrame": 30518,
+    "text": "몫의 미분법에서는 계산보다 개념 이해가 먼저입니다.",
+    "isSentenceEnd": true,
+    "chapterId": "ch2_2"
+   },
+   {
+    "id": "seg0191",
+    "startFrame": 30547,
+    "endFrame": 30641,
+    "text": "이제 도함수를 이용해 최종,",
+    "isSentenceEnd": false,
+    "chapterId": "ch2_3"
+   },
+   {
+    "id": "seg0192",
+    "startFrame": 30641,
+    "endFrame": 30736,
+    "text": "답을 구하겠습니다.",
+    "isSentenceEnd": true,
+    "chapterId": "ch2_3"
+   },
+   {
+    "id": "seg0193",
+    "startFrame": 30801,
+    "endFrame": 30911,
+    "text": "연쇄 법칙은 시험에서 매우 자주 출제되는 내용입니다.",
+    "isSentenceEnd": true,
+    "chapterId": "ch2_3"
+   },
+   {
+    "id": "seg0194",
+    "startFrame": 30949,
+    "endFrame": 31155,
+    "text": "이 결과는 연쇄법칙의 정의로부터 바로 따라옵니다.",
+    "isSentenceEnd": true,
+    "chapterId": "ch2_3"
+   },
+   {
+    "id": "seg0195",
+    "startFrame": 31190,
+    "endFrame": 31268,
+    "text": "질문이 많았던 최댓값 부분을 한 번 더 설명하겠습니다.",
+    "isSentenceEnd": true,
+    "chapterId": "ch2_3"
+   },
+   {
+    "id": "seg0196",
+    "startFrame": 31331,
+    "endFrame": 31471,
+    "text": "다음 예제에서 극한를 직접 계산해 보겠습니다.",
+    "isSentenceEnd": true,
+    "chapterId": "ch2_3"
+   },
+   {
+    "id": "seg0197",
+    "startFrame": 31498,
+    "endFrame": 31589,
+    "text": "표를 그려서 변화율의 증감을,",
+    "isSentenceEnd": false,
+    "chapterId": "ch2_3"
+   },
+   {
+    "id": "seg0198",
+    "startFrame": 31589,
+    "endFrame": 31681,
+    "text": "정리해 보겠습니다.",
+    "isSentenceEnd": true,
+    "chapterId": "ch2_3"
+   },
+   {
+    "id": "seg0199",
+    "startFrame": 31712,
+    "endFrame": 31788,
+    "text": "연쇄 법칙을 정리하면서 이번 시간을 마치겠습니다.",
+    "isSentenceEnd": true,
+    "chapterId": "ch2_3"
+   },
+   {
+    "id": "seg0200",
+    "startFrame": 31859,
+    "endFrame": 31963,
+    "text": "이 결과는 거듭제곱의 정의로부터,",
+    "isSentenceEnd": false,
+    "chapterId": "ch2_3"
+   },
+   {
+    "id": "seg0201",
+    "startFrame": 31963,
+    "endFrame": 32068,
+    "text": "바로 따라옵니다.",
+    "isSentenceEnd": true,
+    "chapterId": "ch2_3"
+   },
+   {
+    "id": "seg0202",
+    "startFrame": 32123,
+    "endFrame": 32269,
+    "text": "이 문제는 연쇄 법칙의 전형적인 유형입니다.",
+    "isSentenceEnd": true,
+    "chapterId": "ch2_3"
+   },
+   {
+    "id": "seg0203",
+    "startFrame": 32309,
+    "endFrame": 32471,
+    "text": "칠판에 정리한 것처럼 접선는 두 단계로 계산합니다.",
+    "isSentenceEnd": true,
+    "chapterId": "ch2_3"
+   },
+   {
+    "id": "seg0204",
+    "startFrame": 32520,
+    "endFrame": 32612,
+    "text": "칠판에 정리한 것처럼 접선는,",
+    "isSentenceEnd": false,
+    "chapterId": "ch2_3"
+   },
+   {
+    "id": "seg0205",
+    "startFrame": 32612,
+    "endFrame": 32705,
+    "text": "두 단계로 계산합니다.",
+    "isSentenceEnd": true,
+    "chapterId": "ch2_3"
+   },
+   {
+    "id": "seg0206",
+    "startFrame": 32758,
+    "endFrame": 32885,
+    "text": "학생들이 자주 실수하는 부분이 바로 연쇄 법칙입니다.",
+    "isSentenceEnd": true,
+    "chapterId": "ch2_3"
+   },
+   {
+    "id": "seg0207",
+    "startFrame": 32951,
+    "endFrame": 33049,
+    "text": "양변을 미분하면 미분계수의,",
+    "isSentenceEnd": false,
+    "chapterId": "ch2_3"
+   },
+   {
+    "id": "seg0208",
+    "startFrame": 33049,
+    "endFrame": 33148,
+    "text": "형태가 그대로 드러납니다.",
+    "isSentenceEnd": true,
+    "chapterId": "ch2_3"
+   },
+   {
+    "id": "seg0209",
+    "startFrame": 33159,
+    "endFrame": 33285,
+    "text": "연쇄 법칙을 정리하면서 이번 시간을 마치겠습니다.",
+    "isSentenceEnd": true,
+    "chapterId": "ch2_3"
+   },
+   {
+    "id": "seg0210",
+    "startFrame": 33349,
+    "endFrame": 33457,
+    "text": "이 식을 정리하면 접선에 대한 표준형이 나옵니다.",
+    "isSentenceEnd": true,
+    "chapterId": "ch2_3"
+   },
+   {
+    "id": "seg0211",
+    "startFrame": 33501,
+    "endFrame": 33665,
+    "text": "질문이 많았던 증가와 감소 부분을 한 번 더 설명하겠습니다.",
+    "isSentenceEnd": true,
+    "chapterId": "ch2_3"
+   },
+   {
+    "id": "seg0212",
+    "startFrame": 33706,
+    "endFrame": 33791,
+    "text": "앞에서 배운 미분계수를 그대로 사용하면 계산이 간단해집니다.",
+    "isSentenceEnd": true,
+    "chapterId": "ch2_3"
+   },
+   {
+    "id": "seg0213",
+    "startFrame": 33834,
+    "endFrame": 33911,
+    "text": "다음 예제에서 극한를 직접 계산해 보겠습니다.",
+    "isSentenceEnd": true,
+    "chapterId": "ch2_3"
+   },
+   {
+    "id": "seg0214",
+    "startFrame": 33965,
+    "endFrame": 34108,
+    "text": "변화율를 적용하기 전에 정의역을 먼저 확인합니다.",
+    "isSentenceEnd": true,
+    "chapterId": "ch2_3"
+   },
+   {
+    "id": "seg0215",
+    "startFrame": 34124,
+    "endFrame": 34297,
+    "text": "함수의 증가와 감소은 시험에서 매우 자주 출제되는 내용입니다.",
+    "isSentenceEnd": true,
+    "chapterId": "ch3_0"
+   },
+   {
+    "id": "seg0216",
+    "startFrame": 34327,
+    "endFrame": 34520,
+    "text": "앞에서 배운 변화율를 그대로 사용하면 계산이 간단해집니다.",
+    "isSentenceEnd": true,
+    "chapterId": "ch3_0"
+   },
+   {
+    "id": "seg0217",
+    "startFrame": 34559,
+    "endFrame": 34742,
+    "text": "함수의 증가와 감소에서는 계산보다 개념 이해가 먼저입니다.",
+    "isSentenceEnd": true,
+    "chapterId": "ch3_0"
+   },
+   {
+    "id": "seg0218",
+    "startFrame": 34803,
+    "endFrame": 34898,
+    "text": "이 결과는 증가와 감소의 정의로부터 바로 따라옵니다.",
+    "isSentenceEnd": true,
+    "chapterId": "ch3_0"
+   },
+   {
+    "id": "seg0219",
+    "startFrame": 34949,
+    "endFrame": 35051,
+    "text": "몫의 미분법를 적용하기 전에 정의역을 먼저 확인합니다.",
+    "isSentenceEnd": true,
+    "chapterId": "ch3_0"
+   },
+   {
+    "id": "seg0220",
+    "startFrame": 35121,
+    "endFrame": 35302,
+    "text": "조금 더 일반적인 상황으로 함수의 증가와 감소을 확장해 보겠습니다.",
+    "isSentenceEnd": true,
+    "chapterId": "ch3_0"
+   },
+   {
+    "id": "seg0221",
+    "startFrame": 35315,
+    "endFrame": 35419,
+    "text": "함수의 증가와 감소을 이해하면 이후 단원이 훨씬 쉬워집니다.",
+    "isSentenceEnd": true,
+    "chapterId": "ch3_0"
+   },
+   {
+    "id": "seg0222",
+    "startFrame": 35451,
+    "endFrame": 35565,
+    "text": "앞의 결과와 비교하면 함수의 증가와 감소의 구조가 보입니다.",
+    "isSentenceEnd": true,
+    "chapterId": "ch3_0"
+   },
+   {
+    "id": "seg0223",
+    "startFrame": 35618,
+    "endFrame": 35827,
+    "text": "함수의 증가와 감소의 핵심은 극한이 존재하는지 판단하는 데 있습니다.",
+    "isSentenceEnd": true,
+    "chapterId": "ch3_0"
+   },
+   {
+    "id": "seg0224",
+    "startFrame": 35844,
+    "endFrame": 35980,
+    "text": "질문이 많았던 최댓값 부분을 한 번 더 설명하겠습니다.",
+    "isSentenceEnd": true,
+    "chapterId": "ch3_0"
+   },
+   {
+    "id": "seg0225",
+    "startFrame": 36019,
+    "endFrame": 36140,
+    "text": "이 결과는 몫의 미분법의 정의로부터 바로 따라옵니다.",
+    "isSentenceEnd": true,
+    "chapterId": "ch3_0"
+   },
+   {
+    "id": "seg0226",
+    "startFrame": 36203,
+    "endFrame": 36291,
+    "text": "표를 그려서 최적화의 증감을,",
+    "isSentenceEnd": false,
+    "chapterId": "ch3_0"
+   },
+   {
+    "id": "seg0227",
+    "startFrame": 36291,
+    "endFrame": 36379,
+    "text": "정리해 보겠습니다.",
+    "isSentenceEnd": true,
+    "chapterId": "ch3_0"
+   },
+   {
+    "id": "seg0228",
+    "startFrame": 36416,
+    "endFrame": 36555,
+    "text": "조금 더 일반적인 상황으로 함수의 증가와 감소을 확장해 보겠습니다.",
+    "isSentenceEnd": true,
+    "chapterId": "ch3_0"
+   },
+   {
+    "id": "seg0229",
+    "startFrame": 36578,
+    "endFrame": 36662,
+    "text": "여기서 연쇄법칙의 조건을 만족하는지 반드시 확인해야 합니다.",
+    "isSentenceEnd": true,
+    "chapterId": "ch3_0"
+   },
+   {
+    "id": "seg0230",
+    "startFrame": 36731,
+    "endFrame": 36833,
+    "text": "함수의 증가와 감소을 이해하면,",
+    "isSentenceEnd": false,
+    "chapterId": "ch3_0"
+   },
+   {
+    "id": "seg0231",
+    "startFrame": 36833,
+    "endFrame": 36935,
+    "text": "이후 단원이 훨씬 쉬워집니다.",
+    "isSentenceEnd": true,
+    "chapterId": "ch3_0"
+   },
+   {
+    "id": "seg0232",
+    "startFrame": 36958,
+    "endFrame": 37164,
+    "text": "증가와 감소를 적용하기 전에 정의역을 먼저 확인합니다.",
+    "isSentenceEnd": true,
+    "chapterId": "ch3_0"
+   },
+   {
+    "id": "seg0233",
+    "startFrame": 37234,
+    "endFrame": 37312,
+    "text": "분모가 0이 되지 않도록 변화율의 조건을 확인합니다.",
+    "isSentenceEnd": true,
+    "chapterId": "ch3_0"
+   },
+   {
+    "id": "seg0234",
+    "startFrame": 37335,
+    "endFrame": 37488,
+    "text": "함수의 증가와 감소을 정리하면서 이번 시간을 마치겠습니다.",
+    "isSentenceEnd": true,
+    "chapterId": "ch3_0"
+   },
+   {
+    "id": "seg0235",
+    "startFrame": 37507,
+    "endFrame": 37594,
+    "text": "이 문제는 함수의 증가와 감소의 전형적인 유형입니다.",
+    "isSentenceEnd": true,
+    "chapterId": "ch3_0"
+   },
+   {
+    "id": "seg0236",
+    "startFrame": 37621,
+    "endFrame": 37700,
+    "text": "이 문제는 함수의 증가와 감소의 전형적인 유형입니다.",
+    "isSentenceEnd": true,
+    "chapterId": "ch3_0"
+   },
+   {
+    "id": "seg0237",
+    "startFrame": 37733,
+    "endFrame": 37822,
+    "text": "다음 예제에서 변화율를 직접 계산해 보겠습니다.",
+    "isSentenceEnd": true,
+    "chapterId": "ch3_0"
+   },
+   {
+    "id": "seg0238",
+    "startFrame": 37884,
+    "endFrame": 38079,
+    "text": "조금 더 일반적인 상황으로 함수의 증가와 감소을 확장해 보겠습니다.",
+    "isSentenceEnd": true,
+    "chapterId": "ch3_0"
+   },
+   {
+    "id": "seg0239",
+    "startFrame": 38118,
+    "endFrame": 38210,
+    "text": "미분계수를 적용하기 전에 정의역을 먼저 확인합니다.",
+    "isSentenceEnd": true,
+    "chapterId": "ch3_0"
+   },
+   {
+    "id": "seg0240",
+    "startFrame": 38245,
+    "endFrame": 38414,
+    "text": "분모가 0이 되지 않도록 최댓값의 조건을 확인합니다.",
+    "isSentenceEnd": true,
+    "chapterId": "ch3_0"
+   },
+   {
+    "id": "seg0241",
+    "startFrame": 38458,
+    "endFrame": 38556,
+    "text": "다음 예제에서 최적화를 직접,",
+    "isSentenceEnd": false,
+    "chapterId": "ch3_0"
+   },
+   {
+    "id": "seg0242",
+    "startFrame": 38556,
+    "endFrame": 38654,
+    "text": "계산해 보겠습니다.",
+    "isSentenceEnd": true,
+    "chapterId": "ch3_0"
+   },
+   {
+    "id": "seg0243",
+    "startFrame": 38720,
+    "endFrame": 38895,
+    "text": "조금 더 일반적인 상황으로 함수의 증가와 감소을 확장해 보겠습니다.",
+    "isSentenceEnd": true,
+    "chapterId": "ch3_0"
+   },
+   {
+    "id": "seg0244",
+    "startFrame": 38946,
+    "endFrame": 39154,
+    "text": "극한가 연속인지 먼저 살펴보아야 합니다.",
+    "isSentenceEnd": true,
+    "chapterId": "ch3_0"
+   },
+   {
+    "id": "seg0245",
+    "startFrame": 39229,
+    "endFrame": 39319,
+    "text": "앞에서 배운 증가와 감소를 그대로,",
+    "isSentenceEnd": false,
+    "chapterId": "ch3_0"
+   },
+   {
+    "id": "seg0246",
+    "startFrame": 39319,
+    "endFrame": 39410,
+    "text": "사용하면 계산이 간단해집니다.",
+    "isSentenceEnd": true,
+    "chapterId": "ch3_0"
+   },
+   {
+    "id": "seg0247",
+    "startFrame": 39470,
+    "endFrame": 39658,
+    "text": "함수의 증가와 감소은 시험에서 매우 자주 출제되는 내용입니다.",
+    "isSentenceEnd": true,
+    "chapterId": "ch3_0"
+   },
+   {
+    "id": "seg0248",
+    "startFrame": 39709,
+    "endFrame": 39841,
+    "text": "함수의 증가와 감소에서는 계산보다 개념 이해가 먼저입니다.",
+    "isSentenceEnd": true,
+    "chapterId": "ch3_0"
+   },
+   {
+    "id": "seg0249",
+    "startFrame": 39868,
+    "endFrame": 39973,
+    "text": "이제 함수의 증가와 감소을 실제,",
+    "isSentenceEnd": false,
+    "chapterId": "ch3_0"
+   },
+   {
+    "id": "seg0250",
+    "startFrame": 39973,
+    "endFrame": 40078,
+    "text": "문제에 적용해 보겠습니다.",
+    "isSentenceEnd": true,
+    "chapterId": "ch3_0"
+   },
+   {
+    "id": "seg0251",
+    "startFrame": 40120,
+    "endFrame": 40298,
+    "text": "식을 다시 쓰면 도함수의 성질을 활용할 수 있습니다.",
+    "isSentenceEnd": true,
+    "chapterId": "ch3_0"
+   },
+   {
+    "id": "seg0252",
+    "startFrame": 40318,
+    "endFrame": 40441,
+    "text": "앞에서 배운 증가와 감소를 그대로 사용하면 계산이 간단해집니다.",
+    "isSentenceEnd": true,
+    "chapterId": "ch3_0"
+   },
+   {
+    "id": "seg0253",
+    "startFrame": 40492,
+    "endFrame": 40595,
+    "text": "다음 예제에서 극한를 직접 계산해 보겠습니다.",
+    "isSentenceEnd": true,
+    "chapterId": "ch3_0"
+   },
+   {
+    "id": "seg0254",
+    "startFrame": 40635,
+    "endFrame": 40731,
+    "text": "질문이 많았던 증가와 감소 부분을 한 번 더 설명하겠습니다.",
+    "isSentenceEnd": true,
+    "chapterId": "ch3_1"
+   },
+   {
+    "id": "seg0255",
+    "startFrame": 40772,
+    "endFrame": 40879,
+    "text": "앞의 결과와 비교하면 최댓값·최솟값 문제의 구조가 보입니다.",
+    "isSentenceEnd": true,
+    "chapterId": "ch3_1"
+   },
+   {
+    "id": "seg0256",
+    "startFrame": 40921,
+    "endFrame": 41070,
+    "text": "식을 다시 쓰면 도함수의 성질을 활용할 수 있습니다.",
+    "isSentenceEnd": true,
+    "chapterId": "ch3_1"
+   },
+   {
+    "id": "seg0257",
+    "startFrame": 41083,
+    "endFrame": 41214,
+    "text": "이제 미분계수를 이용해 최종 답을 구하겠습니다.",
+    "isSentenceEnd": true,
+    "chapterId": "ch3_1"
+   },
+   {
+    "id": "seg0258",
+    "startFrame": 41239,
+    "endFrame": 41330,
+    "text": "최댓값·최솟값 문제의 핵심은 극한이,",
+    "isSentenceEnd": false,
+    "chapterId": "ch3_1"
+   },
+   {
+    "id": "seg0259",
+    "startFrame": 41330,
+    "endFrame": 41422,
+    "text": "존재하는지 판단하는 데 있습니다.",
+    "isSentenceEnd": true,
+    "chapterId": "ch3_1"
+   },
+   {
+    "id": "seg0260",
+    "startFrame": 41439,
+    "endFrame": 41575,
+    "text": "그림에서 보듯이 최적화는 접선의 기울기와 같습니다.",
+    "isSentenceEnd": true,
+    "chapterId": "ch3_1"
+   },
+   {
+    "id": "seg0261",
+    "startFrame": 41597,
+    "endFrame": 41791,
+    "text": "표를 그려서 극한의 증감을 정리해 보겠습니다.",
+    "isSentenceEnd": true,
+    "chapterId": "ch3_1"
+   },
+   {
+    "id": "seg0262",
+    "startFrame": 41844,
+    "endFrame": 42054,
+    "text": "최댓값·최솟값 문제에서 가장 먼저 확인할 것은 극한의 정의입니다.",
+    "isSentenceEnd": true,
+    "chapterId": "ch3_1"
+   },
+   {
+    "id": "seg0263",
+    "startFrame": 42079,
+    "endFrame": 42227,
+    "text": "이 식을 정리하면 미분계수에 대한 표준형이 나옵니다.",
+    "isSentenceEnd": true,
+    "chapterId": "ch3_1"
+   },
+   {
+    "id": "seg0264",
+    "startFrame": 42289,
+    "endFrame": 42472,
+    "text": "분모가 0이 되지 않도록 접선의 조건을 확인합니다.",
+    "isSentenceEnd": true,
+    "chapterId": "ch3_1"
+   },
+   {
+    "id": "seg0265",
+    "startFrame": 42487,
+    "endFrame": 42678,
+    "text": "표를 그려서 증가와 감소의 증감을 정리해 보겠습니다.",
+    "isSentenceEnd": true,
+    "chapterId": "ch3_1"
+   },
+   {
+    "id": "seg0266",
+    "startFrame": 42712,
+    "endFrame": 42793,
+    "text": "앞의 결과와 비교하면 최댓값·최솟값 문제의 구조가 보입니다.",
+    "isSentenceEnd": true,
+    "chapterId": "ch3_1"
+   },
+   {
+    "id": "seg0267",
+    "startFrame": 42817,
+    "endFrame": 42899,
+    "text": "최댓값·최솟값 문제에서 가장 먼저 확인할 것은 미분계수의 정의입니다.",
+    "isSentenceEnd": true,
+    "chapterId": "ch3_1"
+   },
+   {
+    "id": "seg0268",
+    "startFrame": 42960,
+    "endFrame": 43044,
+    "text": "다음 예제에서 극한를 직접 계산해 보겠습니다.",
+    "isSentenceEnd": true,
+    "chapterId": "ch3_1"
+   },
+   {
+    "id": "seg0269",
+    "startFrame": 43095,
+    "endFrame": 43301,
+    "text": "표를 그려서 도함수의 증감을 정리해 보겠습니다.",
+    "isSentenceEnd": true,
+    "chapterId": "ch3_1"
+   },
+   {
+    "id": "seg0270",
+    "startFrame": 43365,
+    "endFrame": 43465,
+    "text": "표를 그려서 곱의 미분법의 증감을 정리해 보겠습니다.",
+    "isSentenceEnd": true,
+    "chapterId": "ch3_1"
+   },
+   {
+    "id": "seg0271",
+    "startFrame": 43475,
+    "endFrame": 43636,
+    "text": "여기까지가 최댓값·최솟값 문제의 기본 내용입니다.",
+    "isSentenceEnd": true,
+    "chapterId": "ch3_1"
+   },
+   {
+    "id": "seg0272",
+    "startFrame": 43658,
+    "endFrame": 43753,
+    "text": "앞에서 배운 곱의 미분법를 그대로 사용하면 계산이 간단해집니다.",
+    "isSentenceEnd": true,
+    "chapterId": "ch3_1"
+   },
+   {
+    "id": "seg0273",
+    "startFrame": 43785,
+    "endFrame": 43994,
+    "text": "이 문제는 최댓값·최솟값 문제의 전형적인 유형입니다.",
+    "isSentenceEnd": true,
+    "chapterId": "ch3_1"
+   },
+   {
+    "id": "seg0274",
+    "startFrame": 44067,
+    "endFrame": 44231,
+    "text": "식을 다시 쓰면 최댓값의 성질을 활용할 수 있습니다.",
+    "isSentenceEnd": true,
+    "chapterId": "ch3_1"
+   },
+   {
+    "id": "seg0275",
+    "startFrame": 44261,
+    "endFrame": 44452,
+    "text": "여기까지가 최댓값·최솟값 문제의 기본 내용입니다.",
+    "isSentenceEnd": true,
+    "chapterId": "ch3_1"
+   },
+   {
+    "id": "seg0276",
+    "startFrame": 44511,
+    "endFrame": 44601,
+    "text": "학생들이 자주 실수하는 부분이 바로 최댓값·최솟값 문제입니다.",
+    "isSentenceEnd": true,
+    "chapterId": "ch3_1"
+   },
+   {
+    "id": "seg0277",
+    "startFrame": 44615,
+    "endFrame": 44722,
+    "text": "여기서 최적화의 조건을 만족하는지 반드시 확인해야 합니다.",
+    "isSentenceEnd": true,
+    "chapterId": "ch3_1"
+   },
+   {
+    "id": "seg0278",
+    "startFrame": 44736,
+    "endFrame": 44838,
+    "text": "질문이 많았던 최적화 부분을 한 번 더 설명하겠습니다.",
+    "isSentenceEnd": true,
+    "chapterId": "ch3_1"
+   },
+   {
+    "id": "seg0279",
+    "startFrame": 44874,
+    "endFrame": 44964,
+    "text": "표를 그려서 미분계수의 증감을 정리해 보겠습니다.",
+    "isSentenceEnd": true,
+    "chapterId": "ch3_1"
+   },
+   {
+    "id": "seg0280",
+    "startFrame": 45033,
+    "endFrame": 45145,
+    "text": "이 식을 정리하면 극한에 대한 표준형이 나옵니다.",
+    "isSentenceEnd": true,
+    "chapterId": "ch3_1"
+   },
+   {
+    "id": "seg0281",
+    "startFrame": 45195,
+    "endFrame": 45286,
+    "text": "최댓값·최솟값 문제을 정리하면서 이번 시간을 마치겠습니다.",
+    "isSentenceEnd": true,
+    "chapterId": "ch3_1"
+   },
+   {
+    "id": "seg0282",
+    "startFrame": 45357,
+    "endFrame": 45469,
+    "text": "이 경우 미분계수의 부호가 바뀌는 지점을 찾아야 합니다.",
+    "isSentenceEnd": true,
+    "chapterId": "ch3_1"
+   },
+   {
+    "id": "seg0283",
+    "startFrame": 45487,
+    "endFrame": 45634,
+    "text": "최댓값·최솟값 문제의 핵심은 극한이 존재하는지 판단하는 데 있습니다.",
+    "isSentenceEnd": true,
+    "chapterId": "ch3_1"
+   },
+   {
+    "id": "seg0284",
+    "startFrame": 45691,
+    "endFrame": 45895,
+    "text": "분모가 0이 되지 않도록 미분계수의 조건을 확인합니다.",
+    "isSentenceEnd": true,
+    "chapterId": "ch3_1"
+   },
+   {
+    "id": "seg0285",
+    "startFrame": 45943,
+    "endFrame": 46094,
+    "text": "조금 더 일반적인 상황으로 최댓값·최솟값 문제을 확장해 보겠습니다.",
+    "isSentenceEnd": true,
+    "chapterId": "ch3_1"
+   },
+   {
+    "id": "seg0286",
+    "startFrame": 46128,
+    "endFrame": 46232,
+    "text": "최댓값·최솟값 문제을 정리하면서,",
+    "isSentenceEnd": false,
+    "chapterId": "ch3_1"
+   },
+   {
+    "id": "seg0287",
+    "startFrame": 46232,
+    "endFrame": 46336,
+    "text": "이번 시간을 마치겠습니다.",
+    "isSentenceEnd": true,
+    "chapterId": "ch3_1"
+   },
+   {
+    "id": "seg0288",
+    "startFrame": 46353,
+    "endFrame": 46461,
+    "text": "최댓값·최솟값 문제의 핵심은 극한이 존재하는지 판단하는 데 있습니다.",
+    "isSentenceEnd": true,
+    "chapterId": "ch3_1"
+   },
+   {
+    "id": "seg0289",
+    "startFrame": 46527,
+    "endFrame": 46687,
+    "text": "도함수를 적용하기 전에 정의역을 먼저 확인합니다.",
+    "isSentenceEnd": true,
+    "chapterId": "ch3_1"
+   },
+   {
+    "id": "seg0290",
+    "startFrame": 46729,
+    "endFrame": 46853,
+    "text": "최댓값·최솟값 문제의 핵심은 극한이 존재하는지 판단하는 데 있습니다.",
+    "isSentenceEnd": true,
+    "chapterId": "ch3_1"
+   },
+   {
+    "id": "seg0291",
+    "startFrame": 46926,
+    "endFrame": 47009,
+    "text": "질문이 많았던 미분계수 부분을 한 번 더 설명하겠습니다.",
+    "isSentenceEnd": true,
+    "chapterId": "ch3_1"
+   },
+   {
+    "id": "seg0292",
+    "startFrame": 47070,
+    "endFrame": 47236,
+    "text": "식을 다시 쓰면 접선의 성질을 활용할 수 있습니다.",
+    "isSentenceEnd": true,
+    "chapterId": "ch3_1"
+   },
+   {
+    "id": "seg0293",
+    "startFrame": 47255,
+    "endFrame": 47370,
+    "text": "식을 다시 쓰면 미분계수의 성질을 활용할 수 있습니다.",
+    "isSentenceEnd": true,
+    "chapterId": "ch3_1"
+   },
+   {
+    "id": "seg0294",
+    "startFrame": 47442,
+    "endFrame": 47605,
+    "text": "양변을 미분하면 거듭제곱의 형태가 그대로 드러납니다.",
+    "isSentenceEnd": true,
+    "chapterId": "ch3_1"
+   },
+   {
+    "id": "seg0295",
+    "startFrame": 47620,
+    "endFrame": 47824,
+    "text": "여기서 최적화의 조건을 만족하는지 반드시 확인해야 합니다.",
+    "isSentenceEnd": true,
+    "chapterId": "ch3_2"
+   },
+   {
+    "id": "seg0296",
+    "startFrame": 47899,
+    "endFrame": 48039,
+    "text": "앞에서 배운 접선를 그대로 사용하면 계산이 간단해집니다.",
+    "isSentenceEnd": true,
+    "chapterId": "ch3_2"
+   },
+   {
+    "id": "seg0297",
+    "startFrame": 48052,
+    "endFrame": 48152,
+    "text": "여기서 도함수의 조건을 만족하는지,",
+    "isSentenceEnd": false,
+    "chapterId": "ch3_2"
+   },
+   {
+    "id": "seg0298",
+    "startFrame": 48152,
+    "endFrame": 48253,
+    "text": "반드시 확인해야 합니다.",
+    "isSentenceEnd": true,
+    "chapterId": "ch3_2"
+   },
+   {
+    "id": "seg0299",
+    "startFrame": 48294,
+    "endFrame": 48473,
+    "text": "이 결과는 변화율의 정의로부터 바로 따라옵니다.",
+    "isSentenceEnd": true,
+    "chapterId": "ch3_2"
+   },
+   {
+    "id": "seg0300",
+    "startFrame": 48541,
+    "endFrame": 48700,
+    "text": "질문이 많았던 거듭제곱 부분을 한 번 더 설명하겠습니다.",
+    "isSentenceEnd": true,
+    "chapterId": "ch3_2"
+   },
+   {
+    "id": "seg0301",
+    "startFrame": 48756,
+    "endFrame": 48880,
+    "text": "이 식을 정리하면 미분계수에 대한 표준형이 나옵니다.",
+    "isSentenceEnd": true,
+    "chapterId": "ch3_2"
+   },
+   {
+    "id": "seg0302",
+    "startFrame": 48898,
+    "endFrame": 49089,
+    "text": "최적화 문제의 핵심은 극한이 존재하는지 판단하는 데 있습니다.",
+    "isSentenceEnd": true,
+    "chapterId": "ch3_2"
+   },
+   {
+    "id": "seg0303",
+    "startFrame": 49107,
+    "endFrame": 49184,
+    "text": "이 문제는 최적화 문제의 전형적인 유형입니다.",
+    "isSentenceEnd": true,
+    "chapterId": "ch3_2"
+   },
+   {
+    "id": "seg0304",
+    "startFrame": 49239,
+    "endFrame": 49364,
+    "text": "곱의 미분법의 기하학적 의미를 그래프로 확인해 봅시다.",
+    "isSentenceEnd": true,
+    "chapterId": "ch3_2"
+   },
+   {
+    "id": "seg0305",
+    "startFrame": 49436,
+    "endFrame": 49643,
+    "text": "최적화가 연속인지 먼저 살펴보아야 합니다.",
+    "isSentenceEnd": true,
+    "chapterId": "ch3_2"
+   },
+   {
+    "id": "seg0306",
+    "startFrame": 49663,
+    "endFrame": 49823,
+    "text": "분모가 0이 되지 않도록 연쇄법칙의 조건을 확인합니다.",
+    "isSentenceEnd": true,
+    "chapterId": "ch3_2"
+   },
+   {
+    "id": "seg0307",
+    "startFrame": 49834,
+    "endFrame": 49954,
+    "text": "이 경우 미분계수의 부호가 바뀌는 지점을 찾아야 합니다.",
+    "isSentenceEnd": true,
+    "chapterId": "ch3_2"
+   },
+   {
+    "id": "seg0308",
+    "startFrame": 50006,
+    "endFrame": 50095,
+    "text": "그림에서 보듯이 도함수는 접선의,",
+    "isSentenceEnd": false,
+    "chapterId": "ch3_2"
+   },
+   {
+    "id": "seg0309",
+    "startFrame": 50095,
+    "endFrame": 50184,
+    "text": "기울기와 같습니다.",
+    "isSentenceEnd": true,
+    "chapterId": "ch3_2"
+   },
+   {
+    "id": "seg0310",
+    "startFrame": 50224,
+    "endFrame": 50379,
+    "text": "앞에서 배운 접선를 그대로 사용하면 계산이 간단해집니다.",
+    "isSentenceEnd": true,
+    "chapterId": "ch3_2"
+   },
+   {
+    "id": "seg0311",
+    "startFrame": 50413,
+    "endFrame": 50510,
+    "text": "표를 그려서 거듭제곱의 증감을,",
+    "isSentenceEnd": false,
+    "chapterId": "ch3_2"
+   },
+   {
+    "id": "seg0312",
+    "startFrame": 50510,
+    "endFrame": 50608,
+    "text": "정리해 보겠습니다.",
+    "isSentenceEnd": true,
+    "chapterId": "ch3_2"
+   },
+   {
+    "id": "seg0313",
+    "startFrame": 50634,
+    "endFrame": 50737,
+    "text": "이제 극한를 이용해 최종 답을 구하겠습니다.",
+    "isSentenceEnd": true,
+    "chapterId": "ch3_2"
+   },
+   {
+    "id": "seg0314",
+    "startFrame": 50805,
+    "endFrame": 50945,
+    "text": "조금 더 일반적인 상황으로 최적화 문제을 확장해 보겠습니다.",
+    "isSentenceEnd": true,
+    "chapterId": "ch3_2"
+   },
+   {
+    "id": "seg0315",
+    "startFrame": 50959,
+    "endFrame": 51076,
+    "text": "앞에서 배운 몫의 미분법를 그대로 사용하면 계산이 간단해집니다.",
+    "isSentenceEnd": true,
+    "chapterId": "ch3_2"
+   },
+   {
+    "id": "seg0316",
+    "startFrame": 51103,
+    "endFrame": 51254,
+    "text": "질문이 많았던 거듭제곱 부분을 한 번 더 설명하겠습니다.",
+    "isSentenceEnd": true,
+    "chapterId": "ch3_2"
+   },
+   {
+    "id": "seg0317",
+    "startFrame": 51306,
+    "endFrame": 51503,
+    "text": "식을 다시 쓰면 증가와 감소의 성질을 활용할 수 있습니다.",
+    "isSentenceEnd": true,
+    "chapterId": "ch3_2"
+   },
+   {
+    "id": "seg0318",
+    "startFrame": 51570,
+    "endFrame": 51716,
+    "text": "이제 최적화 문제을 실제 문제에 적용해 보겠습니다.",
+    "isSentenceEnd": true,
+    "chapterId": "ch3_2"
+   },
+   {
+    "id": "seg0319",
+    "startFrame": 51758,
+    "endFrame": 51921,
+    "text": "이 식을 정리하면 접선에 대한 표준형이 나옵니다.",
+    "isSentenceEnd": true,
+    "chapterId": "ch3_2"
+   },
+   {
+    "id": "seg0320",
+    "startFrame": 51993,
+    "endFrame": 52085,
+    "text": "질문이 많았던 미분계수 부분을,",
+    "isSentenceEnd": false,
+    "chapterId": "ch3_2"
+   },
+   {
+    "id": "seg0321",
+    "startFrame": 52085,
+    "endFrame": 52178,
+    "text": "한 번 더 설명하겠습니다.",
+    "isSentenceEnd": true,
+    "chapterId": "ch3_2"
+   },
+   {
+    "id": "seg0322",
+    "startFrame": 52217,
+    "endFrame": 52367,
+    "text": "이 식을 정리하면 몫의 미분법에 대한 표준형이 나옵니다.",
+    "isSentenceEnd": true,
+    "chapterId": "ch3_2"
+   },
+   {
+    "id": "seg0323",
+    "startFrame": 52419,
+    "endFrame": 52543,
+    "text": "최적화 문제을 이해하면 이후 단원이 훨씬 쉬워집니다.",
+    "isSentenceEnd": true,
+    "chapterId": "ch3_2"
+   },
+   {
+    "id": "seg0324",
+    "startFrame": 52608,
+    "endFrame": 52686,
+    "text": "이 문제는 최적화 문제의 전형적인 유형입니다.",
+    "isSentenceEnd": true,
+    "chapterId": "ch3_2"
+   },
+   {
+    "id": "seg0325",
+    "startFrame": 52755,
+    "endFrame": 52944,
+    "text": "질문이 많았던 도함수 부분을 한 번 더 설명하겠습니다.",
+    "isSentenceEnd": true,
+    "chapterId": "ch3_2"
+   },
+   {
+    "id": "seg0326",
+    "startFrame": 52999,
+    "endFrame": 53147,
+    "text": "질문이 많았던 거듭제곱 부분을 한 번 더 설명하겠습니다.",
+    "isSentenceEnd": true,
+    "chapterId": "ch3_2"
+   },
+   {
+    "id": "seg0327",
+    "startFrame": 53187,
+    "endFrame": 53267,
+    "text": "이 경우 곱의 미분법의 부호가 바뀌는 지점을 찾아야 합니다.",
+    "isSentenceEnd": true,
+    "chapterId": "ch3_2"
+   },
+   {
+    "id": "seg0328",
+    "startFrame": 53311,
+    "endFrame": 53477,
+    "text": "다음 예제에서 증가와 감소를 직접 계산해 보겠습니다.",
+    "isSentenceEnd": true,
+    "chapterId": "ch3_2"
+   },
+   {
+    "id": "seg0329",
+    "startFrame": 53512,
+    "endFrame": 53699,
+    "text": "이 문제는 최적화 문제의 전형적인 유형입니다.",
+    "isSentenceEnd": true,
+    "chapterId": "ch3_2"
+   },
+   {
+    "id": "seg0330",
+    "startFrame": 53713,
+    "endFrame": 53825,
+    "text": "최적화 문제을 정리하면서 이번 시간을 마치겠습니다.",
+    "isSentenceEnd": true,
+    "chapterId": "ch3_2"
+   },
+   {
+    "id": "seg0331",
+    "startFrame": 53836,
+    "endFrame": 53938,
+    "text": "질문이 많았던 연쇄법칙 부분을,",
+    "isSentenceEnd": false,
+    "chapterId": "ch3_2"
+   },
+   {
+    "id": "seg0332",
+    "startFrame": 53938,
+    "endFrame": 54040,
+    "text": "한 번 더 설명하겠습니다.",
+    "isSentenceEnd": true,
+    "chapterId": "ch3_2"
+   },
+   {
+    "id": "seg0333",
+    "startFrame": 54075,
+    "endFrame": 54231,
+    "text": "이제 최적화 문제을 실제 문제에 적용해 보겠습니다.",
+    "isSentenceEnd": true,
+    "chapterId": "ch3_2"
+   },
+   {
+    "id": "seg0334",
+    "startFrame": 54266,
+    "endFrame": 54300,
+    "text": "여기까지가 최적화 문제의 기본 내용입니다.",
+    "isSentenceEnd": true,
+    "chapterId": "ch3_2"
+   },
+   {
+    "id": "seg0335",
+    "startFrame": 54316,
+    "endFrame": 54460,
+    "text": "칠판에 정리한 것처럼 연쇄법칙는 두 단계로 계산합니다.",
+    "isSentenceEnd": true,
+    "chapterId": "ch4_0"
+   },
+   {
+    "id": "seg0336",
+    "startFrame": 54494,
+    "endFrame": 54577,
+    "text": "그림에서 보듯이 거듭제곱는 접선의 기울기와 같습니다.",
+    "isSentenceEnd": true,
+    "chapterId": "ch4_0"
+   },
+   {
+    "id": "seg0337",
+    "startFrame": 54607,
+    "endFrame": 54717,
+    "text": "기본 개념에서는 계산보다 개념 이해가 먼저입니다.",
+    "isSentenceEnd": true,
+    "chapterId": "ch4_0"
+   },
+   {
+    "id": "seg0338",
+    "startFrame": 54766,
+    "endFrame": 54858,
+    "text": "양변을 미분하면 거듭제곱의 형태가 그대로 드러납니다.",
+    "isSentenceEnd": true,
+    "chapterId": "ch4_0"
+   },
+   {
+    "id": "seg0339",
+    "startFrame": 54889,
+    "endFrame": 55037,
+    "text": "여기서 연쇄법칙의 조건을 만족하는지 반드시 확인해야 합니다.",
+    "isSentenceEnd": true,
+    "chapterId": "ch4_0"
+   },
+   {
+    "id": "seg0340",
+    "startFrame": 55062,
+    "endFrame": 55162,
+    "text": "여기까지가 기본 개념의 기본 내용입니다.",
+    "isSentenceEnd": true,
+    "chapterId": "ch4_0"
+   },
+   {
+    "id": "seg0341",
+    "startFrame": 55197,
+    "endFrame": 55314,
+    "text": "기본 개념에서는 계산보다 개념 이해가 먼저입니다.",
+    "isSentenceEnd": true,
+    "chapterId": "ch4_0"
+   },
+   {
+    "id": "seg0342",
+    "startFrame": 55336,
+    "endFrame": 55461,
+    "text": "극한의 기하학적 의미를 그래프로 확인해 봅시다.",
+    "isSentenceEnd": true,
+    "chapterId": "ch4_0"
+   },
+   {
+    "id": "seg0343",
+    "startFrame": 55488,
+    "endFrame": 55589,
+    "text": "여기서 변화율의 조건을 만족하는지 반드시 확인해야 합니다.",
+    "isSentenceEnd": true,
+    "chapterId": "ch4_0"
+   },
+   {
+    "id": "seg0344",
+    "startFrame": 55626,
+    "endFrame": 55834,
+    "text": "기본 개념의 핵심은 극한이 존재하는지 판단하는 데 있습니다.",
+    "isSentenceEnd": true,
+    "chapterId": "ch4_0"
+   },
+   {
+    "id": "seg0345",
+    "startFrame": 55859,
+    "endFrame": 55999,
+    "text": "앞의 결과와 비교하면 기본 개념의 구조가 보입니다.",
+    "isSentenceEnd": true,
+    "chapterId": "ch4_0"
+   },
+   {
+    "id": "seg0346",
+    "startFrame": 56061,
+    "endFrame": 56183,
+    "text": "표를 그려서 최적화의 증감을 정리해 보겠습니다.",
+    "isSentenceEnd": true,
+    "chapterId": "ch4_0"
+   },
+   {
+    "id": "seg0347",
+    "startFrame": 56220,
+    "endFrame": 56299,
+    "text": "이 결과는 접선의 정의로부터 바로 따라옵니다.",
+    "isSentenceEnd": true,
+    "chapterId": "ch4_0"
+   },
+   {
+    "id": "seg0348",
+    "startFrame": 56370,
+    "endFrame": 56456,
+    "text": "기본 개념에서 가장 먼저 확인할 것은 변화율의 정의입니다.",
+    "isSentenceEnd": true,
+    "chapterId": "ch4_0"
+   },
+   {
+    "id": "seg0349",
+    "startFrame": 56491,
+    "endFrame": 56651,
+    "text": "앞의 결과와 비교하면 기본 개념의 구조가 보입니다.",
+    "isSentenceEnd": true,
+    "chapterId": "ch4_0"
+   },
+   {
+    "id": "seg0350",
+    "startFrame": 56723,
+    "endFrame": 56846,
+    "text": "식을 다시 쓰면 미분계수의 성질을 활용할 수 있습니다.",
+    "isSentenceEnd": true,
+    "chapterId": "ch4_0"
+   },
+   {
+    "id": "seg0351",
+    "startFrame": 56895,
+    "endFrame": 56991,
+    "text": "표를 그려서 최댓값의 증감을,",
+    "isSentenceEnd": false,
+    "chapterId": "ch4_0"
+   },
+   {
+    "id": "seg0352",
+    "startFrame": 56991,
+    "endFrame": 57088,
+    "text": "정리해 보겠습니다.",
+    "isSentenceEnd": true,
+    "chapterId": "ch4_0"
+   },
+   {
+    "id": "seg0353",
+    "startFrame": 57125,
+    "endFrame": 57284,
+    "text": "앞에서 배운 도함수를 그대로 사용하면 계산이 간단해집니다.",
+    "isSentenceEnd": true,
+    "chapterId": "ch4_0"
+   },
+   {
+    "id": "seg0354",
+    "startFrame": 57311,
+    "endFrame": 57407,
+    "text": "식을 다시 쓰면 변화율의 성질을 활용할 수 있습니다.",
+    "isSentenceEnd": true,
+    "chapterId": "ch4_0"
+   },
+   {
+    "id": "seg0355",
+    "startFrame": 57457,
+    "endFrame": 57552,
+    "text": "변화율가 연속인지 먼저,",
+    "isSentenceEnd": false,
+    "chapterId": "ch4_0"
+   },
+   {
+    "id": "seg0356",
+    "startFrame": 57552,
+    "endFrame": 57647,
+    "text": "살펴보아야 합니다.",
+    "isSentenceEnd": true,
+    "chapterId": "ch4_0"
+   },
+   {
+    "id": "seg0357",
+    "startFrame": 57715,
+    "endFrame": 57844,
+    "text": "거듭제곱의 기하학적 의미를 그래프로 확인해 봅시다.",
+    "isSentenceEnd": true,
+    "chapterId": "ch4_0"
+   },
+   {
+    "id": "seg0358",
+    "startFrame": 57876,
+    "endFrame": 57973,
+    "text": "이 경우 거듭제곱의 부호가 바뀌는 지점을 찾아야 합니다.",
+    "isSentenceEnd": true,
+    "chapterId": "ch4_0"
+   },
+   {
+    "id": "seg0359",
+    "startFrame": 57985,
+    "endFrame": 58127,
+    "text": "최댓값가 연속인지 먼저 살펴보아야 합니다.",
+    "isSentenceEnd": true,
+    "chapterId": "ch4_0"
+   },
+   {
+    "id": "seg0360",
+    "startFrame": 58198,
+    "endFrame": 58385,
+    "text": "이 문제는 기본 개념의 전형적인 유형입니다.",
+    "isSentenceEnd": true,
+    "chapterId": "ch4_0"
+   },
+   {
+    "id": "seg0361",
+    "startFrame": 58451,
+    "endFrame": 58581,
+    "text": "다음 예제에서 최댓값를 직접 계산해 보겠습니다.",
+    "isSentenceEnd": true,
+    "chapterId": "ch4_0"
+   },
+   {
+    "id": "seg0362",
+    "startFrame": 58602,
+    "endFrame": 58705,
+    "text": "여기까지가 기본 개념의,",
+    "isSentenceEnd": false,
+    "chapterId": "ch4_0"
+   },
+   {
+    "id": "seg0363",
+    "startFrame": 58705,
+    "endFrame": 58809,
+    "text": "기본 내용입니다.",
+    "isSentenceEnd": true,
+    "chapterId": "ch4_0"
+   },
+   {
+    "id": "seg0364",
+    "startFrame": 58836,
+    "endFrame": 58932,
+    "text": "여기까지가 문제 풀이의 기본 내용입니다.",
+    "isSentenceEnd": true,
+    "chapterId": "ch4_1"
+   },
+   {
+    "id": "seg0365",
+    "startFrame": 58984,
+    "endFrame": 59187,
+    "text": "분모가 0이 되지 않도록 최적화의 조건을 확인합니다.",
+    "isSentenceEnd": true,
+    "chapterId": "ch4_1"
+   },
+   {
+    "id": "seg0366",
+    "startFrame": 59222,
+    "endFrame": 59330,
+    "text": "연쇄법칙의 기하학적 의미를 그래프로 확인해 봅시다.",
+    "isSentenceEnd": true,
+    "chapterId": "ch4_1"
+   },
+   {
+    "id": "seg0367",
+    "startFrame": 59371,
+    "endFrame": 59518,
+    "text": "앞에서 배운 극한를 그대로 사용하면 계산이 간단해집니다.",
+    "isSentenceEnd": true,
+    "chapterId": "ch4_1"
+   },
+   {
+    "id": "seg0368",
+    "startFrame": 59580,
+    "endFrame": 59763,
+    "text": "증가와 감소의 기하학적 의미를 그래프로 확인해 봅시다.",
+    "isSentenceEnd": true,
+    "chapterId": "ch4_1"
+   },
+   {
+    "id": "seg0369",
+    "startFrame": 59824,
+    "endFrame": 59944,
+    "text": "문제 풀이을 정리하면서 이번 시간을 마치겠습니다.",
+    "isSentenceEnd": true,
+    "chapterId": "ch4_1"
+   },
+   {
+    "id": "seg0370",
+    "startFrame": 59961,
+    "endFrame": 60129,
+    "text": "이 결과는 극한의 정의로부터 바로 따라옵니다.",
+    "isSentenceEnd": true,
+    "chapterId": "ch4_1"
+   },
+   {
+    "id": "seg0371",
+    "startFrame": 60166,
+    "endFrame": 60363,
+    "text": "앞에서 배운 접선를 그대로 사용하면 계산이 간단해집니다.",
+    "isSentenceEnd": true,
+    "chapterId": "ch4_1"
+   },
+   {
+    "id": "seg0372",
+    "startFrame": 60389,
+    "endFrame": 60472,
+    "text": "앞에서 배운 도함수를 그대로 사용하면 계산이 간단해집니다.",
+    "isSentenceEnd": true,
+    "chapterId": "ch4_1"
+   },
+   {
+    "id": "seg0373",
+    "startFrame": 60515,
+    "endFrame": 60686,
+    "text": "양변을 미분하면 연쇄법칙의 형태가 그대로 드러납니다.",
+    "isSentenceEnd": true,
+    "chapterId": "ch4_1"
+   },
+   {
+    "id": "seg0374",
+    "startFrame": 60759,
+    "endFrame": 60964,
+    "text": "문제 풀이은 시험에서 매우 자주 출제되는 내용입니다.",
+    "isSentenceEnd": true,
+    "chapterId": "ch4_1"
+   },
+   {
+    "id": "seg0375",
+    "startFrame": 61023,
+    "endFrame": 61182,
+    "text": "문제 풀이은 시험에서 매우 자주 출제되는 내용입니다.",
+    "isSentenceEnd": true,
+    "chapterId": "ch4_1"
+   },
+   {
+    "id": "seg0376",
+    "startFrame": 61250,
+    "endFrame": 61338,
+    "text": "질문이 많았던 증가와 감소 부분을 한 번 더 설명하겠습니다.",
+    "isSentenceEnd": true,
+    "chapterId": "ch4_1"
+   },
+   {
+    "id": "seg0377",
+    "startFrame": 61350,
+    "endFrame": 61431,
+    "text": "양변을 미분하면 미분계수의 형태가 그대로 드러납니다.",
+    "isSentenceEnd": true,
+    "chapterId": "ch4_1"
+   },
+   {
+    "id": "seg0378",
+    "startFrame": 61464,
+    "endFrame": 61566,
+    "text": "분모가 0이 되지 않도록 미분계수의,",
+    "isSentenceEnd": false,
+    "chapterId": "ch4_1"
+   },
+   {
+    "id": "seg0379",
+    "startFrame": 61566,
+    "endFrame": 61668,
+    "text": "조건을 확인합니다.",
+    "isSentenceEnd": true,
+    "chapterId": "ch4_1"
+   },
+   {
+    "id": "seg0380",
+    "startFrame": 61738,
+    "endFrame": 61897,
+    "text": "칠판에 정리한 것처럼 접선는 두 단계로 계산합니다.",
+    "isSentenceEnd": true,
+    "chapterId": "ch4_1"
+   },
+   {
+    "id": "seg0381",
+    "startFrame": 61942,
+    "endFrame": 62102,
+    "text": "문제 풀이에서 가장 먼저 확인할 것은 거듭제곱의 정의입니다.",
+    "isSentenceEnd": true,
+    "chapterId": "ch4_1"
+   },
+   {
+    "id": "seg0382",
+    "startFrame": 62149,
+    "endFrame": 62293,
+    "text": "이제 최적화를 이용해 최종 답을 구하겠습니다.",
+    "isSentenceEnd": true,
+    "chapterId": "ch4_1"
+   },
+   {
+    "id": "seg0383",
+    "startFrame": 62324,
+    "endFrame": 62415,
+    "text": "문제 풀이은 시험에서 매우 자주 출제되는 내용입니다.",
+    "isSentenceEnd": true,
+    "chapterId": "ch4_1"
+   },
+   {
+    "id": "seg0384",
+    "startFrame": 62466,
+    "endFrame": 62565,
+    "text": "여기서 연쇄법칙의 조건을 만족하는지,",
+    "isSentenceEnd": false,
+    "chapterId": "ch4_1"
+   },
+   {
+    "id": "seg0385",
+    "startFrame": 62565,
+    "endFrame": 62664,
+    "text": "반드시 확인해야 합니다.",
+    "isSentenceEnd": true,
+    "chapterId": "ch4_1"
+   },
+   {
+    "id": "seg0386",
+    "startFrame": 62692,
+    "endFrame": 62821,
+    "text": "이 문제는 문제 풀이의 전형적인 유형입니다.",
+    "isSentenceEnd": true,
+    "chapterId": "ch4_1"
+   },
+   {
+    "id": "seg0387",
+    "startFrame": 62849,
+    "endFrame": 62988,
+    "text": "문제 풀이은 시험에서 매우 자주 출제되는 내용입니다.",
+    "isSentenceEnd": true,
+    "chapterId": "ch4_1"
+   },
+   {
+    "id": "seg0388",
+    "startFrame": 63061,
+    "endFrame": 63242,
+    "text": "분모가 0이 되지 않도록 최적화의 조건을 확인합니다.",
+    "isSentenceEnd": true,
+    "chapterId": "ch4_1"
+   },
+   {
+    "id": "seg0389",
+    "startFrame": 63297,
+    "endFrame": 63391,
+    "text": "다음 예제에서 극한를 직접,",
+    "isSentenceEnd": false,
+    "chapterId": "ch4_1"
+   },
+   {
+    "id": "seg0390",
+    "startFrame": 63391,
+    "endFrame": 63485,
+    "text": "계산해 보겠습니다.",
+    "isSentenceEnd": true,
+    "chapterId": "ch4_1"
+   },
+   {
+    "id": "seg0391",
+    "startFrame": 63506,
+    "endFrame": 63670,
+    "text": "다음 예제에서 거듭제곱를 직접 계산해 보겠습니다.",
+    "isSentenceEnd": true,
+    "chapterId": "ch4_1"
+   },
+   {
+    "id": "seg0392",
+    "startFrame": 63692,
+    "endFrame": 63788,
+    "text": "분모가 0이 되지 않도록 연쇄법칙의,",
+    "isSentenceEnd": false,
+    "chapterId": "ch4_1"
+   },
+   {
+    "id": "seg0393",
+    "startFrame": 63788,
+    "endFrame": 63884,
+    "text": "조건을 확인합니다.",
+    "isSentenceEnd": true,
+    "chapterId": "ch4_1"
+   },
+   {
+    "id": "seg0394",
+    "startFrame": 63927,
+    "endFrame": 64009,
+    "text": "문제 풀이에서 가장 먼저 확인할 것은 최적화의 정의입니다.",
+    "isSentenceEnd": true,
+    "chapterId": "ch4_1"
+   },
+   {
+    "id": "seg0395",
+    "startFrame": 64032,
+    "endFrame": 64141,
+    "text": "이제 최댓값를 이용해 최종 답을 구하겠습니다.",
+    "isSentenceEnd": true,
+    "chapterId": "ch4_1"
+   },
+   {
+    "id": "seg0396",
+    "startFrame": 64170,
+    "endFrame": 64255,
+    "text": "여기서 접선의 조건을 만족하는지,",
+    "isSentenceEnd": false,
+    "chapterId": "ch4_1"
+   },
+   {
+    "id": "seg0397",
+    "startFrame": 64255,
+    "endFrame": 64340,
+    "text": "반드시 확인해야 합니다.",
+    "isSentenceEnd": true,
+    "chapterId": "ch4_1"
+   },
+   {
+    "id": "seg0398",
+    "startFrame": 64362,
+    "endFrame": 64519,
+    "text": "문제 풀이을 정리하면서 이번 시간을 마치겠습니다.",
+    "isSentenceEnd": true,
+    "chapterId": "ch4_1"
+   },
+   {
+    "id": "seg0399",
+    "startFrame": 64537,
+    "endFrame": 64636,
+    "text": "질문이 많았던 도함수 부분을 한 번 더 설명하겠습니다.",
+    "isSentenceEnd": true,
+    "chapterId": "ch4_1"
+   },
+   {
+    "id": "seg0400",
+    "startFrame": 64708,
+    "endFrame": 64873,
+    "text": "이 결과는 증가와 감소의 정의로부터 바로 따라옵니다.",
+    "isSentenceEnd": true,
+    "chapterId": "ch4_1"
+   },
+   {
+    "id": "seg0401",
+    "startFrame": 64907,
+    "endFrame": 64991,
+    "text": "이제 접선를 이용해 최종 답을 구하겠습니다.",
+    "isSentenceEnd": true,
+    "chapterId": "ch4_1"
+   },
+   {
+    "id": "seg0402",
+    "startFrame": 65009,
+    "endFrame": 65193,
+    "text": "표를 그려서 곱의 미분법의 증감을 정리해 보겠습니다.",
+    "isSentenceEnd": true,
+    "chapterId": "ch5_0"
+   },
+   {
+    "id": "seg0403",
+    "startFrame": 65215,
+    "endFrame": 65328,
+    "text": "분모가 0이 되지 않도록 곱의 미분법의 조건을 확인합니다.",
+    "isSentenceEnd": true,
+    "chapterId": "ch5_0"
+   },
+   {
+    "id": "seg0404",
+    "startFrame": 65402,
+    "endFrame": 65531,
+    "text": "이 문제는 수준 1 문제의 전형적인 유형입니다.",
+    "isSentenceEnd": true,
+    "chapterId": "ch5_0"
+   },
+   {
+    "id": "seg0405",
+    "startFrame": 65560,
+    "endFrame": 65654,
+    "text": "이 문제는 수준 1 문제의,",
+    "isSentenceEnd": false,
+    "chapterId": "ch5_0"
+   },
+   {
+    "id": "seg0406",
+    "startFrame": 65654,
+    "endFrame": 65748,
+    "text": "전형적인 유형입니다.",
+    "isSentenceEnd": true,
+    "chapterId": "ch5_0"
+   },
+   {
+    "id": "seg0407",
+    "startFrame": 65790,
+    "endFrame": 65968,
+    "text": "수준 1 문제에서는 계산보다 개념 이해가 먼저입니다.",
+    "isSentenceEnd": true,
+    "chapterId": "ch5_0"
+   },
+   {
+    "id": "seg0408",
+    "startFrame": 65978,
+    "endFrame": 66166,
+    "text": "식을 다시 쓰면 연쇄법칙의 성질을 활용할 수 있습니다.",
+    "isSentenceEnd": true,
+    "chapterId": "ch5_0"
+   },
+   {
+    "id": "seg0409",
+    "startFrame": 66223,
+    "endFrame": 66410,
+    "text": "분모가 0이 되지 않도록 연쇄법칙의 조건을 확인합니다.",
+    "isSentenceEnd": true,
+    "chapterId": "ch5_0"
+   },
+   {
+    "id": "seg0410",
+    "startFrame": 66468,
+    "endFrame": 66628,
+    "text": "최댓값를 적용하기 전에 정의역을 먼저 확인합니다.",
+    "isSentenceEnd": true,
+    "chapterId": "ch5_0"
+   },
+   {
+    "id": "seg0411",
+    "startFrame": 66691,
+    "endFrame": 66818,
+    "text": "변화율는 함수의 변화율을 나타내는 값으로 이해할 수 있습니다.",
+    "isSentenceEnd": true,
+    "chapterId": "ch5_0"
+   },
+   {
+    "id": "seg0412",
+    "startFrame": 66831,
+    "endFrame": 66975,
+    "text": "이 경우 극한의 부호가 바뀌는 지점을 찾아야 합니다.",
+    "isSentenceEnd": true,
+    "chapterId": "ch5_0"
+   },
+   {
+    "id": "seg0413",
+    "startFrame": 67023,
+    "endFrame": 67185,
+    "text": "이 결과는 접선의 정의로부터 바로 따라옵니다.",
+    "isSentenceEnd": true,
+    "chapterId": "ch5_0"
+   },
+   {
+    "id": "seg0414",
+    "startFrame": 67248,
+    "endFrame": 67409,
+    "text": "양변을 미분하면 변화율의 형태가 그대로 드러납니다.",
+    "isSentenceEnd": true,
+    "chapterId": "ch5_0"
+   },
+   {
+    "id": "seg0415",
+    "startFrame": 67427,
+    "endFrame": 67554,
+    "text": "질문이 많았던 접선 부분을 한 번 더 설명하겠습니다.",
+    "isSentenceEnd": true,
+    "chapterId": "ch5_0"
+   },
+   {
+    "id": "seg0416",
+    "startFrame": 67624,
+    "endFrame": 67780,
+    "text": "수준 1 문제에서는 계산보다 개념 이해가 먼저입니다.",
+    "isSentenceEnd": true,
+    "chapterId": "ch5_0"
+   },
+   {
+    "id": "seg0417",
+    "startFrame": 67803,
+    "endFrame": 67941,
+    "text": "분모가 0이 되지 않도록 연쇄법칙의 조건을 확인합니다.",
+    "isSentenceEnd": true,
+    "chapterId": "ch5_0"
+   },
+   {
+    "id": "seg0418",
+    "startFrame": 67996,
+    "endFrame": 68100,
+    "text": "이 식을 정리하면 최적화에 대한 표준형이 나옵니다.",
+    "isSentenceEnd": true,
+    "chapterId": "ch5_0"
+   },
+   {
+    "id": "seg0419",
+    "startFrame": 68160,
+    "endFrame": 68291,
+    "text": "표를 그려서 극한의 증감을 정리해 보겠습니다.",
+    "isSentenceEnd": true,
+    "chapterId": "ch5_0"
+   },
+   {
+    "id": "seg0420",
+    "startFrame": 68351,
+    "endFrame": 68435,
+    "text": "몫의 미분법가 연속인지 먼저,",
+    "isSentenceEnd": false,
+    "chapterId": "ch5_0"
+   },
+   {
+    "id": "seg0421",
+    "startFrame": 68435,
+    "endFrame": 68520,
+    "text": "살펴보아야 합니다.",
+    "isSentenceEnd": true,
+    "chapterId": "ch5_0"
+   },
+   {
+    "id": "seg0422",
+    "startFrame": 68542,
+    "endFrame": 68711,
+    "text": "몫의 미분법는 함수의 변화율을 나타내는 값으로 이해할 수 있습니다.",
+    "isSentenceEnd": true,
+    "chapterId": "ch5_0"
+   },
+   {
+    "id": "seg0423",
+    "startFrame": 68728,
+    "endFrame": 68813,
+    "text": "거듭제곱가 연속인지 먼저 살펴보아야 합니다.",
+    "isSentenceEnd": true,
+    "chapterId": "ch5_0"
+   },
+   {
+    "id": "seg0424",
+    "startFrame": 68828,
+    "endFrame": 68913,
+    "text": "이제 수준 1 문제을 실제 문제에 적용해 보겠습니다.",
+    "isSentenceEnd": true,
+    "chapterId": "ch5_0"
+   },
+   {
+    "id": "seg0425",
+    "startFrame": 68983,
+    "endFrame": 69152,
+    "text": "여기서 곱의 미분법의 조건을 만족하는지 반드시 확인해야 합니다.",
+    "isSentenceEnd": true,
+    "chapterId": "ch5_0"
+   },
+   {
+    "id": "seg0426",
+    "startFrame": 69184,
+    "endFrame": 69380,
+    "text": "식을 다시 쓰면 미분계수의 성질을 활용할 수 있습니다.",
+    "isSentenceEnd": true,
+    "chapterId": "ch5_0"
+   },
+   {
+    "id": "seg0427",
+    "startFrame": 69412,
+    "endFrame": 69499,
+    "text": "식을 다시 쓰면 연쇄법칙의 성질을,",
+    "isSentenceEnd": false,
+    "chapterId": "ch5_0"
+   },
+   {
+    "id": "seg0428",
+    "startFrame": 69499,
+    "endFrame": 69586,
+    "text": "활용할 수 있습니다.",
+    "isSentenceEnd": true,
+    "chapterId": "ch5_0"
+   },
+   {
+    "id": "seg0429",
+    "startFrame": 69660,
+    "endFrame": 69764,
+    "text": "이 식을 정리하면 최적화에 대한 표준형이 나옵니다.",
+    "isSentenceEnd": true,
+    "chapterId": "ch5_0"
+   },
+   {
+    "id": "seg0430",
+    "startFrame": 69790,
+    "endFrame": 69870,
+    "text": "이 결과는 도함수의 정의로부터,",
+    "isSentenceEnd": false,
+    "chapterId": "ch5_0"
+   },
+   {
+    "id": "seg0431",
+    "startFrame": 69870,
+    "endFrame": 69951,
+    "text": "바로 따라옵니다.",
+    "isSentenceEnd": true,
+    "chapterId": "ch5_0"
+   },
+   {
+    "id": "seg0432",
+    "startFrame": 69972,
+    "endFrame": 70088,
+    "text": "수준 2 문제의 핵심은 극한이 존재하는지 판단하는 데 있습니다.",
+    "isSentenceEnd": true,
+    "chapterId": "ch5_1"
+   },
+   {
+    "id": "seg0433",
+    "startFrame": 70153,
+    "endFrame": 70305,
+    "text": "학생들이 자주 실수하는 부분이 바로 수준 2 문제입니다.",
+    "isSentenceEnd": true,
+    "chapterId": "ch5_1"
+   },
+   {
+    "id": "seg0434",
+    "startFrame": 70367,
+    "endFrame": 70464,
+    "text": "수준 2 문제에서는 계산보다,",
+    "isSentenceEnd": false,
+    "chapterId": "ch5_1"
+   },
+   {
+    "id": "seg0435",
+    "startFrame": 70464,
+    "endFrame": 70562,
+    "text": "개념 이해가 먼저입니다.",
+    "isSentenceEnd": true,
+    "chapterId": "ch5_1"
+   },
+   {
+    "id": "seg0436",
+    "startFrame": 70617,
+    "endFrame": 70745,
+    "text": "수준 2 문제에서 가장 먼저 확인할 것은 미분계수의 정의입니다.",
+    "isSentenceEnd": true,
+    "chapterId": "ch5_1"
+   },
+   {
+    "id": "seg0437",
+    "startFrame": 70802,
+    "endFrame": 70952,
+    "text": "수준 2 문제은 시험에서 매우 자주 출제되는 내용입니다.",
+    "isSentenceEnd": true,
+    "chapterId": "ch5_1"
+   },
+   {
+    "id": "seg0438",
+    "startFrame": 70995,
+    "endFrame": 71134,
+    "text": "극한를 적용하기 전에 정의역을 먼저 확인합니다.",
+    "isSentenceEnd": true,
+    "chapterId": "ch5_1"
+   },
+   {
+    "id": "seg0439",
+    "startFrame": 71168,
+    "endFrame": 71261,
+    "text": "이 경우 최적화의 부호가 바뀌는,",
+    "isSentenceEnd": false,
+    "chapterId": "ch5_1"
+   },
+   {
+    "id": "seg0440",
+    "startFrame": 71261,
+    "endFrame": 71354,
+    "text": "지점을 찾아야 합니다.",
+    "isSentenceEnd": true,
+    "chapterId": "ch5_1"
+   },
+   {
+    "id": "seg0441",
+    "startFrame": 71382,
+    "endFrame": 71466,
+    "text": "수준 2 문제은 시험에서 매우,",
+    "isSentenceEnd": false,
+    "chapterId": "ch5_1"
+   },
+   {
+    "id": "seg0442",
+    "startFrame": 71466,
+    "endFrame": 71550,
+    "text": "자주 출제되는 내용입니다.",
+    "isSentenceEnd": true,
+    "chapterId": "ch5_1"
+   },
+   {
+    "id": "seg0443",
+    "startFrame": 71560,
+    "endFrame": 71657,
+    "text": "표를 그려서 곱의 미분법의 증감을 정리해 보겠습니다.",
+    "isSentenceEnd": true,
+    "chapterId": "ch5_1"
+   },
+   {
+    "id": "seg0444",
+    "startFrame": 71684,
+    "endFrame": 71878,
+    "text": "앞에서 배운 최적화를 그대로 사용하면 계산이 간단해집니다.",
+    "isSentenceEnd": true,
+    "chapterId": "ch5_1"
+   },
+   {
+    "id": "seg0445",
+    "startFrame": 71911,
+    "endFrame": 72066,
+    "text": "이제 수준 2 문제을 실제 문제에 적용해 보겠습니다.",
+    "isSentenceEnd": true,
+    "chapterId": "ch5_1"
+   },
+   {
+    "id": "seg0446",
+    "startFrame": 72117,
+    "endFrame": 72249,
+    "text": "조금 더 일반적인 상황으로 수준 2 문제을 확장해 보겠습니다.",
+    "isSentenceEnd": true,
+    "chapterId": "ch5_1"
+   },
+   {
+    "id": "seg0447",
+    "startFrame": 72321,
+    "endFrame": 72408,
+    "text": "이제 수준 2 문제을 실제,",
+    "isSentenceEnd": false,
+    "chapterId": "ch5_1"
+   },
+   {
+    "id": "seg0448",
+    "startFrame": 72408,
+    "endFrame": 72495,
+    "text": "문제에 적용해 보겠습니다.",
+    "isSentenceEnd": true,
+    "chapterId": "ch5_1"
+   },
+   {
+    "id": "seg0449",
+    "startFrame": 72537,
+    "endFrame": 72712,
+    "text": "이 문제는 수준 2 문제의 전형적인 유형입니다.",
+    "isSentenceEnd": true,
+    "chapterId": "ch5_1"
+   },
+   {
+    "id": "seg0450",
+    "startFrame": 72782,
+    "endFrame": 72988,
+    "text": "질문이 많았던 거듭제곱 부분을 한 번 더 설명하겠습니다.",
+    "isSentenceEnd": true,
+    "chapterId": "ch5_1"
+   },
+   {
+    "id": "seg0451",
+    "startFrame": 72999,
+    "endFrame": 73123,
+    "text": "분모가 0이 되지 않도록 접선의 조건을 확인합니다.",
+    "isSentenceEnd": true,
+    "chapterId": "ch5_1"
+   },
+   {
+    "id": "seg0452",
+    "startFrame": 73180,
+    "endFrame": 73344,
+    "text": "그림에서 보듯이 연쇄법칙는 접선의 기울기와 같습니다.",
+    "isSentenceEnd": true,
+    "chapterId": "ch5_1"
+   },
+   {
+    "id": "seg0453",
+    "startFrame": 73408,
+    "endFrame": 73493,
+    "text": "이 식을 정리하면 접선에,",
+    "isSentenceEnd": false,
+    "chapterId": "ch5_1"
+   },
+   {
+    "id": "seg0454",
+    "startFrame": 73493,
+    "endFrame": 73579,
+    "text": "대한 표준형이 나옵니다.",
+    "isSentenceEnd": true,
+    "chapterId": "ch5_1"
+   },
+   {
+    "id": "seg0455",
+    "startFrame": 73625,
+    "endFrame": 73745,
+    "text": "연쇄법칙는 함수의 변화율을 나타내는 값으로 이해할 수 있습니다.",
+    "isSentenceEnd": true,
+    "chapterId": "ch5_1"
+   },
+   {
+    "id": "seg0456",
+    "startFrame": 73814,
+    "endFrame": 73938,
+    "text": "수준 2 문제에서는 계산보다 개념 이해가 먼저입니다.",
+    "isSentenceEnd": true,
+    "chapterId": "ch5_1"
+   },
+   {
+    "id": "seg0457",
+    "startFrame": 73978,
+    "endFrame": 74100,
+    "text": "변화율가 연속인지 먼저 살펴보아야 합니다.",
+    "isSentenceEnd": true,
+    "chapterId": "ch5_1"
+   },
+   {
+    "id": "seg0458",
+    "startFrame": 74156,
+    "endFrame": 74366,
+    "text": "이 문제는 수준 2 문제의 전형적인 유형입니다.",
+    "isSentenceEnd": true,
+    "chapterId": "ch5_1"
+   },
+   {
+    "id": "seg0459",
+    "startFrame": 74424,
+    "endFrame": 74581,
+    "text": "수준 2 문제에서는 계산보다 개념 이해가 먼저입니다.",
+    "isSentenceEnd": true,
+    "chapterId": "ch5_1"
+   },
+   {
+    "id": "seg0460",
+    "startFrame": 74623,
+    "endFrame": 74708,
+    "text": "수준 2 문제을 이해하면 이후,",
+    "isSentenceEnd": false,
+    "chapterId": "ch5_1"
+   },
+   {
+    "id": "seg0461",
+    "startFrame": 74708,
+    "endFrame": 74794,
+    "text": "단원이 훨씬 쉬워집니다.",
+    "isSentenceEnd": true,
+    "chapterId": "ch5_1"
+   },
+   {
+    "id": "seg0462",
+    "startFrame": 74807,
+    "endFrame": 74929,
+    "text": "이 문제는 수준 2 문제의 전형적인 유형입니다.",
+    "isSentenceEnd": true,
+    "chapterId": "ch5_1"
+   },
+   {
+    "id": "seg0463",
+    "startFrame": 74985,
+    "endFrame": 75088,
+    "text": "수준 2 문제을 이해하면 이후 단원이 훨씬 쉬워집니다.",
+    "isSentenceEnd": true,
+    "chapterId": "ch5_1"
+   },
+   {
+    "id": "seg0464",
+    "startFrame": 75118,
+    "endFrame": 75204,
+    "text": "앞에서 배운 증가와 감소를 그대로 사용하면 계산이 간단해집니다.",
+    "isSentenceEnd": true,
+    "chapterId": "ch5_1"
+   },
+   {
+    "id": "seg0465",
+    "startFrame": 75263,
+    "endFrame": 75381,
+    "text": "조금 더 일반적인 상황으로 수준 2 문제을 확장해 보겠습니다.",
+    "isSentenceEnd": true,
+    "chapterId": "ch5_1"
+   },
+   {
+    "id": "seg0466",
+    "startFrame": 75410,
+    "endFrame": 75480,
+    "text": "이 결과는 곱의 미분법의 정의로부터,",
+    "isSentenceEnd": false,
+    "chapterId": "ch5_1"
+   },
+   {
+    "id": "seg0467",
+    "startFrame": 75480,
+    "endFrame": 75551,
+    "text": "바로 따라옵니다.",
+    "isSentenceEnd": true,
+    "chapterId": "ch5_1"
+   },
+   {
+    "id": "seg0468",
+    "startFrame": 75578,
+    "endFrame": 75667,
+    "text": "이제 수준 3 문제을 실제 문제에 적용해 보겠습니다.",
+    "isSentenceEnd": true,
+    "chapterId": "ch5_2"
+   },
+   {
+    "id": "seg0469",
+    "startFrame": 75727,
+    "endFrame": 75811,
+    "text": "수준 3 문제을 정리하면서 이번 시간을 마치겠습니다.",
+    "isSentenceEnd": true,
+    "chapterId": "ch5_2"
+   },
+   {
+    "id": "seg0470",
+    "startFrame": 75858,
+    "endFrame": 76002,
+    "text": "이 문제는 수준 3 문제의 전형적인 유형입니다.",
+    "isSentenceEnd": true,
+    "chapterId": "ch5_2"
+   },
+   {
+    "id": "seg0471",
+    "startFrame": 76059,
+    "endFrame": 76155,
+    "text": "이 경우 도함수의 부호가 바뀌는 지점을 찾아야 합니다.",
+    "isSentenceEnd": true,
+    "chapterId": "ch5_2"
+   },
+   {
+    "id": "seg0472",
+    "startFrame": 76182,
+    "endFrame": 76289,
+    "text": "수준 3 문제에서 가장 먼저 확인할 것은 증가와 감소의 정의입니다.",
+    "isSentenceEnd": true,
+    "chapterId": "ch5_2"
+   },
+   {
+    "id": "seg0473",
+    "startFrame": 76299,
+    "endFrame": 76391,
+    "text": "증가와 감소가 연속인지 먼저,",
+    "isSentenceEnd": false,
+    "chapterId": "ch5_2"
+   },
+   {
+    "id": "seg0474",
+    "startFrame": 76391,
+    "endFrame": 76484,
+    "text": "살펴보아야 합니다.",
+    "isSentenceEnd": true,
+    "chapterId": "ch5_2"
+   },
+   {
+    "id": "seg0475",
+    "startFrame": 76547,
+    "endFrame": 76643,
+    "text": "수준 3 문제에서 가장 먼저 확인할,",
+    "isSentenceEnd": false,
+    "chapterId": "ch5_2"
+   },
+   {
+    "id": "seg0476",
+    "startFrame": 76643,
+    "endFrame": 76740,
+    "text": "것은 미분계수의 정의입니다.",
+    "isSentenceEnd": true,
+    "chapterId": "ch5_2"
+   },
+   {
+    "id": "seg0477",
+    "startFrame": 76783,
+    "endFrame": 76937,
+    "text": "조금 더 일반적인 상황으로 수준 3 문제을 확장해 보겠습니다.",
+    "isSentenceEnd": true,
+    "chapterId": "ch5_2"
+   },
+   {
+    "id": "seg0478",
+    "startFrame": 76966,
+    "endFrame": 77129,
+    "text": "표를 그려서 변화율의 증감을 정리해 보겠습니다.",
+    "isSentenceEnd": true,
+    "chapterId": "ch5_2"
+   },
+   {
+    "id": "seg0479",
+    "startFrame": 77203,
+    "endFrame": 77281,
+    "text": "학생들이 자주 실수하는 부분이 바로 수준 3 문제입니다.",
+    "isSentenceEnd": true,
+    "chapterId": "ch5_2"
+   },
+   {
+    "id": "seg0480",
+    "startFrame": 77299,
+    "endFrame": 77402,
+    "text": "수준 3 문제을 정리하면서,",
+    "isSentenceEnd": false,
+    "chapterId": "ch5_2"
+   },
+   {
+    "id": "seg0481",
+    "startFrame": 77402,
+    "endFrame": 77506,
+    "text": "이번 시간을 마치겠습니다.",
+    "isSentenceEnd": true,
+    "chapterId": "ch5_2"
+   },
+   {
+    "id": "seg0482",
+    "startFrame": 77518,
+    "endFrame": 77595,
+    "text": "학생들이 자주 실수하는 부분이 바로 수준 3 문제입니다.",
+    "isSentenceEnd": true,
+    "chapterId": "ch5_2"
+   },
+   {
+    "id": "seg0483",
+    "startFrame": 77617,
+    "endFrame": 77742,
+    "text": "칠판에 정리한 것처럼 도함수는 두 단계로 계산합니다.",
+    "isSentenceEnd": true,
+    "chapterId": "ch5_2"
+   },
+   {
+    "id": "seg0484",
+    "startFrame": 77777,
+    "endFrame": 77876,
+    "text": "여기까지가 수준 3 문제의,",
+    "isSentenceEnd": false,
+    "chapterId": "ch5_2"
+   },
+   {
+    "id": "seg0485",
+    "startFrame": 77876,
+    "endFrame": 77976,
+    "text": "기본 내용입니다.",
+    "isSentenceEnd": true,
+    "chapterId": "ch5_2"
+   },
+   {
+    "id": "seg0486",
+    "startFrame": 77998,
+    "endFrame": 78206,
+    "text": "이 식을 정리하면 연쇄법칙에 대한 표준형이 나옵니다.",
+    "isSentenceEnd": true,
+    "chapterId": "ch5_2"
+   },
+   {
+    "id": "seg0487",
+    "startFrame": 78275,
+    "endFrame": 78367,
+    "text": "칠판에 정리한 것처럼 미분계수는,",
+    "isSentenceEnd": false,
+    "chapterId": "ch5_2"
+   },
+   {
+    "id": "seg0488",
+    "startFrame": 78367,
+    "endFrame": 78459,
+    "text": "두 단계로 계산합니다.",
+    "isSentenceEnd": true,
+    "chapterId": "ch5_2"
+   },
+   {
+    "id": "seg0489",
+    "startFrame": 78491,
+    "endFrame": 78632,
+    "text": "이제 연쇄법칙를 이용해 최종 답을 구하겠습니다.",
+    "isSentenceEnd": true,
+    "chapterId": "ch5_2"
+   },
+   {
+    "id": "seg0490",
+    "startFrame": 78705,
+    "endFrame": 78862,
+    "text": "표를 그려서 몫의 미분법의 증감을 정리해 보겠습니다.",
+    "isSentenceEnd": true,
+    "chapterId": "ch5_2"
+   },
+   {
+    "id": "seg0491",
+    "startFrame": 78913,
+    "endFrame": 79049,
+    "text": "앞에서 배운 연쇄법칙를 그대로 사용하면 계산이 간단해집니다.",
+    "isSentenceEnd": true,
+    "chapterId": "ch5_2"
+   },
+   {
+    "id": "seg0492",
+    "startFrame": 79066,
+    "endFrame": 79165,
+    "text": "곱의 미분법는 함수의 변화율을 나타내는 값으로 이해할 수 있습니다.",
+    "isSentenceEnd": true,
+    "chapterId": "ch5_2"
+   },
+   {
+    "id": "seg0493",
+    "startFrame": 79211,
+    "endFrame": 79319,
+    "text": "앞에서 배운 극한를 그대로 사용하면 계산이 간단해집니다.",
+    "isSentenceEnd": true,
+    "chapterId": "ch5_2"
+   },
+   {
+    "id": "seg0494",
+    "startFrame": 79373,
+    "endFrame": 79559,
+    "text": "수준 3 문제은 시험에서 매우 자주 출제되는 내용입니다.",
+    "isSentenceEnd": true,
+    "chapterId": "ch5_2"
+   },
+   {
+    "id": "seg0495",
+    "startFrame": 79570,
+    "endFrame": 79679,
+    "text": "이 식을 정리하면 거듭제곱에 대한 표준형이 나옵니다.",
+    "isSentenceEnd": true,
+    "chapterId": "ch5_2"
+   },
+   {
+    "id": "seg0496",
+    "startFrame": 79744,
+    "endFrame": 79928,
+    "text": "수준 3 문제에서는 계산보다 개념 이해가 먼저입니다.",
+    "isSentenceEnd": true,
+    "chapterId": "ch5_2"
+   },
+   {
+    "id": "seg0497",
+    "startFrame": 79996,
+    "endFrame": 80073,
+    "text": "변화율를 적용하기 전에 정의역을 먼저 확인합니다.",
+    "isSentenceEnd": true,
+    "chapterId": "ch5_2"
+   },
+   {
+    "id": "seg0498",
+    "startFrame": 80131,
+    "endFrame": 80261,
+    "text": "이제 수준 3 문제을 실제 문제에 적용해 보겠습니다.",
+    "isSentenceEnd": true,
+    "chapterId": "ch5_2"
+   },
+   {
+    "id": "seg0499",
+    "startFrame": 80308,
+    "endFrame": 80510,
+    "text": "곱의 미분법의 기하학적 의미를 그래프로 확인해 봅시다.",
+    "isSentenceEnd": true,
+    "chapterId": "ch5_2"
+   },
+   {
+    "id": "seg0500",
+    "startFrame": 80561,
+    "endFrame": 80695,
+    "text": "이제 연쇄법칙를 이용해 최종 답을 구하겠습니다.",
+    "isSentenceEnd": true,
+    "chapterId": "ch5_2"
+   },
+   {
+    "id": "seg0501",
+    "startFrame": 80719,
+    "endFrame": 80817,
+    "text": "수준 3 문제에서는 계산보다,",
+    "isSentenceEnd": false,
+    "chapterId": "ch5_2"
+   },
+   {
+    "id": "seg0502",
+    "startFrame": 80817,
+    "endFrame": 80916,
+    "text": "개념 이해가 먼저입니다.",
+    "isSentenceEnd": true,
+    "chapterId": "ch5_2"
+   },
+   {
+    "id": "seg0503",
+    "startFrame": 80930,
+    "endFrame": 81005,
+    "text": "이제 수준 3 문제을 실제 문제에 적용해 보겠습니다.",
+    "isSentenceEnd": true,
+    "chapterId": "ch5_2"
+   },
+   {
+    "id": "seg0504",
+    "startFrame": 81021,
+    "endFrame": 81125,
+    "text": "수준 3 문제의 핵심은 극한이 존재하는지 판단하는 데 있습니다.",
+    "isSentenceEnd": true,
+    "chapterId": "ch5_2"
+   },
+   {
+    "id": "seg0505",
+    "startFrame": 81140,
+    "endFrame": 81255,
+    "text": "이 결과는 접선의 정의로부터 바로 따라옵니다.",
+    "isSentenceEnd": true,
+    "chapterId": "ch5_2"
+   },
+   {
+    "id": "seg0506",
+    "startFrame": 81311,
+    "endFrame": 81471,
+    "text": "여기까지가 수준 3 문제의 기본 내용입니다.",
+    "isSentenceEnd": true,
+    "chapterId": "ch5_2"
+   },
+   {
+    "id": "seg0507",
+    "startFrame": 81529,
+    "endFrame": 81698,
+    "text": "이제 증가와 감소를 이용해 최종 답을 구하겠습니다.",
+    "isSentenceEnd": true,
+    "chapterId": "ch5_2"
+   },
+   {
+    "id": "seg0508",
+    "startFrame": 81730,
+    "endFrame": 81810,
+    "text": "수준 3 문제을 이해하면 이후 단원이 훨씬 쉬워집니다.",
+    "isSentenceEnd": true,
+    "chapterId": "ch5_2"
+   },
+   {
+    "id": "seg0509",
+    "startFrame": 81871,
+    "endFrame": 81960,
+    "text": "앞의 결과와 비교하면 수준 3 문제의 구조가 보입니다.",
+    "isSentenceEnd": true,
+    "chapterId": "ch5_2"
+   }
+  ]
+ },
+ "slides": [
+  {
+   "frame": 0,
+   "slideId": "sl00",
+   "imageRef": "slide://calc-30-derivatives/0",
+   "title": "도함수 소개"
+  },
+  {
+   "frame": 1800,
+   "slideId": "sl01",
+   "imageRef": "slide://calc-30-derivatives/1",
+   "title": "1-1. 도함수의 정의"
+  },
+  {
+   "frame": 3918,
+   "slideId": "sl02",
+   "imageRef": "slide://calc-30-derivatives/2",
+   "title": "1-2. 도함수의 기하학적 의미"
+  },
+  {
+   "frame": 4185,
+   "slideId": "sl03",
+   "imageRef": "slide://calc-30-derivatives/3",
+   "title": "1-2. 도함수의 기하학적 의미 (3)"
+  },
+  {
+   "frame": 4790,
+   "slideId": "sl04",
+   "imageRef": "slide://calc-30-derivatives/4",
+   "title": "1-2. 도함수의 기하학적 의미 (4)"
+  },
+  {
+   "frame": 5973,
+   "slideId": "sl05",
+   "imageRef": "slide://calc-30-derivatives/5",
+   "title": "1-2. 도함수의 기하학적 의미 (5)"
+  },
+  {
+   "frame": 7023,
+   "slideId": "sl06",
+   "imageRef": "slide://calc-30-derivatives/6",
+   "title": "1-3. 기본 미분법"
+  },
+  {
+   "frame": 7753,
+   "slideId": "sl07",
+   "imageRef": "slide://calc-30-derivatives/7",
+   "title": "1-3. 기본 미분법 (7)"
+  },
+  {
+   "frame": 8041,
+   "slideId": "sl08",
+   "imageRef": "slide://calc-30-derivatives/8",
+   "title": "1-3. 기본 미분법 (8)"
+  },
+  {
+   "frame": 10179,
+   "slideId": "sl09",
+   "imageRef": "slide://calc-30-derivatives/9",
+   "title": "1-3. 기본 미분법 (9)"
+  },
+  {
+   "frame": 11636,
+   "slideId": "sl10",
+   "imageRef": "slide://calc-30-derivatives/10",
+   "title": "2-1. 거듭제곱 미분법"
+  },
+  {
+   "frame": 19551,
+   "slideId": "sl11",
+   "imageRef": "slide://calc-30-derivatives/11",
+   "title": "2-2. 곱의 미분법"
+  },
+  {
+   "frame": 20769,
+   "slideId": "sl12",
+   "imageRef": "slide://calc-30-derivatives/12",
+   "title": "2-2. 곱의 미분법 (12)"
+  },
+  {
+   "frame": 21762,
+   "slideId": "sl13",
+   "imageRef": "slide://calc-30-derivatives/13",
+   "title": "2-2. 곱의 미분법 (13)"
+  },
+  {
+   "frame": 23911,
+   "slideId": "sl14",
+   "imageRef": "slide://calc-30-derivatives/14",
+   "title": "2-2. 곱의 미분법 (14)"
+  },
+  {
+   "frame": 25654,
+   "slideId": "sl15",
+   "imageRef": "slide://calc-30-derivatives/15",
+   "title": "2-3. 몫의 미분법"
+  },
+  {
+   "frame": 26439,
+   "slideId": "sl16",
+   "imageRef": "slide://calc-30-derivatives/16",
+   "title": "2-3. 몫의 미분법 (16)"
+  },
+  {
+   "frame": 30518,
+   "slideId": "sl17",
+   "imageRef": "slide://calc-30-derivatives/17",
+   "title": "2-4. 연쇄 법칙"
+  },
+  {
+   "frame": 34108,
+   "slideId": "sl18",
+   "imageRef": "slide://calc-30-derivatives/18",
+   "title": "3-1. 함수의 증가와 감소"
+  },
+  {
+   "frame": 34949,
+   "slideId": "sl19",
+   "imageRef": "slide://calc-30-derivatives/19",
+   "title": "3-1. 함수의 증가와 감소 (19)"
+  },
+  {
+   "frame": 39470,
+   "slideId": "sl20",
+   "imageRef": "slide://calc-30-derivatives/20",
+   "title": "3-1. 함수의 증가와 감소 (20)"
+  },
+  {
+   "frame": 40120,
+   "slideId": "sl21",
+   "imageRef": "slide://calc-30-derivatives/21",
+   "title": "3-1. 함수의 증가와 감소 (21)"
+  },
+  {
+   "frame": 40623,
+   "slideId": "sl22",
+   "imageRef": "slide://calc-30-derivatives/22",
+   "title": "3-2. 최댓값·최솟값 문제"
+  },
+  {
+   "frame": 41844,
+   "slideId": "sl23",
+   "imageRef": "slide://calc-30-derivatives/23",
+   "title": "3-2. 최댓값·최솟값 문제 (23)"
+  },
+  {
+   "frame": 43475,
+   "slideId": "sl24",
+   "imageRef": "slide://calc-30-derivatives/24",
+   "title": "3-2. 최댓값·최솟값 문제 (24)"
+  },
+  {
+   "frame": 45195,
+   "slideId": "sl25",
+   "imageRef": "slide://calc-30-derivatives/25",
+   "title": "3-2. 최댓값·최솟값 문제 (25)"
+  },
+  {
+   "frame": 45357,
+   "slideId": "sl26",
+   "imageRef": "slide://calc-30-derivatives/26",
+   "title": "3-2. 최댓값·최솟값 문제 (26)"
+  },
+  {
+   "frame": 47605,
+   "slideId": "sl27",
+   "imageRef": "slide://calc-30-derivatives/27",
+   "title": "3-3. 최적화 문제"
+  },
+  {
+   "frame": 50006,
+   "slideId": "sl28",
+   "imageRef": "slide://calc-30-derivatives/28",
+   "title": "3-3. 최적화 문제 (28)"
+  },
+  {
+   "frame": 53187,
+   "slideId": "sl29",
+   "imageRef": "slide://calc-30-derivatives/29",
+   "title": "3-3. 최적화 문제 (29)"
+  },
+  {
+   "frame": 54300,
+   "slideId": "sl30",
+   "imageRef": "slide://calc-30-derivatives/30",
+   "title": "4-1. 기본 개념"
+  },
+  {
+   "frame": 58823,
+   "slideId": "sl31",
+   "imageRef": "slide://calc-30-derivatives/31",
+   "title": "4-2. 문제 풀이"
+  },
+  {
+   "frame": 61464,
+   "slideId": "sl32",
+   "imageRef": "slide://calc-30-derivatives/32",
+   "title": "4-2. 문제 풀이 (32)"
+  },
+  {
+   "frame": 62692,
+   "slideId": "sl33",
+   "imageRef": "slide://calc-30-derivatives/33",
+   "title": "4-2. 문제 풀이 (33)"
+  },
+  {
+   "frame": 63927,
+   "slideId": "sl34",
+   "imageRef": "slide://calc-30-derivatives/34",
+   "title": "4-2. 문제 풀이 (34)"
+  },
+  {
+   "frame": 64997,
+   "slideId": "sl35",
+   "imageRef": "slide://calc-30-derivatives/35",
+   "title": "5-1. 수준 1 문제"
+  },
+  {
+   "frame": 67803,
+   "slideId": "sl36",
+   "imageRef": "slide://calc-30-derivatives/36",
+   "title": "5-1. 수준 1 문제 (36)"
+  },
+  {
+   "frame": 69951,
+   "slideId": "sl37",
+   "imageRef": "slide://calc-30-derivatives/37",
+   "title": "5-2. 수준 2 문제"
+  },
+  {
+   "frame": 72782,
+   "slideId": "sl38",
+   "imageRef": "slide://calc-30-derivatives/38",
+   "title": "5-2. 수준 2 문제 (38)"
+  },
+  {
+   "frame": 74985,
+   "slideId": "sl39",
+   "imageRef": "slide://calc-30-derivatives/39",
+   "title": "5-2. 수준 2 문제 (39)"
+  },
+  {
+   "frame": 75551,
+   "slideId": "sl40",
+   "imageRef": "slide://calc-30-derivatives/40",
+   "title": "5-3. 수준 3 문제"
+  }
+ ],
+ "boardActivity": [
+  {
+   "startFrame": 689,
+   "endFrame": 785,
+   "intensity": 0.9058794644894077
+  },
+  {
+   "startFrame": 842,
+   "endFrame": 931,
+   "intensity": 0.36699896068312227
+  },
+  {
+   "startFrame": 1645,
+   "endFrame": 1699,
+   "intensity": 0.9069984750822186
+  },
+  {
+   "startFrame": 2034,
+   "endFrame": 2094,
+   "intensity": 0.4680215265834704
+  },
+  {
+   "startFrame": 2508,
+   "endFrame": 2556,
+   "intensity": 0.6941175362095237
+  },
+  {
+   "startFrame": 2721,
+   "endFrame": 2757,
+   "intensity": 0.5215418101521209
+  },
+  {
+   "startFrame": 3781,
+   "endFrame": 3873,
+   "intensity": 0.844730970216915
+  },
+  {
+   "startFrame": 4106,
+   "endFrame": 4155,
+   "intensity": 0.6791170333279297
+  },
+  {
+   "startFrame": 4212,
+   "endFrame": 4265,
+   "intensity": 0.6480025218334049
+  },
+  {
+   "startFrame": 4386,
+   "endFrame": 4434,
+   "intensity": 0.5449381632730365
+  },
+  {
+   "startFrame": 4551,
+   "endFrame": 4602,
+   "intensity": 0.8401931275613606
+  },
+  {
+   "startFrame": 5189,
+   "endFrame": 5262,
+   "intensity": 0.985749366134405
+  },
+  {
+   "startFrame": 5353,
+   "endFrame": 5432,
+   "intensity": 0.9159088781336322
+  },
+  {
+   "startFrame": 5793,
+   "endFrame": 5858,
+   "intensity": 0.4001334230415523
+  },
+  {
+   "startFrame": 6718,
+   "endFrame": 6770,
+   "intensity": 0.5932095495285465
+  },
+  {
+   "startFrame": 7070,
+   "endFrame": 7133,
+   "intensity": 0.5875249418430031
+  },
+  {
+   "startFrame": 7657,
+   "endFrame": 7739,
+   "intensity": 0.7999025410274043
+  },
+  {
+   "startFrame": 7885,
+   "endFrame": 7974,
+   "intensity": 0.5982122053392231
+  },
+  {
+   "startFrame": 8311,
+   "endFrame": 8361,
+   "intensity": 0.9413734596688299
+  },
+  {
+   "startFrame": 8565,
+   "endFrame": 8595,
+   "intensity": 0.4624536377377808
+  },
+  {
+   "startFrame": 9645,
+   "endFrame": 9701,
+   "intensity": 0.8980178775498644
+  },
+  {
+   "startFrame": 9999,
+   "endFrame": 10078,
+   "intensity": 0.9365439343266189
+  },
+  {
+   "startFrame": 10194,
+   "endFrame": 10258,
+   "intensity": 0.44155508421827105
+  },
+  {
+   "startFrame": 10354,
+   "endFrame": 10401,
+   "intensity": 0.729742572386749
+  },
+  {
+   "startFrame": 10550,
+   "endFrame": 10626,
+   "intensity": 0.88081656540744
+  },
+  {
+   "startFrame": 11193,
+   "endFrame": 11254,
+   "intensity": 0.716495781368576
+  },
+  {
+   "startFrame": 11703,
+   "endFrame": 11779,
+   "intensity": 0.30215915592852977
+  },
+  {
+   "startFrame": 12037,
+   "endFrame": 12104,
+   "intensity": 0.3653876289259642
+  },
+  {
+   "startFrame": 12654,
+   "endFrame": 12746,
+   "intensity": 0.4926658449694514
+  },
+  {
+   "startFrame": 13064,
+   "endFrame": 13122,
+   "intensity": 0.49358054527547207
+  },
+  {
+   "startFrame": 13299,
+   "endFrame": 13371,
+   "intensity": 0.6240547222783789
+  },
+  {
+   "startFrame": 13456,
+   "endFrame": 13532,
+   "intensity": 0.6616216068156063
+  },
+  {
+   "startFrame": 13749,
+   "endFrame": 13816,
+   "intensity": 0.7393664772622287
+  },
+  {
+   "startFrame": 14545,
+   "endFrame": 14609,
+   "intensity": 0.6240122023737058
+  },
+  {
+   "startFrame": 15262,
+   "endFrame": 15322,
+   "intensity": 0.43518877190072086
+  },
+  {
+   "startFrame": 15937,
+   "endFrame": 15999,
+   "intensity": 0.9039960397640243
+  },
+  {
+   "startFrame": 16550,
+   "endFrame": 16646,
+   "intensity": 0.8040203674463555
+  },
+  {
+   "startFrame": 17962,
+   "endFrame": 18011,
+   "intensity": 0.3611379272071644
+  },
+  {
+   "startFrame": 18154,
+   "endFrame": 18217,
+   "intensity": 0.999997720704414
+  },
+  {
+   "startFrame": 18274,
+   "endFrame": 18325,
+   "intensity": 0.9841611202107743
+  },
+  {
+   "startFrame": 19220,
+   "endFrame": 19300,
+   "intensity": 0.8530366043560207
+  },
+  {
+   "startFrame": 20560,
+   "endFrame": 20618,
+   "intensity": 0.6894213733728976
+  },
+  {
+   "startFrame": 22147,
+   "endFrame": 22199,
+   "intensity": 0.6338217212818562
+  },
+  {
+   "startFrame": 22274,
+   "endFrame": 22371,
+   "intensity": 0.882243861281313
+  },
+  {
+   "startFrame": 23142,
+   "endFrame": 23201,
+   "intensity": 0.3859999547479674
+  },
+  {
+   "startFrame": 23370,
+   "endFrame": 23454,
+   "intensity": 0.3761811362812295
+  },
+  {
+   "startFrame": 23586,
+   "endFrame": 23634,
+   "intensity": 0.44046587396878745
+  },
+  {
+   "startFrame": 24302,
+   "endFrame": 24402,
+   "intensity": 0.78613668163307
+  },
+  {
+   "startFrame": 24522,
+   "endFrame": 24566,
+   "intensity": 0.695850711595267
+  },
+  {
+   "startFrame": 24758,
+   "endFrame": 24831,
+   "intensity": 0.6338110125856473
+  },
+  {
+   "startFrame": 25279,
+   "endFrame": 25345,
+   "intensity": 0.7147543736267834
+  },
+  {
+   "startFrame": 25563,
+   "endFrame": 25605,
+   "intensity": 0.9044698071200401
+  },
+  {
+   "startFrame": 25703,
+   "endFrame": 25739,
+   "intensity": 0.7017919471021741
+  },
+  {
+   "startFrame": 26124,
+   "endFrame": 26201,
+   "intensity": 0.303843176108785
+  },
+  {
+   "startFrame": 26613,
+   "endFrame": 26646,
+   "intensity": 0.38949510646052654
+  },
+  {
+   "startFrame": 26816,
+   "endFrame": 26887,
+   "intensity": 0.46743520831223573
+  },
+  {
+   "startFrame": 27031,
+   "endFrame": 27091,
+   "intensity": 0.7778991259867325
+  },
+  {
+   "startFrame": 27698,
+   "endFrame": 27759,
+   "intensity": 0.8892083019949495
+  },
+  {
+   "startFrame": 27837,
+   "endFrame": 27919,
+   "intensity": 0.7740422610659152
+  },
+  {
+   "startFrame": 28229,
+   "endFrame": 28259,
+   "intensity": 0.45419820286333557
+  },
+  {
+   "startFrame": 28874,
+   "endFrame": 28969,
+   "intensity": 0.5336443806067108
+  },
+  {
+   "startFrame": 29540,
+   "endFrame": 29582,
+   "intensity": 0.5666665110969915
+  },
+  {
+   "startFrame": 30017,
+   "endFrame": 30055,
+   "intensity": 0.6511989520164206
+  },
+  {
+   "startFrame": 30182,
+   "endFrame": 30227,
+   "intensity": 0.6304574912646785
+  },
+  {
+   "startFrame": 30412,
+   "endFrame": 30455,
+   "intensity": 0.3125768062192947
+  },
+  {
+   "startFrame": 31205,
+   "endFrame": 31263,
+   "intensity": 0.7411643217317759
+  },
+  {
+   "startFrame": 32341,
+   "endFrame": 32436,
+   "intensity": 0.7965080911526456
+  },
+  {
+   "startFrame": 32783,
+   "endFrame": 32843,
+   "intensity": 0.42478397334925827
+  },
+  {
+   "startFrame": 33184,
+   "endFrame": 33252,
+   "intensity": 0.5284053687704726
+  },
+  {
+   "startFrame": 33370,
+   "endFrame": 33443,
+   "intensity": 0.7353293623542413
+  },
+  {
+   "startFrame": 34822,
+   "endFrame": 34866,
+   "intensity": 0.6668209558119997
+  },
+  {
+   "startFrame": 35473,
+   "endFrame": 35552,
+   "intensity": 0.7968042853288352
+  },
+  {
+   "startFrame": 36999,
+   "endFrame": 37032,
+   "intensity": 0.8809347289148717
+  },
+  {
+   "startFrame": 37249,
+   "endFrame": 37289,
+   "intensity": 0.7964756941888481
+  },
+  {
+   "startFrame": 37923,
+   "endFrame": 37997,
+   "intensity": 0.9730363745708017
+  },
+  {
+   "startFrame": 38136,
+   "endFrame": 38210,
+   "intensity": 0.35135323510039596
+  },
+  {
+   "startFrame": 38987,
+   "endFrame": 39088,
+   "intensity": 0.5249071171507239
+  },
+  {
+   "startFrame": 39735,
+   "endFrame": 39803,
+   "intensity": 0.46084069344215095
+  },
+  {
+   "startFrame": 39910,
+   "endFrame": 39962,
+   "intensity": 0.655064084008336
+  },
+  {
+   "startFrame": 40342,
+   "endFrame": 40407,
+   "intensity": 0.45626201855484394
+  },
+  {
+   "startFrame": 40512,
+   "endFrame": 40569,
+   "intensity": 0.33314427824225273
+  },
+  {
+   "startFrame": 40793,
+   "endFrame": 40865,
+   "intensity": 0.8986716262996197
+  },
+  {
+   "startFrame": 40950,
+   "endFrame": 41016,
+   "intensity": 0.4001455638557672
+  },
+  {
+   "startFrame": 41275,
+   "endFrame": 41341,
+   "intensity": 0.4329553523333743
+  },
+  {
+   "startFrame": 41635,
+   "endFrame": 41688,
+   "intensity": 0.8709768587490543
+  },
+  {
+   "startFrame": 42525,
+   "endFrame": 42572,
+   "intensity": 0.9311097784433513
+  },
+  {
+   "startFrame": 43385,
+   "endFrame": 43465,
+   "intensity": 0.3066019077086821
+  },
+  {
+   "startFrame": 43507,
+   "endFrame": 43558,
+   "intensity": 0.9247953022131696
+  },
+  {
+   "startFrame": 43677,
+   "endFrame": 43729,
+   "intensity": 0.7683233560528606
+  },
+  {
+   "startFrame": 44099,
+   "endFrame": 44154,
+   "intensity": 0.5918516557198017
+  },
+  {
+   "startFrame": 44529,
+   "endFrame": 44565,
+   "intensity": 0.7495640427805483
+  },
+  {
+   "startFrame": 44636,
+   "endFrame": 44672,
+   "intensity": 0.5108739942545071
+  },
+  {
+   "startFrame": 44756,
+   "endFrame": 44831,
+   "intensity": 0.36390778098721055
+  },
+  {
+   "startFrame": 45213,
+   "endFrame": 45250,
+   "intensity": 0.5682027670787647
+  },
+  {
+   "startFrame": 46374,
+   "endFrame": 46427,
+   "intensity": 0.7237396795302629
+  },
+  {
+   "startFrame": 46559,
+   "endFrame": 46622,
+   "intensity": 0.9991151618072762
+  },
+  {
+   "startFrame": 47103,
+   "endFrame": 47150,
+   "intensity": 0.6129775496199728
+  },
+  {
+   "startFrame": 47474,
+   "endFrame": 47514,
+   "intensity": 0.794936691969633
+  },
+  {
+   "startFrame": 47660,
+   "endFrame": 47730,
+   "intensity": 0.5290189851308241
+  },
+  {
+   "startFrame": 48780,
+   "endFrame": 48839,
+   "intensity": 0.6099851513514295
+  },
+  {
+   "startFrame": 49477,
+   "endFrame": 49525,
+   "intensity": 0.9488593698013574
+  },
+  {
+   "startFrame": 49858,
+   "endFrame": 49950,
+   "intensity": 0.9984490476548671
+  },
+  {
+   "startFrame": 50255,
+   "endFrame": 50340,
+   "intensity": 0.8844578542746604
+  },
+  {
+   "startFrame": 50654,
+   "endFrame": 50725,
+   "intensity": 0.7839723057346418
+  },
+  {
+   "startFrame": 50833,
+   "endFrame": 50923,
+   "intensity": 0.7659307888476178
+  },
+  {
+   "startFrame": 51599,
+   "endFrame": 51630,
+   "intensity": 0.9339919539866968
+  },
+  {
+   "startFrame": 52792,
+   "endFrame": 52850,
+   "intensity": 0.7116701283026486
+  },
+  {
+   "startFrame": 53203,
+   "endFrame": 53267,
+   "intensity": 0.40277572020422664
+  },
+  {
+   "startFrame": 53735,
+   "endFrame": 53813,
+   "intensity": 0.9904646921670064
+  },
+  {
+   "startFrame": 53876,
+   "endFrame": 53942,
+   "intensity": 0.3169581883121282
+  },
+  {
+   "startFrame": 54272,
+   "endFrame": 54300,
+   "intensity": 0.5254456592025235
+  },
+  {
+   "startFrame": 54629,
+   "endFrame": 54709,
+   "intensity": 0.6959661678178235
+  },
+  {
+   "startFrame": 55887,
+   "endFrame": 55946,
+   "intensity": 0.8992423133458942
+  },
+  {
+   "startFrame": 56387,
+   "endFrame": 56426,
+   "intensity": 0.4556558362673968
+  },
+  {
+   "startFrame": 56523,
+   "endFrame": 56584,
+   "intensity": 0.4583490811055526
+  },
+  {
+   "startFrame": 57156,
+   "endFrame": 57256,
+   "intensity": 0.9401251084636897
+  },
+  {
+   "startFrame": 57330,
+   "endFrame": 57407,
+   "intensity": 0.37671328750438987
+  },
+  {
+   "startFrame": 57740,
+   "endFrame": 57794,
+   "intensity": 0.45449953128118065
+  },
+  {
+   "startFrame": 58643,
+   "endFrame": 58706,
+   "intensity": 0.5542966148816049
+  },
+  {
+   "startFrame": 58855,
+   "endFrame": 58903,
+   "intensity": 0.44500312304589895
+  },
+  {
+   "startFrame": 59024,
+   "endFrame": 59094,
+   "intensity": 0.3412652367958799
+  },
+  {
+   "startFrame": 59243,
+   "endFrame": 59274,
+   "intensity": 0.7420420946786179
+  },
+  {
+   "startFrame": 59616,
+   "endFrame": 59681,
+   "intensity": 0.6942354633938521
+  },
+  {
+   "startFrame": 59848,
+   "endFrame": 59889,
+   "intensity": 0.36476552938111123
+  },
+  {
+   "startFrame": 59994,
+   "endFrame": 60047,
+   "intensity": 0.8445436276029794
+  },
+  {
+   "startFrame": 60549,
+   "endFrame": 60650,
+   "intensity": 0.46233573989011345
+  },
+  {
+   "startFrame": 61267,
+   "endFrame": 61326,
+   "intensity": 0.5861187116475776
+  },
+  {
+   "startFrame": 61769,
+   "endFrame": 61857,
+   "intensity": 0.8127826377982272
+  },
+  {
+   "startFrame": 62876,
+   "endFrame": 62931,
+   "intensity": 0.5711763483239338
+  },
+  {
+   "startFrame": 63334,
+   "endFrame": 63395,
+   "intensity": 0.7271189796272666
+  },
+  {
+   "startFrame": 63538,
+   "endFrame": 63593,
+   "intensity": 0.40968596942257135
+  },
+  {
+   "startFrame": 63943,
+   "endFrame": 64009,
+   "intensity": 0.3157906798180193
+  },
+  {
+   "startFrame": 64556,
+   "endFrame": 64605,
+   "intensity": 0.5185701134614646
+  },
+  {
+   "startFrame": 64741,
+   "endFrame": 64828,
+   "intensity": 0.6852514368947595
+  },
+  {
+   "startFrame": 64923,
+   "endFrame": 64977,
+   "intensity": 0.6482403109548613
+  },
+  {
+   "startFrame": 65237,
+   "endFrame": 65324,
+   "intensity": 0.698776091565378
+  },
+  {
+   "startFrame": 65427,
+   "endFrame": 65501,
+   "intensity": 0.5506088498979806
+  },
+  {
+   "startFrame": 65597,
+   "endFrame": 65672,
+   "intensity": 0.6584873708430677
+  },
+  {
+   "startFrame": 66716,
+   "endFrame": 66765,
+   "intensity": 0.8553430609637871
+  },
+  {
+   "startFrame": 67280,
+   "endFrame": 67318,
+   "intensity": 0.6971071989974007
+  },
+  {
+   "startFrame": 67452,
+   "endFrame": 67498,
+   "intensity": 0.5016634160419926
+  },
+  {
+   "startFrame": 67655,
+   "endFrame": 67706,
+   "intensity": 0.3008607480674982
+  },
+  {
+   "startFrame": 67830,
+   "endFrame": 67912,
+   "intensity": 0.8002636789111419
+  },
+  {
+   "startFrame": 68016,
+   "endFrame": 68050,
+   "intensity": 0.5327735884813591
+  },
+  {
+   "startFrame": 68745,
+   "endFrame": 68813,
+   "intensity": 0.5460516694933175
+  },
+  {
+   "startFrame": 69016,
+   "endFrame": 69097,
+   "intensity": 0.4040286635747179
+  },
+  {
+   "startFrame": 69223,
+   "endFrame": 69307,
+   "intensity": 0.4241873491089791
+  },
+  {
+   "startFrame": 69446,
+   "endFrame": 69483,
+   "intensity": 0.592440071888268
+  },
+  {
+   "startFrame": 69822,
+   "endFrame": 69890,
+   "intensity": 0.9890710146399215
+  },
+  {
+   "startFrame": 70183,
+   "endFrame": 70281,
+   "intensity": 0.3785550531931221
+  },
+  {
+   "startFrame": 70406,
+   "endFrame": 70465,
+   "intensity": 0.5919864982599392
+  },
+  {
+   "startFrame": 70832,
+   "endFrame": 70918,
+   "intensity": 0.9693162685260177
+  },
+  {
+   "startFrame": 71415,
+   "endFrame": 71510,
+   "intensity": 0.9948422226822002
+  },
+  {
+   "startFrame": 71722,
+   "endFrame": 71753,
+   "intensity": 0.8150314053287728
+  },
+  {
+   "startFrame": 72572,
+   "endFrame": 72613,
+   "intensity": 0.9713478490943088
+  },
+  {
+   "startFrame": 73212,
+   "endFrame": 73297,
+   "intensity": 0.41550776397343725
+  },
+  {
+   "startFrame": 73442,
+   "endFrame": 73493,
+   "intensity": 0.8576168914558366
+  },
+  {
+   "startFrame": 74198,
+   "endFrame": 74274,
+   "intensity": 0.7312239640858025
+  },
+  {
+   "startFrame": 74657,
+   "endFrame": 74749,
+   "intensity": 0.40731648511718954
+  },
+  {
+   "startFrame": 75005,
+   "endFrame": 75071,
+   "intensity": 0.7161513184430077
+  },
+  {
+   "startFrame": 75438,
+   "endFrame": 75495,
+   "intensity": 0.30950290434993805
+  },
+  {
+   "startFrame": 75743,
+   "endFrame": 75781,
+   "intensity": 0.8990243975305929
+  },
+  {
+   "startFrame": 76203,
+   "endFrame": 76289,
+   "intensity": 0.37896135193295777
+  },
+  {
+   "startFrame": 76585,
+   "endFrame": 76679,
+   "intensity": 0.764464283711277
+  },
+  {
+   "startFrame": 76998,
+   "endFrame": 77065,
+   "intensity": 0.605526089365594
+  },
+  {
+   "startFrame": 77816,
+   "endFrame": 77879,
+   "intensity": 0.5533927112817765
+  },
+  {
+   "startFrame": 78311,
+   "endFrame": 78351,
+   "intensity": 0.3858478682814166
+  },
+  {
+   "startFrame": 78940,
+   "endFrame": 79010,
+   "intensity": 0.8493853853549809
+  },
+  {
+   "startFrame": 79085,
+   "endFrame": 79165,
+   "intensity": 0.6587733630323782
+  },
+  {
+   "startFrame": 79410,
+   "endFrame": 79504,
+   "intensity": 0.4737174252979457
+  },
+  {
+   "startFrame": 79591,
+   "endFrame": 79657,
+   "intensity": 0.31821559884119777
+  },
+  {
+   "startFrame": 81041,
+   "endFrame": 81125,
+   "intensity": 0.4132001169491559
+  },
+  {
+   "startFrame": 81343,
+   "endFrame": 81397,
+   "intensity": 0.5991972523508593
+  }
+ ],
+ "textbookRefs": [
+  {
+   "startFrame": 1183,
+   "endFrame": 1280,
+   "page": 68,
+   "ref": "정리 4.1.3"
+  },
+  {
+   "startFrame": 3030,
+   "endFrame": 3228,
+   "page": 77,
+   "ref": "정리 2.9.3"
+  },
+  {
+   "startFrame": 5871,
+   "endFrame": 5952,
+   "page": 54,
+   "ref": "정리 5.3.4"
+  },
+  {
+   "startFrame": 6488,
+   "endFrame": 6650,
+   "page": 51,
+   "ref": "정리 5.4.3"
+  },
+  {
+   "startFrame": 7249,
+   "endFrame": 7353,
+   "page": 42,
+   "ref": "정리 2.6.3"
+  },
+  {
+   "startFrame": 9098,
+   "endFrame": 9234,
+   "page": 27,
+   "ref": "정리 5.9.1"
+  },
+  {
+   "startFrame": 11007,
+   "endFrame": 11112,
+   "page": 69,
+   "ref": "정리 1.5.4"
+  },
+  {
+   "startFrame": 12021,
+   "endFrame": 12104,
+   "page": 80,
+   "ref": "정리 5.4.1"
+  },
+  {
+   "startFrame": 13271,
+   "endFrame": 13413,
+   "page": 33,
+   "ref": "정리 5.8.4"
+  },
+  {
+   "startFrame": 13433,
+   "endFrame": 13550,
+   "page": 30,
+   "ref": "정리 4.3.4"
+  },
+  {
+   "startFrame": 14073,
+   "endFrame": 14225,
+   "page": 84,
+   "ref": "정리 5.8.4"
+  },
+  {
+   "startFrame": 15247,
+   "endFrame": 15322,
+   "page": 34,
+   "ref": "정리 3.6.1"
+  },
+  {
+   "startFrame": 15356,
+   "endFrame": 15434,
+   "page": 58,
+   "ref": "정리 2.7.3"
+  },
+  {
+   "startFrame": 16524,
+   "endFrame": 16657,
+   "page": 68,
+   "ref": "정리 2.7.3"
+  },
+  {
+   "startFrame": 19200,
+   "endFrame": 19300,
+   "page": 54,
+   "ref": "정리 5.3.4"
+  },
+  {
+   "startFrame": 19344,
+   "endFrame": 19529,
+   "page": 53,
+   "ref": "정리 4.8.3"
+  },
+  {
+   "startFrame": 20162,
+   "endFrame": 20324,
+   "page": 53,
+   "ref": "정리 4.9.3"
+  },
+  {
+   "startFrame": 22885,
+   "endFrame": 23064,
+   "page": 42,
+   "ref": "정리 5.2.1"
+  },
+  {
+   "startFrame": 29042,
+   "endFrame": 29176,
+   "page": 85,
+   "ref": "정리 1.7.1"
+  },
+  {
+   "startFrame": 31190,
+   "endFrame": 31268,
+   "page": 96,
+   "ref": "정리 4.8.1"
+  },
+  {
+   "startFrame": 31712,
+   "endFrame": 31788,
+   "page": 70,
+   "ref": "정리 5.3.1"
+  },
+  {
+   "startFrame": 32123,
+   "endFrame": 32269,
+   "page": 92,
+   "ref": "정리 5.1.1"
+  },
+  {
+   "startFrame": 32309,
+   "endFrame": 32471,
+   "page": 88,
+   "ref": "정리 5.4.2"
+  },
+  {
+   "startFrame": 33349,
+   "endFrame": 33457,
+   "page": 51,
+   "ref": "정리 3.6.3"
+  },
+  {
+   "startFrame": 36958,
+   "endFrame": 37164,
+   "page": 95,
+   "ref": "정리 4.6.3"
+  },
+  {
+   "startFrame": 37733,
+   "endFrame": 37822,
+   "page": 29,
+   "ref": "정리 5.8.1"
+  },
+  {
+   "startFrame": 43475,
+   "endFrame": 43636,
+   "page": 49,
+   "ref": "정리 4.7.2"
+  },
+  {
+   "startFrame": 44261,
+   "endFrame": 44452,
+   "page": 79,
+   "ref": "정리 1.4.2"
+  },
+  {
+   "startFrame": 45487,
+   "endFrame": 45634,
+   "page": 91,
+   "ref": "정리 3.8.3"
+  },
+  {
+   "startFrame": 45691,
+   "endFrame": 45895,
+   "page": 86,
+   "ref": "정리 4.9.2"
+  },
+  {
+   "startFrame": 46353,
+   "endFrame": 46461,
+   "page": 56,
+   "ref": "정리 2.8.1"
+  },
+  {
+   "startFrame": 48541,
+   "endFrame": 48700,
+   "page": 34,
+   "ref": "정리 2.7.4"
+  },
+  {
+   "startFrame": 50805,
+   "endFrame": 50945,
+   "page": 70,
+   "ref": "정리 3.1.1"
+  },
+  {
+   "startFrame": 51993,
+   "endFrame": 52178,
+   "page": 42,
+   "ref": "정리 2.7.3"
+  },
+  {
+   "startFrame": 52217,
+   "endFrame": 52367,
+   "page": 77,
+   "ref": "정리 5.7.4"
+  },
+  {
+   "startFrame": 53187,
+   "endFrame": 53267,
+   "page": 28,
+   "ref": "정리 1.9.1"
+  },
+  {
+   "startFrame": 53311,
+   "endFrame": 53477,
+   "page": 27,
+   "ref": "정리 5.5.3"
+  },
+  {
+   "startFrame": 53836,
+   "endFrame": 54040,
+   "page": 65,
+   "ref": "정리 3.4.3"
+  },
+  {
+   "startFrame": 54889,
+   "endFrame": 55037,
+   "page": 51,
+   "ref": "정리 1.8.4"
+  },
+  {
+   "startFrame": 55859,
+   "endFrame": 55999,
+   "page": 65,
+   "ref": "정리 3.9.3"
+  },
+  {
+   "startFrame": 62149,
+   "endFrame": 62293,
+   "page": 50,
+   "ref": "정리 4.6.1"
+  },
+  {
+   "startFrame": 63927,
+   "endFrame": 64009,
+   "page": 41,
+   "ref": "정리 2.3.3"
+  },
+  {
+   "startFrame": 64170,
+   "endFrame": 64340,
+   "page": 47,
+   "ref": "정리 2.2.4"
+  },
+  {
+   "startFrame": 65402,
+   "endFrame": 65531,
+   "page": 85,
+   "ref": "정리 2.9.2"
+  },
+  {
+   "startFrame": 68542,
+   "endFrame": 68711,
+   "page": 25,
+   "ref": "정리 3.2.4"
+  },
+  {
+   "startFrame": 69412,
+   "endFrame": 69586,
+   "page": 54,
+   "ref": "정리 5.4.4"
+  },
+  {
+   "startFrame": 69790,
+   "endFrame": 69951,
+   "page": 43,
+   "ref": "정리 2.3.4"
+  },
+  {
+   "startFrame": 73408,
+   "endFrame": 73579,
+   "page": 65,
+   "ref": "정리 2.7.1"
+  },
+  {
+   "startFrame": 73814,
+   "endFrame": 73938,
+   "page": 77,
+   "ref": "정리 5.1.4"
+  },
+  {
+   "startFrame": 74985,
+   "endFrame": 75088,
+   "page": 72,
+   "ref": "정리 2.2.3"
+  },
+  {
+   "startFrame": 75727,
+   "endFrame": 75811,
+   "page": 53,
+   "ref": "정리 5.1.4"
+  },
+  {
+   "startFrame": 76783,
+   "endFrame": 76937,
+   "page": 24,
+   "ref": "정리 2.8.1"
+  },
+  {
+   "startFrame": 78491,
+   "endFrame": 78632,
+   "page": 96,
+   "ref": "정리 5.7.3"
+  },
+  {
+   "startFrame": 78705,
+   "endFrame": 78862,
+   "page": 60,
+   "ref": "정리 4.6.2"
+  },
+  {
+   "startFrame": 80719,
+   "endFrame": 80916,
+   "page": 33,
+   "ref": "정리 4.1.4"
+  },
+  {
+   "startFrame": 81021,
+   "endFrame": 81125,
+   "page": 48,
+   "ref": "정리 1.8.3"
+  }
+ ],
+ "chapters": [
+  {
+   "id": "ch0",
+   "title": "도함수 소개",
+   "startFrame": 0,
+   "endFrame": 1800,
+   "level": 1
+  },
+  {
+   "id": "ch1",
+   "title": "1. 도함수의 개념",
+   "startFrame": 1800,
+   "endFrame": 11636,
+   "level": 1
+  },
+  {
+   "id": "ch1_0",
+   "title": "1-1. 도함수의 정의",
+   "startFrame": 1800,
+   "endFrame": 3918,
+   "level": 2,
+   "parentId": "ch1"
+  },
+  {
+   "id": "ch1_1",
+   "title": "1-2. 도함수의 기하학적 의미",
+   "startFrame": 3918,
+   "endFrame": 7023,
+   "level": 2,
+   "parentId": "ch1"
+  },
+  {
+   "id": "ch1_2",
+   "title": "1-3. 기본 미분법",
+   "startFrame": 7023,
+   "endFrame": 11636,
+   "level": 2,
+   "parentId": "ch1"
+  },
+  {
+   "id": "ch2",
+   "title": "2. 기본 함수의 미분",
+   "startFrame": 11636,
+   "endFrame": 34108,
+   "level": 1
+  },
+  {
+   "id": "ch2_0",
+   "title": "2-1. 거듭제곱 미분법",
+   "startFrame": 11636,
+   "endFrame": 19551,
+   "level": 2,
+   "parentId": "ch2"
+  },
+  {
+   "id": "ch2_1",
+   "title": "2-2. 곱의 미분법",
+   "startFrame": 19551,
+   "endFrame": 25654,
+   "level": 2,
+   "parentId": "ch2"
+  },
+  {
+   "id": "ch2_2",
+   "title": "2-3. 몫의 미분법",
+   "startFrame": 25654,
+   "endFrame": 30518,
+   "level": 2,
+   "parentId": "ch2"
+  },
+  {
+   "id": "ch2_3",
+   "title": "2-4. 연쇄 법칙",
+   "startFrame": 30518,
+   "endFrame": 34108,
+   "level": 2,
+   "parentId": "ch2"
+  },
+  {
+   "id": "ch3",
+   "title": "3. 도함수의 활용",
+   "startFrame": 34108,
+   "endFrame": 54300,
+   "level": 1
+  },
+  {
+   "id": "ch3_0",
+   "title": "3-1. 함수의 증가와 감소",
+   "startFrame": 34108,
+   "endFrame": 40623,
+   "level": 2,
+   "parentId": "ch3"
+  },
+  {
+   "id": "ch3_1",
+   "title": "3-2. 최댓값·최솟값 문제",
+   "startFrame": 40623,
+   "endFrame": 47605,
+   "level": 2,
+   "parentId": "ch3"
+  },
+  {
+   "id": "ch3_2",
+   "title": "3-3. 최적화 문제",
+   "startFrame": 47605,
+   "endFrame": 54300,
+   "level": 2,
+   "parentId": "ch3"
+  },
+  {
+   "id": "ch4",
+   "title": "4. 관련 변화율",
+   "startFrame": 54300,
+   "endFrame": 64997,
+   "level": 1
+  },
+  {
+   "id": "ch4_0",
+   "title": "4-1. 기본 개념",
+   "startFrame": 54300,
+   "endFrame": 58823,
+   "level": 2,
+   "parentId": "ch4"
+  },
+  {
+   "id": "ch4_1",
+   "title": "4-2. 문제 풀이",
+   "startFrame": 58823,
+   "endFrame": 64997,
+   "level": 2,
+   "parentId": "ch4"
+  },
+  {
+   "id": "ch5",
+   "title": "5. 연습문제",
+   "startFrame": 64997,
+   "endFrame": 81960,
+   "level": 1
+  },
+  {
+   "id": "ch5_0",
+   "title": "5-1. 수준 1 문제",
+   "startFrame": 64997,
+   "endFrame": 69951,
+   "level": 2,
+   "parentId": "ch5"
+  },
+  {
+   "id": "ch5_1",
+   "title": "5-2. 수준 2 문제",
+   "startFrame": 69951,
+   "endFrame": 75551,
+   "level": 2,
+   "parentId": "ch5"
+  },
+  {
+   "id": "ch5_2",
+   "title": "5-3. 수준 3 문제",
+   "startFrame": 75551,
+   "endFrame": 81960,
+   "level": 2,
+   "parentId": "ch5"
+  }
+ ],
+ "keywords": [
+  {
+   "term": "도함수",
+   "frames": [
+    33,
+    972,
+    2262,
+    2703,
+    3938,
+    7637,
+    8793,
+    8933,
+    10318,
+    11917,
+    14287,
+    17340,
+    20523,
+    21762,
+    22242,
+    22627,
+    24487,
+    25032,
+    27805,
+    30386,
+    30547,
+    33159,
+    34559,
+    40120,
+    40921,
+    43095,
+    44511,
+    46527,
+    48052,
+    50006,
+    51570,
+    52755,
+    55626,
+    55859,
+    57125,
+    60389,
+    62692,
+    64537,
+    65790,
+    69790,
+    72321,
+    76059,
+    77617
+   ]
+  },
+  {
+   "term": "극한",
+   "frames": [
+    406,
+    3592,
+    7037,
+    8041,
+    8294,
+    8543,
+    9272,
+    12021,
+    14765,
+    15247,
+    17687,
+    18238,
+    18431,
+    19060,
+    19200,
+    19576,
+    20162,
+    25246,
+    27683,
+    29350,
+    29505,
+    29994,
+    31331,
+    33834,
+    35315,
+    35451,
+    38946,
+    40492,
+    41597,
+    41844,
+    42960,
+    45033,
+    50634,
+    53713,
+    55336,
+    58198,
+    58836,
+    59371,
+    59961,
+    60759,
+    63297,
+    66831,
+    68160,
+    70367,
+    70995,
+    71911,
+    76783,
+    79211,
+    79373,
+    79744
+   ]
+  },
+  {
+   "term": "미분계수",
+   "frames": [
+    2016,
+    2852,
+    7249,
+    10843,
+    12792,
+    14504,
+    17541,
+    19930,
+    22885,
+    23333,
+    23696,
+    25852,
+    30801,
+    32951,
+    33706,
+    35121,
+    36416,
+    38118,
+    41083,
+    42079,
+    42817,
+    43475,
+    44874,
+    45357,
+    45691,
+    46926,
+    47255,
+    48756,
+    49834,
+    51993,
+    54607,
+    56723,
+    61350,
+    61464,
+    69184,
+    70617,
+    75858,
+    76547,
+    78275,
+    81311
+   ]
+  },
+  {
+   "term": "접선",
+   "frames": [
+    3747,
+    5973,
+    6113,
+    8394,
+    9098,
+    10179,
+    12161,
+    12327,
+    13575,
+    15356,
+    15662,
+    20769,
+    21911,
+    26277,
+    26575,
+    26789,
+    27257,
+    29738,
+    30150,
+    32123,
+    32309,
+    32520,
+    33349,
+    37621,
+    37884,
+    38720,
+    39470,
+    42289,
+    45943,
+    47070,
+    47899,
+    50224,
+    51758,
+    56220,
+    60166,
+    61023,
+    61738,
+    62324,
+    64170,
+    64907,
+    65560,
+    67023,
+    67427,
+    72999,
+    73408,
+    74424,
+    80930,
+    81140
+   ]
+  },
+  {
+   "term": "연쇄법칙",
+   "frames": [
+    3030,
+    3436,
+    4091,
+    4530,
+    5777,
+    10663,
+    12632,
+    13027,
+    13433,
+    13727,
+    16524,
+    19344,
+    23911,
+    28189,
+    29042,
+    30949,
+    31712,
+    36578,
+    39709,
+    49663,
+    53836,
+    54075,
+    54266,
+    54316,
+    54889,
+    59222,
+    60515,
+    62466,
+    63692,
+    65978,
+    66223,
+    67624,
+    67803,
+    69412,
+    73180,
+    73625,
+    75263,
+    77998,
+    78491,
+    78913,
+    80561,
+    81730
+   ]
+  },
+  {
+   "term": "거듭제곱",
+   "frames": [
+    1824,
+    4369,
+    4790,
+    4963,
+    5168,
+    6488,
+    11474,
+    13892,
+    16293,
+    19671,
+    21210,
+    22128,
+    25548,
+    27452,
+    28455,
+    29206,
+    31859,
+    35618,
+    37335,
+    40772,
+    46128,
+    47442,
+    48541,
+    50413,
+    51103,
+    52999,
+    54494,
+    54766,
+    57715,
+    57876,
+    59824,
+    61942,
+    62849,
+    63506,
+    68728,
+    70153,
+    72782,
+    75727,
+    79570,
+    80719
+   ]
+  },
+  {
+   "term": "곱의 미분법",
+   "frames": [
+    660,
+    1354,
+    1611,
+    2136,
+    3267,
+    14073,
+    17056,
+    18687,
+    23101,
+    23566,
+    26096,
+    34124,
+    43365,
+    43658,
+    48898,
+    49239,
+    53187,
+    53512,
+    56491,
+    65009,
+    65215,
+    68983,
+    71560,
+    74156,
+    74623,
+    75410,
+    79066,
+    80308,
+    81871
+   ]
+  },
+  {
+   "term": "몫의 미분법",
+   "frames": [
+    243,
+    4702,
+    5313,
+    8678,
+    10525,
+    15451,
+    16125,
+    18883,
+    21029,
+    24265,
+    24903,
+    26439,
+    34949,
+    36019,
+    45195,
+    50805,
+    50959,
+    52217,
+    52419,
+    52608,
+    55062,
+    65402,
+    68351,
+    68542,
+    70802,
+    78705
+   ]
+  },
+  {
+   "term": "증가와 감소",
+   "frames": [
+    2471,
+    6260,
+    7850,
+    9783,
+    9965,
+    15087,
+    28010,
+    33501,
+    34803,
+    36958,
+    39229,
+    40318,
+    40635,
+    42487,
+    42712,
+    46353,
+    46729,
+    51306,
+    53311,
+    55197,
+    59580,
+    61250,
+    64362,
+    64708,
+    73814,
+    75118,
+    76182,
+    76299,
+    77203,
+    77299,
+    80131,
+    81529
+   ]
+  },
+  {
+   "term": "최댓값",
+   "frames": [
+    820,
+    6684,
+    6901,
+    9478,
+    11170,
+    11305,
+    11662,
+    15905,
+    17236,
+    17934,
+    21404,
+    21576,
+    24051,
+    28705,
+    31190,
+    32758,
+    35844,
+    38245,
+    39868,
+    43785,
+    44067,
+    45487,
+    56895,
+    57985,
+    58451,
+    58602,
+    64032,
+    66468,
+    68828,
+    72117,
+    72537,
+    75578
+   ]
+  },
+  {
+   "term": "최적화",
+   "frames": [
+    5568,
+    5871,
+    7388,
+    11007,
+    16676,
+    16917,
+    18139,
+    22440,
+    25672,
+    28846,
+    36203,
+    36731,
+    38458,
+    41239,
+    41439,
+    44615,
+    44736,
+    47620,
+    49436,
+    56061,
+    58984,
+    62149,
+    63061,
+    63927,
+    67996,
+    69660,
+    71168,
+    71382,
+    71684,
+    74985,
+    81021
+   ]
+  },
+  {
+   "term": "변화율",
+   "frames": [
+    1183,
+    4185,
+    7753,
+    9613,
+    12516,
+    13271,
+    14951,
+    20385,
+    22783,
+    24726,
+    25429,
+    26993,
+    31498,
+    33965,
+    34327,
+    37234,
+    37507,
+    37733,
+    44261,
+    48294,
+    49107,
+    55488,
+    56370,
+    57311,
+    57457,
+    66691,
+    67248,
+    69972,
+    73978,
+    74807,
+    76966,
+    77518,
+    77777,
+    79996
+   ]
+  }
+ ]
+}

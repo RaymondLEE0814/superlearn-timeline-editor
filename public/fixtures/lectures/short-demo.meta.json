@@ -1,0 +1,739 @@
+{
+ "mediaId": "short-demo",
+ "title": "[데모] 극한의 뜻 3분 요약",
+ "breadcrumbs": [
+  "내 강의",
+  "(미적분학 I)",
+  "[데모] 극한의 뜻 3분 요약"
+ ],
+ "stream": {
+  "durationFrames": 4500,
+  "fps": {
+   "num": 25,
+   "den": 1
+  },
+  "width": 1280,
+  "height": 720,
+  "keyframeIntervalFrames": 50,
+  "codec": "avc1.640028",
+  "container": "mp4",
+  "sourceKind": "synthetic"
+ },
+ "waveform": {
+  "samplesPerSecond": 20,
+  "seed": 7
+ },
+ "silences": [
+  {
+   "startFrame": 0,
+   "endFrame": 11,
+   "levelDb": -59.81526106223464
+  },
+  {
+   "startFrame": 152,
+   "endFrame": 200,
+   "levelDb": -49.60941785434261
+  },
+  {
+   "startFrame": 321,
+   "endFrame": 345,
+   "levelDb": -59.69124546274543
+  },
+  {
+   "startFrame": 429,
+   "endFrame": 478,
+   "levelDb": -47.043253261595964
+  },
+  {
+   "startFrame": 478,
+   "endFrame": 500,
+   "levelDb": -58.108124169521034
+  },
+  {
+   "startFrame": 500,
+   "endFrame": 529,
+   "levelDb": -56.995045153424144
+  },
+  {
+   "startFrame": 695,
+   "endFrame": 704,
+   "levelDb": -47.23348729358986
+  },
+  {
+   "startFrame": 815,
+   "endFrame": 830,
+   "levelDb": -47.86610564170405
+  },
+  {
+   "startFrame": 914,
+   "endFrame": 972,
+   "levelDb": -53.67021700181067
+  },
+  {
+   "startFrame": 1138,
+   "endFrame": 1199,
+   "levelDb": -59.545088541693985
+  },
+  {
+   "startFrame": 1262,
+   "endFrame": 1310,
+   "levelDb": -53.72375392122194
+  },
+  {
+   "startFrame": 1374,
+   "endFrame": 1414,
+   "levelDb": -56.035896534565836
+  },
+  {
+   "startFrame": 1587,
+   "endFrame": 1626,
+   "levelDb": -48.25235144700855
+  },
+  {
+   "startFrame": 1780,
+   "endFrame": 1834,
+   "levelDb": -48.65887688100338
+  },
+  {
+   "startFrame": 1956,
+   "endFrame": 1973,
+   "levelDb": -46.04495448572561
+  },
+  {
+   "startFrame": 2000,
+   "endFrame": 2017,
+   "levelDb": -58.332207726314664
+  },
+  {
+   "startFrame": 2159,
+   "endFrame": 2183,
+   "levelDb": -53.38162382412702
+  },
+  {
+   "startFrame": 2274,
+   "endFrame": 2304,
+   "levelDb": -59.64392832946032
+  },
+  {
+   "startFrame": 2405,
+   "endFrame": 2440,
+   "levelDb": -52.11529240431264
+  },
+  {
+   "startFrame": 2576,
+   "endFrame": 2631,
+   "levelDb": -51.37345515657216
+  },
+  {
+   "startFrame": 2770,
+   "endFrame": 2817,
+   "levelDb": -58.96660439437255
+  },
+  {
+   "startFrame": 2988,
+   "endFrame": 3000,
+   "levelDb": -56.64143582759425
+  },
+  {
+   "startFrame": 3000,
+   "endFrame": 3022,
+   "levelDb": -54.17533670924604
+  },
+  {
+   "startFrame": 3178,
+   "endFrame": 3216,
+   "levelDb": -58.43240704992786
+  },
+  {
+   "startFrame": 3290,
+   "endFrame": 3325,
+   "levelDb": -58.963122204411775
+  },
+  {
+   "startFrame": 3425,
+   "endFrame": 3438,
+   "levelDb": -47.15530798956752
+  },
+  {
+   "startFrame": 3567,
+   "endFrame": 3613,
+   "levelDb": -49.80734852561727
+  },
+  {
+   "startFrame": 3730,
+   "endFrame": 3754,
+   "levelDb": -55.685834739822894
+  },
+  {
+   "startFrame": 3837,
+   "endFrame": 3880,
+   "levelDb": -50.51391714159399
+  },
+  {
+   "startFrame": 4054,
+   "endFrame": 4085,
+   "levelDb": -56.90878600301221
+  },
+  {
+   "startFrame": 4167,
+   "endFrame": 4184,
+   "levelDb": -53.25311636645347
+  },
+  {
+   "startFrame": 4328,
+   "endFrame": 4386,
+   "levelDb": -49.819349214900285
+  },
+  {
+   "startFrame": 4488,
+   "endFrame": 4500,
+   "levelDb": -55.828814200591296
+  }
+ ],
+ "sceneChanges": [
+  {
+   "frame": 0,
+   "score": 0.8517557129729539
+  },
+  {
+   "frame": 500,
+   "score": 0.952013636159245
+  },
+  {
+   "frame": 1414,
+   "score": 0.6833992211613804
+  },
+  {
+   "frame": 2000,
+   "score": 0.9052371336496435
+  },
+  {
+   "frame": 2440,
+   "score": 0.41519638046156615
+  },
+  {
+   "frame": 3000,
+   "score": 0.9432255637017078
+  },
+  {
+   "frame": 3216,
+   "score": 0.6459885970456526
+  }
+ ],
+ "transcript": {
+  "language": "ko",
+  "segments": [
+   {
+    "id": "seg0000",
+    "startFrame": 11,
+    "endFrame": 152,
+    "text": "이 경우 수렴의 부호가 바뀌는 지점을 찾아야 합니다.",
+    "isSentenceEnd": true,
+    "chapterId": "ch0"
+   },
+   {
+    "id": "seg0001",
+    "startFrame": 200,
+    "endFrame": 321,
+    "text": "도입은 시험에서 매우 자주 출제되는 내용입니다.",
+    "isSentenceEnd": true,
+    "chapterId": "ch0"
+   },
+   {
+    "id": "seg0002",
+    "startFrame": 345,
+    "endFrame": 429,
+    "text": "그림에서 보듯이 극한는 접선의 기울기와 같습니다.",
+    "isSentenceEnd": true,
+    "chapterId": "ch0"
+   },
+   {
+    "id": "seg0003",
+    "startFrame": 529,
+    "endFrame": 695,
+    "text": "발산는 함수의 변화율을 나타내는 값으로 이해할 수 있습니다.",
+    "isSentenceEnd": true,
+    "chapterId": "ch1_0"
+   },
+   {
+    "id": "seg0004",
+    "startFrame": 704,
+    "endFrame": 815,
+    "text": "좌극한과 우극한을 정리하면서 이번 시간을 마치겠습니다.",
+    "isSentenceEnd": true,
+    "chapterId": "ch1_0"
+   },
+   {
+    "id": "seg0005",
+    "startFrame": 830,
+    "endFrame": 914,
+    "text": "양변을 미분하면 수렴의 형태가 그대로 드러납니다.",
+    "isSentenceEnd": true,
+    "chapterId": "ch1_0"
+   },
+   {
+    "id": "seg0006",
+    "startFrame": 972,
+    "endFrame": 1055,
+    "text": "극한의 기하학적 의미를 그래프로,",
+    "isSentenceEnd": false,
+    "chapterId": "ch1_0"
+   },
+   {
+    "id": "seg0007",
+    "startFrame": 1055,
+    "endFrame": 1138,
+    "text": "확인해 봅시다.",
+    "isSentenceEnd": true,
+    "chapterId": "ch1_0"
+   },
+   {
+    "id": "seg0008",
+    "startFrame": 1199,
+    "endFrame": 1262,
+    "text": "수렴를 적용하기 전에 정의역을 먼저 확인합니다.",
+    "isSentenceEnd": true,
+    "chapterId": "ch1_0"
+   },
+   {
+    "id": "seg0009",
+    "startFrame": 1310,
+    "endFrame": 1374,
+    "text": "좌극한과 우극한을 정리하면서 이번 시간을 마치겠습니다.",
+    "isSentenceEnd": true,
+    "chapterId": "ch1_0"
+   },
+   {
+    "id": "seg0010",
+    "startFrame": 1414,
+    "endFrame": 1500,
+    "text": "앞의 결과와 비교하면 좌극한과,",
+    "isSentenceEnd": false,
+    "chapterId": "ch1_0"
+   },
+   {
+    "id": "seg0011",
+    "startFrame": 1500,
+    "endFrame": 1587,
+    "text": "우극한의 구조가 보입니다.",
+    "isSentenceEnd": true,
+    "chapterId": "ch1_0"
+   },
+   {
+    "id": "seg0012",
+    "startFrame": 1626,
+    "endFrame": 1703,
+    "text": "좌극한과 우극한에서는 계산보다,",
+    "isSentenceEnd": false,
+    "chapterId": "ch1_0"
+   },
+   {
+    "id": "seg0013",
+    "startFrame": 1703,
+    "endFrame": 1780,
+    "text": "개념 이해가 먼저입니다.",
+    "isSentenceEnd": true,
+    "chapterId": "ch1_0"
+   },
+   {
+    "id": "seg0014",
+    "startFrame": 1834,
+    "endFrame": 1956,
+    "text": "이 식을 정리하면 극한에 대한 표준형이 나옵니다.",
+    "isSentenceEnd": true,
+    "chapterId": "ch1_0"
+   },
+   {
+    "id": "seg0015",
+    "startFrame": 1973,
+    "endFrame": 2000,
+    "text": "질문이 많았던 발산 부분을 한 번 더 설명하겠습니다.",
+    "isSentenceEnd": true,
+    "chapterId": "ch1_0"
+   },
+   {
+    "id": "seg0016",
+    "startFrame": 2017,
+    "endFrame": 2088,
+    "text": "발산의 기하학적 의미를 그래프로,",
+    "isSentenceEnd": false,
+    "chapterId": "ch1_1"
+   },
+   {
+    "id": "seg0017",
+    "startFrame": 2088,
+    "endFrame": 2159,
+    "text": "확인해 봅시다.",
+    "isSentenceEnd": true,
+    "chapterId": "ch1_1"
+   },
+   {
+    "id": "seg0018",
+    "startFrame": 2183,
+    "endFrame": 2274,
+    "text": "앞의 결과와 비교하면 수렴과 발산의 구조가 보입니다.",
+    "isSentenceEnd": true,
+    "chapterId": "ch1_1"
+   },
+   {
+    "id": "seg0019",
+    "startFrame": 2304,
+    "endFrame": 2405,
+    "text": "학생들이 자주 실수하는 부분이 바로 수렴과 발산입니다.",
+    "isSentenceEnd": true,
+    "chapterId": "ch1_1"
+   },
+   {
+    "id": "seg0020",
+    "startFrame": 2440,
+    "endFrame": 2576,
+    "text": "분모가 0이 되지 않도록 극한의 조건을 확인합니다.",
+    "isSentenceEnd": true,
+    "chapterId": "ch1_1"
+   },
+   {
+    "id": "seg0021",
+    "startFrame": 2631,
+    "endFrame": 2770,
+    "text": "수렴과 발산을 정리하면서 이번 시간을 마치겠습니다.",
+    "isSentenceEnd": true,
+    "chapterId": "ch1_1"
+   },
+   {
+    "id": "seg0022",
+    "startFrame": 2817,
+    "endFrame": 2988,
+    "text": "질문이 많았던 극한 부분을 한 번 더 설명하겠습니다.",
+    "isSentenceEnd": true,
+    "chapterId": "ch1_1"
+   },
+   {
+    "id": "seg0023",
+    "startFrame": 3022,
+    "endFrame": 3100,
+    "text": "그림에서 보듯이 수렴는 접선의,",
+    "isSentenceEnd": false,
+    "chapterId": "ch2_0"
+   },
+   {
+    "id": "seg0024",
+    "startFrame": 3100,
+    "endFrame": 3178,
+    "text": "기울기와 같습니다.",
+    "isSentenceEnd": true,
+    "chapterId": "ch2_0"
+   },
+   {
+    "id": "seg0025",
+    "startFrame": 3216,
+    "endFrame": 3290,
+    "text": "극한의 기하학적 의미를 그래프로 확인해 봅시다.",
+    "isSentenceEnd": true,
+    "chapterId": "ch2_0"
+   },
+   {
+    "id": "seg0026",
+    "startFrame": 3325,
+    "endFrame": 3425,
+    "text": "질문이 많았던 발산 부분을 한 번 더 설명하겠습니다.",
+    "isSentenceEnd": true,
+    "chapterId": "ch2_0"
+   },
+   {
+    "id": "seg0027",
+    "startFrame": 3438,
+    "endFrame": 3567,
+    "text": "이제 극한를 이용해 최종 답을 구하겠습니다.",
+    "isSentenceEnd": true,
+    "chapterId": "ch2_0"
+   },
+   {
+    "id": "seg0028",
+    "startFrame": 3613,
+    "endFrame": 3730,
+    "text": "여기까지가 기본 예제의 기본 내용입니다.",
+    "isSentenceEnd": true,
+    "chapterId": "ch2_0"
+   },
+   {
+    "id": "seg0029",
+    "startFrame": 3754,
+    "endFrame": 3837,
+    "text": "이 문제는 기본 예제의 전형적인 유형입니다.",
+    "isSentenceEnd": true,
+    "chapterId": "ch2_0"
+   },
+   {
+    "id": "seg0030",
+    "startFrame": 3880,
+    "endFrame": 4054,
+    "text": "이 식을 정리하면 발산에 대한 표준형이 나옵니다.",
+    "isSentenceEnd": true,
+    "chapterId": "ch2_0"
+   },
+   {
+    "id": "seg0031",
+    "startFrame": 4085,
+    "endFrame": 4167,
+    "text": "앞에서 배운 극한를 그대로 사용하면 계산이 간단해집니다.",
+    "isSentenceEnd": true,
+    "chapterId": "ch2_0"
+   },
+   {
+    "id": "seg0032",
+    "startFrame": 4184,
+    "endFrame": 4256,
+    "text": "이제 기본 예제을 실제 문제에,",
+    "isSentenceEnd": false,
+    "chapterId": "ch2_0"
+   },
+   {
+    "id": "seg0033",
+    "startFrame": 4256,
+    "endFrame": 4328,
+    "text": "적용해 보겠습니다.",
+    "isSentenceEnd": true,
+    "chapterId": "ch2_0"
+   },
+   {
+    "id": "seg0034",
+    "startFrame": 4386,
+    "endFrame": 4488,
+    "text": "앞의 결과와 비교하면 기본 예제의 구조가 보입니다.",
+    "isSentenceEnd": true,
+    "chapterId": "ch2_0"
+   }
+  ]
+ },
+ "slides": [
+  {
+   "frame": 0,
+   "slideId": "sl00",
+   "imageRef": "slide://short-demo/0",
+   "title": "도입"
+  },
+  {
+   "frame": 500,
+   "slideId": "sl01",
+   "imageRef": "slide://short-demo/1",
+   "title": "1-1. 좌극한과 우극한"
+  },
+  {
+   "frame": 1414,
+   "slideId": "sl02",
+   "imageRef": "slide://short-demo/2",
+   "title": "1-1. 좌극한과 우극한 (2)"
+  },
+  {
+   "frame": 2000,
+   "slideId": "sl03",
+   "imageRef": "slide://short-demo/3",
+   "title": "1-2. 수렴과 발산"
+  },
+  {
+   "frame": 3000,
+   "slideId": "sl04",
+   "imageRef": "slide://short-demo/4",
+   "title": "2-1. 기본 예제"
+  },
+  {
+   "frame": 3216,
+   "slideId": "sl05",
+   "imageRef": "slide://short-demo/5",
+   "title": "2-1. 기본 예제 (5)"
+  }
+ ],
+ "boardActivity": [
+  {
+   "startFrame": 726,
+   "endFrame": 794,
+   "intensity": 0.5314535469515249
+  },
+  {
+   "startFrame": 1005,
+   "endFrame": 1090,
+   "intensity": 0.8865702327340841
+  },
+  {
+   "startFrame": 1211,
+   "endFrame": 1262,
+   "intensity": 0.8287914469372482
+  },
+  {
+   "startFrame": 1322,
+   "endFrame": 1374,
+   "intensity": 0.310080850427039
+  },
+  {
+   "startFrame": 1448,
+   "endFrame": 1482,
+   "intensity": 0.9959390340605749
+  },
+  {
+   "startFrame": 1656,
+   "endFrame": 1719,
+   "intensity": 0.815518596000038
+  },
+  {
+   "startFrame": 2201,
+   "endFrame": 2253,
+   "intensity": 0.5498383810045198
+  },
+  {
+   "startFrame": 2324,
+   "endFrame": 2385,
+   "intensity": 0.9902279436821118
+  },
+  {
+   "startFrame": 3345,
+   "endFrame": 3370,
+   "intensity": 0.4172365551581606
+  },
+  {
+   "startFrame": 3463,
+   "endFrame": 3492,
+   "intensity": 0.612664789520204
+  },
+  {
+   "startFrame": 4101,
+   "endFrame": 4128,
+   "intensity": 0.3234081184258684
+  },
+  {
+   "startFrame": 4406,
+   "endFrame": 4479,
+   "intensity": 0.7953897949075326
+  }
+ ],
+ "textbookRefs": [
+  {
+   "startFrame": 1199,
+   "endFrame": 1262,
+   "page": 64,
+   "ref": "정리 5.4.3"
+  },
+  {
+   "startFrame": 1626,
+   "endFrame": 1780,
+   "page": 59,
+   "ref": "정리 2.6.4"
+  },
+  {
+   "startFrame": 2183,
+   "endFrame": 2274,
+   "page": 42,
+   "ref": "정리 2.5.4"
+  },
+  {
+   "startFrame": 3216,
+   "endFrame": 3290,
+   "page": 86,
+   "ref": "정리 3.9.2"
+  },
+  {
+   "startFrame": 3438,
+   "endFrame": 3567,
+   "page": 30,
+   "ref": "정리 1.4.4"
+  },
+  {
+   "startFrame": 4085,
+   "endFrame": 4167,
+   "page": 91,
+   "ref": "정리 3.6.3"
+  }
+ ],
+ "chapters": [
+  {
+   "id": "ch0",
+   "title": "도입",
+   "startFrame": 0,
+   "endFrame": 500,
+   "level": 1
+  },
+  {
+   "id": "ch1",
+   "title": "1. 극한의 정의",
+   "startFrame": 500,
+   "endFrame": 3000,
+   "level": 1
+  },
+  {
+   "id": "ch1_0",
+   "title": "1-1. 좌극한과 우극한",
+   "startFrame": 500,
+   "endFrame": 2000,
+   "level": 2,
+   "parentId": "ch1"
+  },
+  {
+   "id": "ch1_1",
+   "title": "1-2. 수렴과 발산",
+   "startFrame": 2000,
+   "endFrame": 3000,
+   "level": 2,
+   "parentId": "ch1"
+  },
+  {
+   "id": "ch2",
+   "title": "2. 예제",
+   "startFrame": 3000,
+   "endFrame": 4500,
+   "level": 1
+  },
+  {
+   "id": "ch2_0",
+   "title": "2-1. 기본 예제",
+   "startFrame": 3000,
+   "endFrame": 4500,
+   "level": 2,
+   "parentId": "ch2"
+  }
+ ],
+ "keywords": [
+  {
+   "term": "극한",
+   "frames": [
+    200,
+    345,
+    972,
+    1310,
+    1834,
+    2440,
+    2817,
+    3216,
+    3438,
+    4085
+   ]
+  },
+  {
+   "term": "수렴",
+   "frames": [
+    11,
+    704,
+    830,
+    1199,
+    1414,
+    2304,
+    3022,
+    3613
+   ]
+  },
+  {
+   "term": "발산",
+   "frames": [
+    529,
+    1626,
+    1973,
+    2017,
+    2183,
+    2631,
+    3325,
+    3754,
+    3880,
+    4184,
+    4386
+   ]
+  }
+ ]
+}

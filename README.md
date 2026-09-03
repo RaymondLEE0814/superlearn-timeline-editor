@@ -67,7 +67,27 @@ src/mock/       fixture 생성기 · 시드 난수
 | Node 버전 | 20 이상 |
 | SPA 폴백 | `public/_redirects` 의 `/*  /index.html  200` |
 
-환경 변수는 없습니다.
+앱 자체에는 환경 변수가 없습니다.
+
+### 명령줄로 배포하기
+
+`CLOUDFLARE_API_TOKEN` 환경 변수(권한: Account → Cloudflare Pages → Edit)를 설정한 뒤:
+
+```bash
+npm run deploy
+```
+
+빌드하고 `dist` 를 Pages 프로젝트 `superlearn-timeline-editor` 로 올린다.
+프로젝트가 없으면 처음 한 번 만들어야 한다:
+
+```bash
+npx wrangler pages project create superlearn-timeline-editor --production-branch=main
+```
+
+### GitHub 연동으로 자동 배포하기
+
+Pages 대시보드에서 이 저장소를 연결하면 push 마다 자동 배포된다.
+연결은 대시보드의 GitHub 인증이 필요해 API 로는 할 수 없다.
 
 ## 자동 편집 프리셋
 
